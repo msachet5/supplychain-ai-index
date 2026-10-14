@@ -1,0 +1,176 @@
+soc_code,title,soc_major_group,in_scope,scope_share,primary_module,scope_note
+11-3051,Industrial Production Managers,11 Management,full,1,MFG,
+11-3061,Purchasing Managers,11 Management,full,1,SRC,
+11-3071,"Transportation, Storage, and Distribution Managers",11 Management,full,1,TM,"Includes O*NET 11-3071.04 Supply Chain Managers; time spread across TM, EWM and IBP"
+11-1021,General and Operations Managers,11 Management,no,0,,"Too broad; runs whole businesses, not supply chain specifically"
+13-1020,Buyers and Purchasing Agents,13 Business & Financial,full,1,SRC,"OEWS combines farm-product buyers, wholesale and retail buyers, and purchasing agents"
+13-1041,Compliance Officers,13 Business & Financial,partial,0.05,GTS,"Customs brokers only (O*NET 13-1041.08), est. ~5% of this code"
+13-1081,Logisticians,13 Business & Financial,full,1,TM,Includes logistics analysts and engineers; many demand and supply planners are coded here
+13-1111,Management Analysts,13 Business & Financial,no,0,,"Mostly consultants. Some supply chain analysts are coded here, so planners are slightly undercounted"
+13-1199,"Business Operations Specialists, All Other",13 Business & Financial,no,0,,"Catch-all code. Some planners land here, so planners are slightly undercounted"
+15-2031,Operations Research Analysts,15 Computer & Mathematical,partial,0.25,IBP,"Supply chain optimization share, est. ~25%"
+17-2112,Industrial Engineers,17 Architecture & Engineering,full,1,MFG,
+17-3026,Industrial Engineering Technologists and Technicians,17 Architecture & Engineering,full,1,MFG,
+41-1012,First-Line Supervisors of Non-Retail Sales Workers,41 Sales,partial,0.35,O2C,"Wholesale and manufacturing sales supervision, est. ~35%"
+41-4011,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",41 Sales,full,1,O2C,Manufacturer and distributor sales
+41-4012,"Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",41 Sales,full,1,O2C,Manufacturer and distributor sales
+41-2011,Cashiers,41 Sales,no,0,,"Retail selling floor, outside scope"
+41-2031,Retail Salespersons,41 Sales,no,0,,"Retail selling floor, outside scope"
+43-3021,Billing and Posting Clerks,43 Office & Admin Support,partial,0.2,O2C,"Billing for goods, est. ~20%; much of this code is healthcare billing"
+43-3031,"Bookkeeping, Accounting, and Auditing Clerks",43 Office & Admin Support,partial,0.1,SRC,"Accounts payable invoice matching for goods and freight, est. ~10%"
+43-3061,Procurement Clerks,43 Office & Admin Support,full,1,SRC,
+43-4051,Customer Service Representatives,43 Office & Admin Support,partial,0.15,O2C,"Order-related service, est. ~15%; most CSRs work in telecom, finance and so on"
+43-4151,Order Clerks,43 Office & Admin Support,full,1,O2C,
+43-5011,Cargo and Freight Agents,43 Office & Admin Support,full,1,TM,Includes freight forwarders (O*NET 43-5011.01)
+43-5021,Couriers and Messengers,43 Office & Admin Support,full,1,FX,
+43-5032,"Dispatchers, Except Police, Fire, and Ambulance",43 Office & Admin Support,partial,0.4,TM,"Freight dispatch, est. ~40%; this code also covers taxi, tow and utility dispatchers"
+43-5052,Postal Service Mail Carriers,43 Office & Admin Support,partial,0.35,FX,"Parcel delivery share, est. ~35%"
+43-5053,"Postal Service Mail Sorters, Processors, and Processing Machine Operators",43 Office & Admin Support,partial,0.35,EWM,"Parcel handling share, est. ~35%"
+43-5061,"Production, Planning, and Expediting Clerks",43 Office & Admin Support,full,1,PP,
+43-5071,"Shipping, Receiving, and Inventory Clerks",43 Office & Admin Support,full,1,EWM,
+43-5111,"Weighers, Measurers, Checkers, and Samplers, Recordkeeping",43 Office & Admin Support,full,1,EWM,
+45-2092,"Farmworkers and Laborers, Crop, Nursery, and Greenhouse",45 Farming,no,0,,Farming and extraction are outside scope
+49-1011,"First-Line Supervisors of Mechanics, Installers, and Repairers",49 Installation & Maintenance,partial,0.35,EAM,"Plant and fleet maintenance supervision, est. ~35%"
+49-2094,"Electrical and Electronics Repairers, Commercial and Industrial Equipment",49 Installation & Maintenance,partial,0.6,EAM,"Plant and industrial equipment share, est. ~60%"
+49-3031,Bus and Truck Mechanics and Diesel Engine Specialists,49 Installation & Maintenance,partial,0.7,EAM,"Truck fleet share, est. ~70%; excludes bus"
+49-3043,Rail Car Repairers,49 Installation & Maintenance,full,1,EAM,
+49-9041,Industrial Machinery Mechanics,49 Installation & Maintenance,full,1,EAM,
+49-9043,"Maintenance Workers, Machinery",49 Installation & Maintenance,full,1,EAM,
+49-9044,Millwrights,49 Installation & Maintenance,full,1,EAM,
+49-9071,"Maintenance and Repair Workers, General",49 Installation & Maintenance,partial,0.25,EAM,"Plant and DC share, est. ~25%; most work in building maintenance"
+51-1011,First-Line Supervisors of Production and Operating Workers,51 Production,full,1,MFG,
+51-2011,"Aircraft Structure, Surfaces, Rigging, and Systems Assemblers",51 Production,full,1,MFG,
+51-2021,"Coil Winders, Tapers, and Finishers",51 Production,full,1,MFG,
+51-2028,"Electrical, Electronic, and Electromechanical Assemblers, Except Coil Winders, Tapers, and Finishers",51 Production,full,1,MFG,
+51-2031,Engine and Other Machine Assemblers,51 Production,full,1,MFG,
+51-2041,Structural Metal Fabricators and Fitters,51 Production,full,1,MFG,
+51-2051,Fiberglass Laminators and Fabricators,51 Production,full,1,MFG,
+51-2061,Timing Device Assemblers and Adjusters,51 Production,full,1,MFG,
+51-2090,Miscellaneous Assemblers and Fabricators,51 Production,full,1,MFG,OEWS aggregate; includes team assemblers
+51-3011,Bakers,51 Production,partial,0.35,MFG,"Commercial and industrial bakeries, est. ~35%; many work in grocery and restaurants"
+51-3021,Butchers and Meat Cutters,51 Production,partial,0.2,MFG,"Processing plants, est. ~20%; most work in grocery retail"
+51-3022,"Meat, Poultry, and Fish Cutters and Trimmers",51 Production,full,1,MFG,
+51-3023,Slaughterers and Meat Packers,51 Production,full,1,MFG,
+51-3091,"Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders",51 Production,full,1,MFG,
+51-3092,Food Batchmakers,51 Production,full,1,MFG,
+51-3093,Food Cooking Machine Operators and Tenders,51 Production,full,1,MFG,
+51-3099,"Food Processing Workers, All Other",51 Production,full,1,MFG,
+51-4021,"Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",51 Production,full,1,MFG,
+51-4022,"Forging Machine Setters, Operators, and Tenders, Metal and Plastic",51 Production,full,1,MFG,
+51-4023,"Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",51 Production,full,1,MFG,
+51-4031,"Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",51 Production,full,1,MFG,
+51-4032,"Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",51 Production,full,1,MFG,
+51-4033,"Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic",51 Production,full,1,MFG,
+51-4034,"Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic",51 Production,full,1,MFG,
+51-4035,"Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",51 Production,full,1,MFG,
+51-4041,Machinists,51 Production,full,1,MFG,
+51-4051,Metal-Refining Furnace Operators and Tenders,51 Production,full,1,MFG,
+51-4052,"Pourers and Casters, Metal",51 Production,full,1,MFG,
+51-4061,"Model Makers, Metal and Plastic",51 Production,full,1,MFG,
+51-4062,"Patternmakers, Metal and Plastic",51 Production,full,1,MFG,
+51-4071,Foundry Mold and Coremakers,51 Production,full,1,MFG,
+51-4072,"Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",51 Production,full,1,MFG,
+51-4081,"Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",51 Production,full,1,MFG,
+51-4111,Tool and Die Makers,51 Production,full,1,MFG,
+51-4121,"Welders, Cutters, Solderers, and Brazers",51 Production,full,1,MFG,
+51-4122,"Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",51 Production,full,1,MFG,
+51-4191,"Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",51 Production,full,1,MFG,
+51-4192,"Layout Workers, Metal and Plastic",51 Production,full,1,MFG,
+51-4193,"Plating Machine Setters, Operators, and Tenders, Metal and Plastic",51 Production,full,1,MFG,
+51-4194,"Tool Grinders, Filers, and Sharpeners",51 Production,full,1,MFG,
+51-4199,"Metal Workers and Plastic Workers, All Other",51 Production,full,1,MFG,
+51-5111,Prepress Technicians and Workers,51 Production,full,1,MFG,Printing is manufacturing (NAICS 323)
+51-5112,Printing Press Operators,51 Production,full,1,MFG,
+51-5113,Print Binding and Finishing Workers,51 Production,full,1,MFG,
+51-6011,Laundry and Dry-Cleaning Workers,51 Production,no,0,,"Personal services, not supply chain"
+51-6021,"Pressers, Textile, Garment, and Related Materials",51 Production,no,0,,Mostly dry cleaning
+51-6031,Sewing Machine Operators,51 Production,full,1,MFG,
+51-6041,Shoe and Leather Workers and Repairers,51 Production,partial,0.4,MFG,"Manufacturing share, est. ~40%; excludes repair shops"
+51-6042,Shoe Machine Operators and Tenders,51 Production,full,1,MFG,
+51-6051,"Sewers, Hand",51 Production,full,1,MFG,
+51-6052,"Tailors, Dressmakers, and Custom Sewers",51 Production,no,0,,Custom tailoring services
+51-6061,Textile Bleaching and Dyeing Machine Operators and Tenders,51 Production,full,1,MFG,
+51-6062,"Textile Cutting Machine Setters, Operators, and Tenders",51 Production,full,1,MFG,
+51-6063,"Textile Knitting and Weaving Machine Setters, Operators, and Tenders",51 Production,full,1,MFG,
+51-6064,"Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders",51 Production,full,1,MFG,
+51-6091,"Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",51 Production,full,1,MFG,
+51-6092,Fabric and Apparel Patternmakers,51 Production,full,1,MFG,
+51-6093,Upholsterers,51 Production,partial,0.5,MFG,"Furniture manufacturing, est. ~50%; excludes reupholstery shops"
+51-6099,"Textile, Apparel, and Furnishings Workers, All Other",51 Production,full,1,MFG,
+51-7011,Cabinetmakers and Bench Carpenters,51 Production,full,1,MFG,
+51-7021,Furniture Finishers,51 Production,full,1,MFG,
+51-7031,"Model Makers, Wood",51 Production,full,1,MFG,
+51-7032,"Patternmakers, Wood",51 Production,full,1,MFG,
+51-7041,"Sawing Machine Setters, Operators, and Tenders, Wood",51 Production,full,1,MFG,
+51-7042,"Woodworking Machine Setters, Operators, and Tenders, Except Sawing",51 Production,full,1,MFG,
+51-7099,"Woodworkers, All Other",51 Production,full,1,MFG,
+51-8011,Nuclear Power Reactor Operators,51 Production,no,0,,Power generation is utilities
+51-8012,Power Distributors and Dispatchers,51 Production,no,0,,Power generation is utilities
+51-8013,Power Plant Operators,51 Production,no,0,,Power generation is utilities
+51-8021,Stationary Engineers and Boiler Operators,51 Production,no,0,,Building and facility utilities
+51-8031,Water and Wastewater Treatment Plant and System Operators,51 Production,no,0,,Utilities
+51-8091,Chemical Plant and System Operators,51 Production,full,1,MFG,
+51-8092,Gas Plant Operators,51 Production,no,0,,Energy extraction and processing
+51-8093,"Petroleum Pump System Operators, Refinery Operators, and Gaugers",51 Production,full,1,MFG,Refining is manufacturing (NAICS 324)
+51-8099,"Plant and System Operators, All Other",51 Production,no,0,,Mostly utilities
+51-9011,Chemical Equipment Operators and Tenders,51 Production,full,1,MFG,
+51-9012,"Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders",51 Production,full,1,MFG,
+51-9021,"Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders",51 Production,full,1,MFG,
+51-9022,"Grinding and Polishing Workers, Hand",51 Production,full,1,MFG,
+51-9023,"Mixing and Blending Machine Setters, Operators, and Tenders",51 Production,full,1,MFG,
+51-9031,"Cutters and Trimmers, Hand",51 Production,full,1,MFG,
+51-9032,"Cutting and Slicing Machine Setters, Operators, and Tenders",51 Production,full,1,MFG,
+51-9041,"Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders",51 Production,full,1,MFG,
+51-9051,"Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders",51 Production,full,1,MFG,
+51-9061,"Inspectors, Testers, Sorters, Samplers, and Weighers",51 Production,full,1,QM,
+51-9071,Jewelers and Precious Stone and Metal Workers,51 Production,no,0,,Mostly retail and repair
+51-9081,Dental Laboratory Technicians,51 Production,no,0,,Healthcare
+51-9082,Medical Appliance Technicians,51 Production,no,0,,Healthcare
+51-9083,Ophthalmic Laboratory Technicians,51 Production,no,0,,Healthcare
+51-9111,Packaging and Filling Machine Operators and Tenders,51 Production,full,1,MFG,
+51-9123,"Painting, Coating, and Decorating Workers",51 Production,full,1,MFG,
+51-9124,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",51 Production,full,1,MFG,
+51-9141,Semiconductor Processing Technicians,51 Production,full,1,MFG,
+51-9151,Photographic Process Workers and Processing Machine Operators,51 Production,no,0,,Consumer services
+51-9161,Computer Numerically Controlled Tool Operators,51 Production,full,1,MFG,
+51-9162,Computer Numerically Controlled Tool Programmers,51 Production,full,1,MFG,
+51-9191,Adhesive Bonding Machine Operators and Tenders,51 Production,full,1,MFG,
+51-9192,"Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders",51 Production,full,1,MFG,
+51-9193,Cooling and Freezing Equipment Operators and Tenders,51 Production,full,1,MFG,
+51-9194,Etchers and Engravers,51 Production,full,1,MFG,
+51-9195,"Molders, Shapers, and Casters, Except Metal and Plastic",51 Production,full,1,MFG,
+51-9196,"Paper Goods Machine Setters, Operators, and Tenders",51 Production,full,1,MFG,
+51-9197,Tire Builders,51 Production,full,1,MFG,
+51-9198,Helpers--Production Workers,51 Production,full,1,MFG,
+51-9199,"Production Workers, All Other",51 Production,full,1,MFG,
+53-1041,Aircraft Cargo Handling Supervisors,53 Transportation & Material Moving,full,1,FX,
+53-1047,"First-Line Supervisors of Transportation and Material Moving Workers, Except Aircraft Cargo Handling Supervisors",53 Transportation & Material Moving,full,1,EWM,OEWS aggregate; split across EWM and FX
+53-2011,"Airline Pilots, Copilots, and Flight Engineers",53 Transportation & Material Moving,partial,0.12,FX,"Cargo airline share, est. ~12%"
+53-2012,Commercial Pilots,53 Transportation & Material Moving,partial,0.15,FX,"Cargo and feeder share, est. ~15%"
+53-3031,Driver/Sales Workers,53 Transportation & Material Moving,full,1,FX,Distributor route delivery
+53-3032,Heavy and Tractor-Trailer Truck Drivers,53 Transportation & Material Moving,full,1,FX,
+53-3033,Light Truck Drivers,53 Transportation & Material Moving,full,1,FX,
+53-3052,"Bus Drivers, Transit and Intercity",53 Transportation & Material Moving,no,0,,Passenger transport
+53-3054,Taxi Drivers,53 Transportation & Material Moving,no,0,,Passenger transport
+53-4011,Locomotive Engineers,53 Transportation & Material Moving,partial,0.85,FX,"Freight rail share, est. ~85%"
+53-4013,"Rail Yard Engineers, Dinkey Operators, and Hostlers",53 Transportation & Material Moving,full,1,FX,
+53-4022,"Railroad Brake, Signal, and Switch Operators and Locomotive Firers",53 Transportation & Material Moving,full,1,FX,
+53-4031,Railroad Conductors and Yardmasters,53 Transportation & Material Moving,partial,0.85,FX,"Freight rail share, est. ~85%"
+53-4041,Subway and Streetcar Operators,53 Transportation & Material Moving,no,0,,Passenger transport
+53-4099,"Rail Transportation Workers, All Other",53 Transportation & Material Moving,partial,0.6,FX,"Freight rail share, est. ~60%"
+53-5011,Sailors and Marine Oilers,53 Transportation & Material Moving,partial,0.5,FX,"Cargo vessel share, est. ~50%"
+53-5021,"Captains, Mates, and Pilots of Water Vessels",53 Transportation & Material Moving,partial,0.4,FX,"Cargo vessel share, est. ~40%; many work on tugs and ferries"
+53-5031,Ship Engineers,53 Transportation & Material Moving,partial,0.5,FX,"Cargo vessel share, est. ~50%"
+53-6051,Transportation Inspectors,53 Transportation & Material Moving,partial,0.35,FX,"Freight and cargo inspection, est. ~35%"
+53-7011,Conveyor Operators and Tenders,53 Transportation & Material Moving,full,1,EWM,
+53-7021,Crane and Tower Operators,53 Transportation & Material Moving,partial,0.4,FX,"Port, rail and plant share, est. ~40%; excludes construction"
+53-7041,Hoist and Winch Operators,53 Transportation & Material Moving,partial,0.5,EWM,"Plant and port share, est. ~50%"
+53-7051,Industrial Truck and Tractor Operators,53 Transportation & Material Moving,full,1,EWM,Forklift operators
+53-7061,Cleaners of Vehicles and Equipment,53 Transportation & Material Moving,no,0,,Car washes and services
+53-7062,"Laborers and Freight, Stock, and Material Movers, Hand",53 Transportation & Material Moving,full,1,EWM,Includes longshore workers and dock labour
+53-7063,Machine Feeders and Offbearers,53 Transportation & Material Moving,full,1,MFG,
+53-7064,"Packers and Packagers, Hand",53 Transportation & Material Moving,full,1,EWM,
+53-7065,Stockers and Order Fillers,53 Transportation & Material Moving,full,1,EWM,Includes retail shelf stockers (in scope)
+53-7081,Refuse and Recyclable Material Collectors,53 Transportation & Material Moving,no,0,,Waste management
+53-7121,"Tank Car, Truck, and Ship Loaders",53 Transportation & Material Moving,full,1,FX,
+53-7199,"Material Moving Workers, All Other",53 Transportation & Material Moving,full,1,EWM,

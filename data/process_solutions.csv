@@ -1,0 +1,174 @@
+process_id,solution_id,maturity,note
+IBP-01,o9,ga,ML demand forecasting across items and locations
+IBP-01,blue-yonder,ga,ML demand planning
+IBP-01,relex,ga,ML forecasting for retail and CPG
+IBP-01,lokad,ga,Probabilistic forecasts instead of a single number
+IBP-02,e2open,ga,Short-term demand sensing from orders and POS
+IBP-02,kinaxis,ga,Demand sensing inside Maestro
+IBP-03,anaplan,ga,ML forecasts inside collaborative planning
+IBP-03,o9,ga,Collaborative consensus forecasting with ML drivers
+IBP-04,kinaxis,ga,Concurrent supply planning with what-if scenarios
+IBP-04,o9,ga,Constraint-based supply planning
+IBP-04,blue-yonder,ga,Supply planning optimization
+IBP-05,toolsgroup,ga,Multi-echelon inventory optimization
+IBP-05,gains,ga,Inventory optimization with ML
+IBP-05,lokad,ga,Inventory decisions from probabilistic forecasts
+IBP-06,relex,ga,Automated store and DC replenishment
+IBP-06,blue-yonder,ga,Replenishment and allocation
+IBP-07,o9,ga,Integrated business planning with scenario modelling
+IBP-07,kinaxis,ga,S&OP on a single planning model
+IBP-07,anaplan,ga,Connected planning across finance and supply chain
+IBP-08,kinaxis,ga,Constrained allocation with order-level what-ifs
+IBP-08,o9,ga,Supply allocation by customer and channel
+IBP-09,coupa,ga,Network design and scenario modelling (ex-LLamasoft)
+IBP-09,optilogic,ga,Network design with optimization and simulation
+PP-04,siemens-opcenter,ga,Finite-capacity scheduling and sequencing
+PP-04,flexciton,ga,AI scheduling for semiconductor fabs
+PP-05,didero,ga,AI agents chase supplier confirmations and flag late orders
+SRC-01,sievo,ga,ML spend classification and analytics
+SRC-01,coupa,ga,Spend analysis with AI classification
+SRC-02,scoutbee,ga,AI supplier discovery
+SRC-02,tealbook,ga,Supplier data enriched with ML
+SRC-03,keelvar,ga,Sourcing optimization and automated RFQ bots
+SRC-03,fairmarkit,ga,Automated RFQs for tail spend
+SRC-04,pactum,ga,Autonomous negotiations with suppliers; used by Walmart
+SRC-05,icertis,ga,AI contract intelligence and obligation tracking
+SRC-05,sirion,ga,GenAI contract authoring and review
+SRC-06,zip,ga,AI-guided purchase intake and approvals
+SRC-06,coupa,ga,Requisition-to-PO automation
+SRC-07,didero,ga,AI agents handle PO confirmations and supplier emails
+SRC-09,vic-ai,ga,Autonomous invoice coding and approval
+SRC-09,appzen,ga,AI invoice audit and matching
+MFG-01,path-robotics,ga,AI-driven robotic welding
+MFG-01,cloudnc,ga,AI-generated CNC toolpaths
+MFG-01,machina-labs,ga,Robotic sheet-metal forming
+MFG-02,bright-machines,ga,Software-defined automated assembly cells
+MFG-02,figure,pilot,Humanoid robots in car plant pilots
+MFG-02,apptronik,pilot,Humanoid robots in manufacturing and logistics pilots
+MFG-03,imubit,ga,Closed-loop AI optimization for refineries and chemical plants
+MFG-03,aspentech,ga,Hybrid AI models for process plants
+MFG-04,sight-machine,ga,Line performance analytics from machine data
+MFG-04,machinemetrics,ga,Machine monitoring and downtime analytics
+MFG-05,otto,ga,Autonomous mobile robots moving material to the line
+MFG-05,vecna,ga,Autonomous tuggers and pallet movers
+MFG-06,tulip,ga,Frontline apps with AI assistants
+MFG-06,augmentir,ga,AI connected-worker platform
+MFG-07,machinemetrics,ga,Automatic production and downtime capture
+MFG-07,tulip,ga,Digital production records
+MFG-08,retrocausal,ga,Computer-vision time studies and a Kaizen copilot
+QM-01,landing-ai,ga,Visual inspection models trained on few images
+QM-01,cognex,ga,Deep-learning vision inspection
+QM-02,instrumental,ga,AI inspection for electronics assembly
+QM-02,elementary,ga,AI visual inspection on production lines
+QM-02,cognex,ga,Deep-learning defect detection
+EAM-01,ibm-maximo,ga,Asset management with AI-assisted work orders
+EAM-01,maintainx,ga,CMMS with AI work-order assistance
+EAM-01,fiix,ga,CMMS with AI insights
+EAM-02,augury,ga,Machine health from vibration and sensor AI
+EAM-02,uptake,ga,Predictive maintenance for industrial and fleet assets
+EAM-02,senseye,ga,Predictive maintenance
+EAM-03,augmentir,ga,AI-guided troubleshooting for technicians
+EAM-04,verusen,ga,AI cleans MRO materials data and optimizes spares
+EAM-05,pitstop,ga,Predicts vehicle failures from fleet data
+EAM-05,uptake,ga,Fleet predictive maintenance
+EAM-05,samsara,ga,Telematics with maintenance alerts
+EWM-01,stretch,ga,Robot that unloads trucks and containers
+EWM-01,pickle,ga,Truck-unloading robots
+EWM-02,symbotic,ga,Robotic storage and retrieval in DCs
+EWM-02,exotec,ga,Robotic goods-to-person storage
+EWM-02,autostore,ga,Cube storage worked by robots
+EWM-03,manhattan,ga,Slotting optimization
+EWM-04,locus,ga,Autonomous mobile robots that guide pickers
+EWM-04,plus-one,ga,Vision-guided robotic picking
+EWM-04,exotec,ga,Goods-to-person picking
+EWM-05,packsize,ga,Right-sized boxes made on demand
+EWM-05,ambi,ga,AI-powered robotic sorting and packing
+EWM-06,dexterity,pilot,Robots that load trucks
+EWM-07,gather-ai,ga,Drones that scan pallet locations
+EWM-07,corvus,ga,Autonomous indoor inventory drones
+EWM-07,dexory,ga,Robots that scan warehouse racks
+EWM-08,lucas,ga,AI work optimization with voice picking
+EWM-08,manhattan,ga,Labor management and wave optimization
+EWM-09,opendock,ga,Dock appointment scheduling
+EWM-09,outrider,pilot,Autonomous yard trucks
+EWM-10,simbe,ga,Shelf-scanning robots that find out-of-stocks
+EWM-10,focal,ga,Shelf cameras that spot gaps
+TM-01,keelvar,ga,Freight bid optimization
+TM-02,dat,ga,Rate benchmarks and analytics
+TM-02,greenscreens,ga,ML rate predictions for contract and spot
+TM-03,greenscreens,ga,Dynamic spot pricing for brokers
+TM-03,vooma,ga,Reads quote requests and drafts responses
+TM-03,parade,ga,Matches loads to carrier capacity
+TM-04,uber-freight,ga,TMS with optimization and a freight network
+TM-04,oracle-otm,ga,Mode and carrier optimization
+TM-05,optym,ga,Load and network optimization
+TM-05,ortec,ga,Load building and pallet optimization
+TM-06,descartes,ga,Route planning and optimization
+TM-06,ortec,ga,Vehicle routing optimization
+TM-06,optym,ga,Route optimization
+TM-07,vooma,ga,AI agents for order entry and load booking
+TM-07,happyrobot,ga,AI voice agents for carrier calls
+TM-09,opendock,ga,Self-serve dock appointment booking
+TM-09,happyrobot,ga,Voice agents that book appointments
+TM-10,uber-freight,ga,Algorithmic load matching
+TM-10,parade,ga,Capacity matching for brokers
+TM-11,flexport,ga,Digital freight forwarding
+TM-11,raft,ga,AI that reads forwarder documents and email
+TM-12,loop,ga,AI freight audit and payment
+TM-12,cass,ga,Freight audit and payment at scale
+TM-13,project44,ga,Carrier performance from visibility data
+TM-13,fourkites,ga,Carrier scorecards from tracking data
+FX-01,aurora,pilot,Driverless trucks on about 10 Texas–Arizona lanes; small fleet
+FX-01,kodiak,pilot,Driverless trucks in Permian Basin oilfield logistics
+FX-01,waabi,pilot,Volvo autonomous trucks in Texas with a safety observer on board
+FX-02,gatik,pilot,Autonomous middle-mile box trucks; ran driverless routes for Loblaw in the GTA
+FX-03,zipline,ga,Drone delivery for retail and health
+FX-03,starship,ga,Sidewalk delivery robots
+FX-03,serve,pilot,Sidewalk robots for food delivery
+FX-04,descartes,ga,Route optimization for delivery fleets (driving stays human)
+FX-05,duos,ga,AI railcar inspection portals
+FX-05,parallel,pilot,Autonomous battery-electric rail vehicles
+FX-06,orca-ai,ga,AI collision avoidance and navigation for ships
+FX-06,navis,ga,Terminal operating system with optimization
+FX-07,reliable,pilot,Autonomous cargo aircraft
+FX-08,ambi,ga,AI parcel sorting
+FX-08,plus-one,ga,Robotic parcel induction
+VIS-01,project44,ga,Multimodal tracking and ML ETAs
+VIS-01,fourkites,ga,Real-time tracking and predictive ETAs
+VIS-01,descartes,ga,MacroPoint truck tracking
+VIS-02,project44,ga,AI agents that work shipment exceptions
+VIS-02,fourkites,ga,AI agents for exception management
+VIS-02,happyrobot,ga,Automated check calls and ETA confirmations
+VIS-03,everstream,ga,AI risk monitoring for suppliers and lanes
+VIS-03,interos,ga,Multi-tier supplier risk
+VIS-03,resilinc,ga,Event monitoring and supplier mapping
+VIS-03,prewave,ga,AI risk alerts from news and social media
+VIS-05,aera,ga,Decision intelligence that recommends actions
+O2C-01,conexiom,ga,Turns PDF and email purchase orders into sales orders
+O2C-01,esker,ga,AI order processing
+O2C-01,rossum,ga,AI document processing
+O2C-03,pros,ga,AI price optimization and quoting
+O2C-03,zilliant,ga,B2B price optimization
+O2C-04,narvar,ga,AI assistant for order tracking and returns questions
+O2C-04,parcellab,ga,Proactive order status communication
+O2C-05,proton,ga,AI sales recommendations for distributors
+O2C-05,zilliant,ga,Sales opportunity recommendations
+O2C-06,highradius,ga,"AI credit, cash application and collections"
+O2C-06,billtrust,ga,AR automation and cash application
+O2C-07,crisp,ga,Retailer data harmonized for CPG collaboration
+O2C-07,relex,ga,Collaborative replenishment with customers
+GTS-01,zonos,ga,AI HS code classification
+GTS-01,avalara,ga,Automated tariff code classification
+GTS-01,descartes,ga,Classification and customs content
+GTS-02,descartes,ga,Customs filing
+GTS-02,flexport,ga,Digital customs brokerage
+GTS-03,descartes,ga,Restricted party screening (Visual Compliance)
+GTS-03,e2open,ga,Global trade management
+GTS-04,altana,ga,AI trade mapping for tariff exposure
+GTS-05,raft,ga,AI extracts data from trade documents
+RET-01,loop-returns,ga,Automated returns and exchanges
+RET-01,narvar,ga,Returns portal
+RET-02,optoro,ga,Returns processing and grading software
+RET-03,optoro,ga,AI disposition decisions to maximize recovery
+RET-05,tavant,ga,AI warranty claims processing
+RET-05,syncron,ga,Warranty and service parts management

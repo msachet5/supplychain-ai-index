@@ -1,0 +1,124 @@
+solution_id,vendor,product,hq_city,hq_country,ai_type,url
+o9,o9 Solutions,Digital Brain,Dallas,US,ml|optimization,https://o9solutions.com
+blue-yonder,Blue Yonder,Planning & execution suite,Scottsdale,US,ml|optimization,https://blueyonder.com
+relex,RELEX Solutions,Supply chain & retail planning,Helsinki,FI,ml,https://www.relexsolutions.com
+kinaxis,Kinaxis,Maestro,Ottawa,CA,ml|optimization,https://www.kinaxis.com
+lokad,Lokad,Probabilistic forecasting,Paris,FR,ml|optimization,https://www.lokad.com
+e2open,E2open (WiseTech Global),Demand sensing & trade management,Austin,US,ml,https://www.e2open.com
+anaplan,Anaplan,PlanIQ,San Francisco,US,ml,https://www.anaplan.com
+toolsgroup,ToolsGroup,Inventory optimization,Boston,US,ml|optimization,https://www.toolsgroup.com
+gains,GAINS,Supply chain optimization,Chicago,US,ml|optimization,https://gainsystems.com
+coupa,Coupa,Spend management & supply chain design,San Mateo,US,ml|optimization,https://www.coupa.com
+optilogic,Optilogic,Cosmic Frog,Ann Arbor,US,optimization,https://optilogic.com
+siemens-opcenter,Siemens,Opcenter APS,Munich,DE,optimization,https://www.siemens.com
+flexciton,Flexciton,AI scheduling for fabs,London,GB,optimization|ml,https://flexciton.com
+didero,Didero,Procurement AI agents,,US,agentic|genai,https://www.didero.ai
+sievo,Sievo,Spend analytics,Helsinki,FI,ml,https://sievo.com
+scoutbee,Scoutbee,Supplier discovery,Berlin,DE,ml|genai,https://scoutbee.com
+tealbook,Tealbook,Supplier data platform,Toronto,CA,ml,https://www.tealbook.com
+keelvar,Keelvar,Sourcing optimization & bots,Cork,IE,optimization|agentic,https://www.keelvar.com
+fairmarkit,Fairmarkit,Tail-spend sourcing,Boston,US,ml|agentic,https://www.fairmarkit.com
+pactum,Pactum,Autonomous negotiation,,US,agentic,https://pactum.com
+icertis,Icertis,Contract intelligence,Bellevue,US,genai|ml,https://www.icertis.com
+sirion,Sirion,Contract lifecycle management,,US,genai,https://www.sirion.ai
+zip,Zip,Intake-to-procure,San Francisco,US,genai|agentic,https://ziphq.com
+vic-ai,Vic.ai,Autonomous invoice processing,New York,US,ml|genai,https://www.vic.ai
+appzen,AppZen,AI for accounts payable,,US,genai|ml,https://www.appzen.com
+path-robotics,Path Robotics,AI welding robots,Columbus,US,robotics|vision,https://www.path-robotics.com
+cloudnc,CloudNC,CAM Assist,London,GB,ml,https://www.cloudnc.com
+machina-labs,Machina Labs,Robotic sheet forming,Los Angeles,US,robotics,https://machinalabs.ai
+bright-machines,Bright Machines,Automated assembly,San Francisco,US,robotics|vision,https://www.brightmachines.com
+figure,Figure AI,Humanoid robots,,US,robotics,https://www.figure.ai
+apptronik,Apptronik,Apollo humanoid,Austin,US,robotics,https://apptronik.com
+imubit,Imubit,Closed-loop AI optimization,Houston,US,ml,https://imubit.com
+aspentech,AspenTech (Emerson),Industrial AI for process plants,Bedford,US,ml,https://www.aspentech.com
+sight-machine,Sight Machine,Manufacturing data platform,San Francisco,US,ml|genai,https://sightmachine.com
+machinemetrics,MachineMetrics,Machine monitoring,Northampton,US,ml,https://www.machinemetrics.com
+otto,OTTO by Rockwell Automation,Autonomous mobile robots,Kitchener,CA,robotics,https://ottomotors.com
+vecna,Vecna Robotics,Autonomous mobile robots,Waltham,US,robotics,https://www.vecnarobotics.com
+tulip,Tulip,Frontline operations platform,Somerville,US,genai,https://tulip.co
+augmentir,Augmentir,AI connected worker,,US,genai|ml,https://www.augmentir.com
+retrocausal,Retrocausal,Assembly copilot,Redmond,US,vision|genai,https://retrocausal.ai
+landing-ai,Landing AI,LandingLens,Palo Alto,US,vision,https://landing.ai
+cognex,Cognex,Deep learning vision,Natick,US,vision,https://www.cognex.com
+instrumental,Instrumental,AI inspection for electronics,San Francisco,US,vision,https://instrumental.com
+elementary,Elementary,AI visual inspection,,US,vision,https://www.elementaryml.com
+ibm-maximo,IBM,Maximo Application Suite,Armonk,US,ml|genai,https://www.ibm.com/products/maximo
+maintainx,MaintainX,CMMS with AI,San Francisco,US,genai|ml,https://www.getmaintainx.com
+fiix,Fiix by Rockwell Automation,CMMS,Toronto,CA,ml,https://fiixsoftware.com
+augury,Augury,Machine health,New York,US,ml,https://www.augury.com
+uptake,Uptake,Predictive maintenance,Chicago,US,ml,https://www.uptake.com
+senseye,Senseye (Siemens),Predictive maintenance,,GB,ml|genai,https://www.siemens.com
+verusen,Verusen,MRO materials AI,Atlanta,US,ml|genai,https://verusen.com
+pitstop,Pitstop (Fullbay),Predictive fleet maintenance,Toronto,CA,ml,https://pitstopconnect.com
+samsara,Samsara,Connected operations,San Francisco,US,ml|vision,https://www.samsara.com
+stretch,Boston Dynamics,Stretch,Waltham,US,robotics|vision,https://bostondynamics.com
+pickle,Pickle Robot,Truck unloading robots,Cambridge,US,robotics|vision,https://picklerobot.com
+dexterity,Dexterity,Mech,Redwood City,US,robotics|vision,https://www.dexterity.ai
+symbotic,Symbotic,Warehouse automation,Wilmington,US,robotics,https://www.symbotic.com
+exotec,Exotec,Skypod,Lille,FR,robotics,https://www.exotec.com
+autostore,AutoStore,Cube storage,,NO,robotics,https://www.autostoresystem.com
+manhattan,Manhattan Associates,Manhattan Active WM,Atlanta,US,optimization|ml,https://www.manh.com
+locus,Locus Robotics,Autonomous mobile robots,Wilmington,US,robotics|optimization,https://locusrobotics.com
+plus-one,Plus One Robotics,Vision-guided picking,San Antonio,US,robotics|vision,https://www.plusonerobotics.com
+packsize,Packsize,Right-sized packaging,Salt Lake City,US,optimization|robotics,https://www.packsize.com
+ambi,Ambi Robotics,AI sorting & packing,Berkeley,US,robotics|vision,https://www.ambirobotics.com
+gather-ai,Gather AI,Drone inventory monitoring,Pittsburgh,US,vision|robotics,https://gather.ai
+corvus,Corvus Robotics,Autonomous inventory drones,,US,vision|robotics,https://www.corvus-robotics.com
+dexory,Dexory,Autonomous inventory scanning,London,GB,vision|robotics,https://www.dexory.com
+lucas,Lucas Systems,Voice picking & AI optimization,,US,optimization,https://www.lucasware.com
+opendock,Opendock (Loadsmart),Dock scheduling,Chicago,US,optimization,https://opendock.com
+outrider,Outrider,Autonomous yard operations,Golden,US,autonomy,https://www.outrider.ai
+simbe,Simbe,Tally shelf-scanning robot,San Francisco,US,vision|robotics,https://www.simberobotics.com
+focal,Focal Systems,Shelf cameras,,US,vision,https://focal.systems
+dat,DAT,DAT iQ rate analytics,Beaverton,US,ml,https://www.dat.com
+greenscreens,Greenscreens.ai (Triumph),Freight pricing intelligence,Chicago,US,ml,https://greenscreens.ai
+happyrobot,HappyRobot,AI voice agents for logistics,San Francisco,US,agentic|genai,https://www.happyrobot.ai
+vooma,Vooma,AI agents for brokers & carriers,San Francisco,US,agentic|genai,https://www.vooma.com
+parade,Parade,Capacity management for brokers,San Francisco,US,ml|agentic,https://parade.ai
+uber-freight,Uber Freight,Freight network & TMS,Chicago,US,ml|optimization,https://www.uberfreight.com
+oracle-otm,Oracle,Transportation Management,Austin,US,optimization,https://www.oracle.com
+optym,Optym,Routing & network optimization,Gainesville,US,optimization,https://www.optym.com
+descartes,Descartes Systems Group,"Routing, visibility & customs",Waterloo,CA,optimization|ml,https://www.descartes.com
+ortec,ORTEC,Routing & loading optimization,Zoetermeer,NL,optimization,https://ortec.com
+flexport,Flexport,Digital freight forwarding,San Francisco,US,ml|genai,https://www.flexport.com
+raft,Raft,AI for freight forwarders,London,GB,genai|ml,https://www.raft.ai
+loop,Loop,AI freight audit & pay,San Francisco,US,genai|ml,https://loop.com
+cass,Cass Information Systems,Freight audit & payment,St. Louis,US,ml,https://www.cassinfo.com
+project44,project44,Decision Intelligence Platform,Chicago,US,ml|agentic,https://www.project44.com
+fourkites,FourKites,Real-time visibility,Chicago,US,ml|agentic,https://www.fourkites.com
+aurora,Aurora Innovation,Aurora Driver,Pittsburgh,US,autonomy,https://aurora.tech
+kodiak,Kodiak,Kodiak Driver,Mountain View,US,autonomy,https://kodiak.ai
+waabi,Waabi,Waabi Driver,Toronto,CA,autonomy,https://waabi.ai
+gatik,Gatik,Autonomous middle-mile trucks,Mountain View,US,autonomy,https://gatik.ai
+zipline,Zipline,Drone delivery,South San Francisco,US,autonomy,https://www.flyzipline.com
+starship,Starship Technologies,Sidewalk delivery robots,San Francisco,US,autonomy,https://www.starship.xyz
+serve,Serve Robotics,Sidewalk delivery robots,Los Angeles,US,autonomy,https://www.serverobotics.com
+parallel,Parallel Systems,Autonomous battery-electric rail,Los Angeles,US,autonomy,https://www.moveparallel.com
+duos,Duos Technologies,AI railcar inspection portals,Jacksonville,US,vision,https://www.duostech.com
+orca-ai,Orca AI,AI navigation for ships,Tel Aviv,IL,vision|ml,https://www.orca-ai.io
+navis,Navis (Kaleris),Terminal operating system,,US,optimization,https://www.navis.com
+reliable,Reliable Robotics,Autonomous cargo aircraft,Mountain View,US,autonomy,https://reliable.co
+everstream,Everstream Analytics,Supply chain risk,,US,ml|genai,https://www.everstream.ai
+interos,Interos,Supplier risk intelligence,Arlington,US,ml,https://www.interos.ai
+resilinc,Resilinc,Supply chain risk monitoring,Milpitas,US,ml|genai,https://resilinc.ai
+prewave,Prewave,Supplier risk monitoring,Vienna,AT,ml|genai,https://www.prewave.com
+aera,Aera Technology,Decision intelligence,Mountain View,US,ml|agentic,https://www.aeratechnology.com
+conexiom,Conexiom,Sales order automation,Vancouver,CA,genai|ml,https://conexiom.com
+esker,Esker,Order-to-cash automation,Lyon,FR,genai|ml,https://www.esker.com
+rossum,Rossum,AI document processing,Prague,CZ,genai,https://rossum.ai
+pros,PROS,AI pricing,Houston,US,ml|optimization,https://pros.com
+zilliant,Zilliant,B2B price & sales optimization,Austin,US,ml|optimization,https://zilliant.com
+narvar,Narvar,Post-purchase & returns,San Francisco,US,genai|ml,https://corp.narvar.com
+parcellab,parcelLab,Post-purchase experience,Munich,DE,genai|ml,https://parcellab.com
+proton,Proton.ai,AI CRM for distributors,Boston,US,ml,https://www.proton.ai
+highradius,HighRadius,Order-to-cash AI,Houston,US,ml|agentic,https://www.highradius.com
+billtrust,Billtrust,AR automation,,US,ml,https://www.billtrust.com
+crisp,Crisp,Retail data for CPG,New York,US,ml,https://www.gocrisp.com
+zonos,Zonos,Classify,St. George,US,ml|genai,https://zonos.com
+avalara,Avalara,Cross-border classification,Seattle,US,ml,https://www.avalara.com
+altana,Altana,Trade & supply chain intelligence,New York,US,ml|genai,https://altana.ai
+optoro,Optoro,Returns optimization,Washington,US,ml|optimization,https://www.optoro.com
+loop-returns,Loop Returns,Returns management,Columbus,US,ml,https://www.loopreturns.com
+tavant,Tavant,Warranty management,Santa Clara,US,ml|genai,https://www.tavant.com
+syncron,Syncron,Service parts & warranty,Stockholm,SE,ml|optimization,https://www.syncron.com

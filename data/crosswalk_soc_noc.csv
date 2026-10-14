@@ -1,0 +1,210 @@
+soc_code,noc_code,noc_title,weight,scope_share,source
+11-3061,10012,Purchasing managers,1,,Hand-checked: Purchasing managers; Dais also links them to transportation managers
+11-3071,12013,"Supervisors, supply chain, tracking and scheduling coordination occupations",1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+13-1020,12102,Procurement and purchasing agents and officers,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+43-3031,12200,Accounting technicians and bookkeepers,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+13-1041,13200,"Customs, ship and other brokers",1,1,Hand-checked: Customs and ship brokers are fully in scope in Canada (US 13-1041 is only ~5% customs brokers)
+13-1081,13201,Production and transportation logistics coordinators,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+43-3021,14200,Accounting and related clerks,0.1619,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+43-3031,14200,Accounting and related clerks,0.5503,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+43-4151,14200,Accounting and related clerks,0.0301,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+43-5071,14400,Shippers and receivers,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+53-7065,14401,Storekeepers and partspersons,1,,Hand-checked: Storekeepers and partspersons
+43-5061,14402,Production logistics workers,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+43-3061,14403,Purchasing and inventory control workers,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+43-5032,14404,Dispatchers,0.5892,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+43-5032,14405,Transportation route and crew schedulers,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+15-2031,21210,"Mathematicians, statisticians and actuaries",0.3,,Hand-checked: Only part of this group does operations research
+17-2112,21321,Industrial and manufacturing engineers,1,,Hand-checked: Industrial and manufacturing engineers
+17-2112,21399,Other professional engineers,0.25,,Hand-checked: Other professional engineers; some are manufacturing and logistics engineers
+51-9061,22230,Non-destructive testers and inspectors,0.9088,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+53-6051,22231,Engineering inspectors and regulatory officers,0.2,,Hand-checked: Engineering inspectors and regulatory officers; mostly government regulators
+17-3026,22302,Industrial engineering and manufacturing technologists and technicians,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+49-2094,22311,Electronic service technicians (household and business equipment),0.15,,Hand-checked: Electronic service technicians; mostly household and business equipment
+49-9041,22312,Industrial instrument technicians and mechanics,0.9855,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+41-1012,60010,Corporate sales managers,0.2518,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+41-4011,62100,Technical sales specialists - wholesale trade,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+13-1020,62101,Retail and wholesale buyers,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-3021,63201,Butchers - retail and wholesale,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-3011,63202,Bakers,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-6093,63221,Upholsterers,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+41-4012,64101,Sales and account representatives - wholesale trade (non-technical),1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+43-5011,64313,"Ground and water transport ticket agents, cargo service representatives and related clerks",0.4514,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+43-4051,64409,Other customer and information services representatives,0.8,,Hand-checked: Other customer and information services representatives (general CSRs)
+53-7065,65102,"Store shelf stockers, clerks and order fillers",1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-3021,65202,Meat cutters and fishmongers - retail and wholesale,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+11-3071,70020,Managers in transportation,1,,Hand-checked: Managers in transportation
+49-1011,72020,"Contractors and supervisors, mechanic trades",0.2893,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-1011,72022,"Supervisors, printing and related occupations",1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+53-1047,72023,"Supervisors, railway transport operations",1,,Hand-checked: Supervisors of railway transport operations
+53-1047,72024,"Supervisors, motor transport and other ground transit operators",0.8,,Hand-checked: Supervisors of motor transport; the rest supervise bus and transit
+51-4041,72100,Machinists and machining and tooling inspectors,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4111,72101,Tool and die makers,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-2041,72104,Structural metal and platework fabricators and fitters,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4121,72106,Welders and related machine operators,0.9294,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4122,72106,Welders and related machine operators,0.0706,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-7011,72311,Cabinetmakers,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+49-9041,72400,Construction millwrights and industrial mechanics,0.9160,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+49-9044,72400,Construction millwrights and industrial mechanics,0.0840,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+49-3043,72403,Railway carmen/women,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+49-3031,72410,"Automotive service technicians, truck and bus mechanics and mechanical repairers",0.2421,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+49-2094,72422,Electrical mechanics,0.5620,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+53-7021,72500,Crane operators,1,,Hand-checked: Crane operators (the port and plant scope share from occupations.csv still applies)
+53-2011,72600,"Air pilots, flight engineers and flying instructors",0.5781,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+53-2012,72600,"Air pilots, flight engineers and flying instructors",0.2659,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+53-5021,72602,"Deck officers, water transport",1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+53-5031,72603,"Engineer officers, water transport",1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+49-9071,73201,General building maintenance workers and building superintendents,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+53-3032,73300,Transport truck drivers,1,,Hand-checked: Transport truck drivers
+53-4011,73310,Railway and yard locomotive engineers,0.8952,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+53-4013,73310,Railway and yard locomotive engineers,0.1048,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+53-4031,73311,Railway conductors and brakemen/women,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-5112,73401,Printing press operators,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+43-5053,74100,Mail and parcel sorters and related occupations,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+43-5052,74101,Letter carriers,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+43-5021,74102,Couriers and messengers,1,,Hand-checked: Couriers and messengers
+53-5011,74201,Water transport deck and engine room crew,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+53-7062,74202,Air transport ramp attendants,0.4,,Hand-checked: Air transport ramp attendants; cargo share only
+53-7062,75100,Longshore workers,0.9964,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+53-7121,75100,Longshore workers,0.0036,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+53-7051,75101,Material handlers,0.2,,Hand-checked: Material handlers who operate forklifts
+53-7062,75101,Material handlers,0.75,,Hand-checked: Material handlers (hand)
+53-7064,75101,Material handlers,0.05,,Hand-checked: Material handlers who pack by hand
+53-3031,75201,Delivery service drivers and door-to-door distributors,0.15,,Hand-checked: Route drivers who also sell
+53-3033,75201,Delivery service drivers and door-to-door distributors,0.85,,Hand-checked: Delivery service drivers
+53-4022,75211,Railway and motor transport labourers,0.6,,Hand-checked: Railway and motor transport labourers
+11-3051,90010,Manufacturing managers,1,,Hand-checked: Manufacturing managers
+51-1011,92010,"Supervisors, mineral and metal processing",1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-1011,92011,"Supervisors, petroleum, gas and chemical processing and utilities",1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-1011,92012,"Supervisors, food and beverage processing",1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-1011,92013,"Supervisors, plastic and rubber products manufacturing",1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-1011,92014,"Supervisors, forest products processing",1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-1011,92015,"Supervisors, textile, fabric, fur and leather products processing and manufacturing",1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-1011,92020,"Supervisors, motor vehicle assembling",1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-1011,92021,"Supervisors, electronics and electrical products manufacturing",1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-1011,92022,"Supervisors, furniture and fixtures manufacturing",1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-1011,92023,"Supervisors, other mechanical and metal products manufacturing",1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-1011,92024,"Supervisors, other products manufacturing and assembly",1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-8091,93101,"Central control and process operators, petroleum, gas and chemical processing",0.3,,Hand-checked: Chemical process operators
+51-8093,93101,"Central control and process operators, petroleum, gas and chemical processing",0.5,,Hand-checked: Petroleum process operators
+51-2011,93200,Aircraft assemblers and aircraft assembly inspectors,0.8,,Hand-checked: Aircraft assemblers
+51-9061,93200,Aircraft assemblers and aircraft assembly inspectors,0.2,,Hand-checked: Aircraft assembly inspectors
+51-4051,94100,"Machine operators, mineral and metal processing",1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9041,94103,"Concrete, clay and stone forming operators",0.6391,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9195,94103,"Concrete, clay and stone forming operators",0.3609,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9061,94104,"Inspectors and testers, mineral and metal processing",1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4021,94105,Metalworking and forging machine operators,0.0740,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4022,94105,Metalworking and forging machine operators,0.0109,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4031,94105,Metalworking and forging machine operators,0.2082,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4032,94105,Metalworking and forging machine operators,0.0057,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4033,94105,Metalworking and forging machine operators,0.0815,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4034,94105,Metalworking and forging machine operators,0.0203,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4072,94105,Metalworking and forging machine operators,0.1830,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4081,94105,Metalworking and forging machine operators,0.1515,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4193,94105,Metalworking and forging machine operators,0.0394,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4199,94105,Metalworking and forging machine operators,0.0193,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9161,94105,Metalworking and forging machine operators,0.2061,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4035,94106,Machining tool operators,0.6899,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4194,94106,Machining tool operators,0.3101,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4199,94107,Machine operators of other metal products,0.5803,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9191,94107,Machine operators of other metal products,0.4197,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-8091,94110,Chemical plant machine operators,0.1063,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9011,94110,Chemical plant machine operators,0.8937,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4021,94111,Plastics processing machine operators,0.0680,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4022,94111,Plastics processing machine operators,0.0100,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4023,94111,Plastics processing machine operators,0.0282,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4031,94111,Plastics processing machine operators,0.1914,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4032,94111,Plastics processing machine operators,0.0052,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4033,94111,Plastics processing machine operators,0.0749,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4034,94111,Plastics processing machine operators,0.0187,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4072,94111,Plastics processing machine operators,0.1682,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4081,94111,Plastics processing machine operators,0.1393,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4191,94111,Plastics processing machine operators,0.0156,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4193,94111,Plastics processing machine operators,0.0362,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4199,94111,Plastics processing machine operators,0.0178,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9161,94111,Plastics processing machine operators,0.1894,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9195,94111,Plastics processing machine operators,0.0371,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9021,94112,Rubber processing machine operators and related workers,0.1874,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9041,94112,Rubber processing machine operators and related workers,0.4236,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9195,94112,Rubber processing machine operators and related workers,0.2392,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9197,94112,Rubber processing machine operators and related workers,0.1497,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-7041,94120,Sawmill machine operators,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9012,94121,"Pulp mill, papermaking and finishing machine operators",0.3847,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9196,94121,"Pulp mill, papermaking and finishing machine operators",0.6153,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9196,94122,Paper converting machine operators,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-7031,94124,Woodworking machine operators,0.0028,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-7032,94124,Woodworking machine operators,0.0022,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-7042,94124,Woodworking machine operators,0.6105,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-7099,94124,Woodworking machine operators,0.0546,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9195,94124,Woodworking machine operators,0.3299,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-7041,94129,Other wood processing machine operators,0.3994,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-7042,94129,Other wood processing machine operators,0.6006,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-6061,94130,"Textile fibre and yarn, hide and pelt processing machine operators and workers",0.2,,Hand-checked: Textile fibre and yarn processing
+51-6064,94130,"Textile fibre and yarn, hide and pelt processing machine operators and workers",0.6,,Hand-checked: Textile fibre and yarn processing
+51-9198,94130,"Textile fibre and yarn, hide and pelt processing machine operators and workers",0.2,,Hand-checked: Textile fibre and yarn processing helpers
+51-6031,94132,Industrial sewing machine operators,0.9697,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-6042,94132,Industrial sewing machine operators,0.0303,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-3091,94140,"Process control and machine operators, food and beverage processing",0.0712,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-3092,94140,"Process control and machine operators, food and beverage processing",0.6097,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-3093,94140,"Process control and machine operators, food and beverage processing",0.1092,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9012,94140,"Process control and machine operators, food and beverage processing",0.2100,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-3022,94141,"Industrial butchers and meat cutters, poultry preparers and related workers",0.7,,"Hand-checked: Industrial meat cutters and poultry preparers (processing plants, fully in scope)"
+51-3023,94141,"Industrial butchers and meat cutters, poultry preparers and related workers",0.3,,Hand-checked: Industrial slaughterers
+51-3092,94142,Fish and seafood plant workers,0.4044,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-3093,94142,Fish and seafood plant workers,0.0724,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9012,94142,Fish and seafood plant workers,0.1393,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9198,94142,Fish and seafood plant workers,0.3839,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9061,94143,"Testers and graders, food and beverage processing",1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-5113,94152,Binding and finishing machine operators,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-2090,94200,"Motor vehicle assemblers, inspectors and testers",0.85,,Hand-checked: Motor vehicle assemblers
+51-9061,94200,"Motor vehicle assemblers, inspectors and testers",0.15,,Hand-checked: Motor vehicle inspectors and testers
+51-2028,94201,"Electronics assemblers, fabricators, inspectors and testers",0.85,,Hand-checked: Electronics assemblers
+51-9061,94201,"Electronics assemblers, fabricators, inspectors and testers",0.15,,Hand-checked: Electronics inspectors
+51-2028,94202,"Assemblers and inspectors, electrical appliance, apparatus and equipment manufacturing",0.85,,Hand-checked: Electrical appliance assemblers
+51-9061,94202,"Assemblers and inspectors, electrical appliance, apparatus and equipment manufacturing",0.15,,Hand-checked: Electrical appliance inspectors
+51-2021,94203,"Assemblers, fabricators and inspectors, industrial electrical motors and transformers",0.3,,Hand-checked: Motor and transformer coil winders
+51-2028,94203,"Assemblers, fabricators and inspectors, industrial electrical motors and transformers",0.55,,Hand-checked: Industrial electrical equipment assemblers
+51-9061,94203,"Assemblers, fabricators and inspectors, industrial electrical motors and transformers",0.15,,Hand-checked: Industrial electrical equipment inspectors
+51-2031,94204,Mechanical assemblers and inspectors,0.85,,Hand-checked: Mechanical assemblers
+51-9061,94204,Mechanical assemblers and inspectors,0.15,,Hand-checked: Mechanical inspectors
+51-2090,94210,"Furniture and fixture assemblers, finishers, refinishers and inspectors",0.6,,Hand-checked: Furniture and fixture assemblers
+51-7021,94210,"Furniture and fixture assemblers, finishers, refinishers and inspectors",0.25,,Hand-checked: Furniture finishers and refinishers
+51-9061,94210,"Furniture and fixture assemblers, finishers, refinishers and inspectors",0.15,,Hand-checked: Furniture inspectors
+51-2090,94211,Assemblers and inspectors of other wood products,0.85,,Hand-checked: Other wood products assemblers
+51-9061,94211,Assemblers and inspectors of other wood products,0.15,,Hand-checked: Other wood products inspectors
+51-2090,94212,"Plastic products assemblers, finishers and inspectors",0.85,,Hand-checked: Plastic products assemblers and finishers
+51-9061,94212,"Plastic products assemblers, finishers and inspectors",0.15,,Hand-checked: Plastic products inspectors
+51-9124,94213,"Industrial painters, coaters and metal finishing process operators",1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-2090,94219,"Other products assemblers, finishers and inspectors",0.85,,Hand-checked: Other products assemblers and finishers
+51-9061,94219,"Other products assemblers, finishers and inspectors",0.15,,Hand-checked: Other products inspectors
+51-9198,95100,Labourers in mineral and metal processing,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9198,95101,Labourers in metal fabrication,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-8091,95102,Labourers in chemical products processing and utilities,0.0516,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9011,95102,Labourers in chemical products processing and utilities,0.4337,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9198,95102,Labourers in chemical products processing and utilities,0.5147,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9198,95103,"Labourers in wood, pulp and paper processing",1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9198,95104,Labourers in rubber and plastic products manufacturing,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9198,95105,Labourers in textile processing and cutting,1,,Hand-checked: Labourers in textile processing
+51-3099,95106,Labourers in food and beverage processing,0.2818,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9198,95106,Labourers in food and beverage processing,0.7182,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9198,95107,Labourers in fish and seafood processing,1.0000,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-2051,95109,"Other labourers in processing, manufacturing and utilities",0.0185,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4061,95109,"Other labourers in processing, manufacturing and utilities",0.0030,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4062,95109,"Other labourers in processing, manufacturing and utilities",0.0017,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-4192,95109,"Other labourers in processing, manufacturing and utilities",0.0068,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-6051,95109,"Other labourers in processing, manufacturing and utilities",0.0025,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-6061,95109,"Other labourers in processing, manufacturing and utilities",0.0061,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-6064,95109,"Other labourers in processing, manufacturing and utilities",0.0252,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-6091,95109,"Other labourers in processing, manufacturing and utilities",0.0147,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-6099,95109,"Other labourers in processing, manufacturing and utilities",0.0155,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-8012,95109,"Other labourers in processing, manufacturing and utilities",0.0098,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-8013,95109,"Other labourers in processing, manufacturing and utilities",0.0336,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-8099,95109,"Other labourers in processing, manufacturing and utilities",0.0161,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9022,95109,"Other labourers in processing, manufacturing and utilities",0.0120,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9023,95109,"Other labourers in processing, manufacturing and utilities",0.1087,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9031,95109,"Other labourers in processing, manufacturing and utilities",0.0069,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9032,95109,"Other labourers in processing, manufacturing and utilities",0.0515,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9051,95109,"Other labourers in processing, manufacturing and utilities",0.0164,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9111,95109,"Other labourers in processing, manufacturing and utilities",0.4342,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+51-9198,95109,"Other labourers in processing, manufacturing and utilities",0.1898,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights
+53-7199,95109,"Other labourers in processing, manufacturing and utilities",0.0269,,The Dais NOC 2021-O*NET 26 crosswalk; US employment weights

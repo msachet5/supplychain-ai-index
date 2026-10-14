@@ -1,0 +1,83 @@
+noc_code,soc_code,weight,scope_share,note
+10012,11-3061,1,,Purchasing managers; Dais also links them to transportation managers
+11200,-,,,HR professionals; Dais links them to compliance officers (EEO). Not supply chain
+11201,-,,,Management consultants; not supply chain
+12104,-,,,Employment insurance and revenue officers; not supply chain
+13200,13-1041,1,1,Customs and ship brokers are fully in scope in Canada (US 13-1041 is only ~5% customs brokers)
+14401,53-7065,1,,Storekeepers and partspersons
+21120,-,,,Public health and safety professionals; not supply chain
+21210,15-2031,0.3,,Only part of this group does operations research
+21230,-,,,Software developers; Dais links them to CNC programmers
+21321,17-2112,1,,Industrial and manufacturing engineers
+21399,17-2112,0.25,,Other professional engineers; some are manufacturing and logistics engineers
+22100,-,,,Chemical technologists; not industrial engineering technicians
+22231,53-6051,0.2,,Engineering inspectors and regulatory officers; mostly government regulators
+22232,-,,,Occupational health and safety specialists; not supply chain
+22311,49-2094,0.15,,Electronic service technicians; mostly household and business equipment
+41310,-,,,Police investigators; not supply chain
+41400,-,,,Science policy researchers; not supply chain
+41403,-,,,Social policy researchers; Dais links them to compliance officers
+43202,-,,,By-law enforcement officers; not supply chain
+53124,-,,,Artisans and craftspersons; not manufacturing
+62202,-,,,Jewellers; out of scope
+64400,-,,,Customer service reps at financial institutions; not supply chain
+64401,-,,,Postal counter clerks; not supply chain
+64409,43-4051,0.8,,Other customer and information services representatives (general CSRs)
+70012,-,,,Facility operation managers; Dais links them to technical sales reps
+70020,11-3071,1,,Managers in transportation
+72023,53-1047,1,,Supervisors of railway transport operations
+72024,53-1047,0.8,,Supervisors of motor transport; the rest supervise bus and transit
+72310,-,,,Construction carpenters
+72320,-,,,Bricklayers
+72411,-,,,Auto body repair; not manufacturing coating
+72500,53-7021,1,,Crane operators (the port and plant scope share from occupations.csv still applies)
+73112,-,,,Construction painters and decorators
+73209,-,,,Other repairers and servicers
+73300,53-3032,1,,Transport truck drivers
+73400,-,,,Heavy equipment operators; construction and mining equipment
+74102,43-5021,1,,Couriers and messengers
+74202,53-7062,0.4,,Air transport ramp attendants; cargo share only
+74203,-,,,Vehicle parts installers; automotive service
+74204,-,,,Utility maintenance workers
+75101,53-7051,0.2,,Material handlers who operate forklifts
+75101,53-7062,0.75,,Material handlers (hand)
+75101,53-7064,0.05,,Material handlers who pack by hand
+75110,-,,,Construction trades helpers
+75201,53-3031,0.15,,Route drivers who also sell
+75201,53-3033,0.85,,Delivery service drivers
+75210,-,,,Ferry operators; passenger transport
+75211,53-4022,0.6,,Railway and motor transport labourers
+82031,-,,,Landscaping supervisors
+90010,11-3051,1,,Manufacturing managers
+90011,-,,,Utilities managers
+92100,-,,,Power engineers and power systems operators; utilities
+93101,51-8091,0.3,,Chemical process operators
+93101,51-8093,0.5,,Petroleum process operators
+93200,51-2011,0.8,,Aircraft assemblers
+93200,51-9061,0.2,,Aircraft assembly inspectors
+94130,51-6061,0.2,,Textile fibre and yarn processing
+94130,51-6064,0.6,,Textile fibre and yarn processing
+94130,51-9198,0.2,,Textile fibre and yarn processing helpers
+94141,51-3022,0.7,,"Industrial meat cutters and poultry preparers (processing plants, fully in scope)"
+94141,51-3023,0.3,,Industrial slaughterers
+94200,51-2090,0.85,,Motor vehicle assemblers
+94200,51-9061,0.15,,Motor vehicle inspectors and testers
+94201,51-2028,0.85,,Electronics assemblers
+94201,51-9061,0.15,,Electronics inspectors
+94202,51-2028,0.85,,Electrical appliance assemblers
+94202,51-9061,0.15,,Electrical appliance inspectors
+94203,51-2021,0.3,,Motor and transformer coil winders
+94203,51-2028,0.55,,Industrial electrical equipment assemblers
+94203,51-9061,0.15,,Industrial electrical equipment inspectors
+94204,51-2031,0.85,,Mechanical assemblers
+94204,51-9061,0.15,,Mechanical inspectors
+94210,51-2090,0.6,,Furniture and fixture assemblers
+94210,51-7021,0.25,,Furniture finishers and refinishers
+94210,51-9061,0.15,,Furniture inspectors
+94211,51-2090,0.85,,Other wood products assemblers
+94211,51-9061,0.15,,Other wood products inspectors
+94212,51-2090,0.85,,Plastic products assemblers and finishers
+94212,51-9061,0.15,,Plastic products inspectors
+94219,51-2090,0.85,,Other products assemblers and finishers
+94219,51-9061,0.15,,Other products inspectors
+95105,51-9198,1,,Labourers in textile processing

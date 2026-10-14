@@ -1,0 +1,847 @@
+soc_code,rank,task,importance,onet_code
+11-3051,1,Stop production if serious product defects are present.,4.61,11-3051.01
+11-3051,2,Review and update standard operating procedures or quality assurance manuals.,4.35,11-3051.01
+11-3051,3,Monitor performance of quality control systems to ensure effectiveness and efficiency.,4.33,11-3051.01
+11-3051,4,Review quality documentation necessary for regulatory submissions and inspections.,4.24,11-3051.01
+11-3051,5,Analyze quality control test results and provide feedback and interpretation to production management or staff.,4.23,11-3051.01
+11-3051,6,"Verify that raw materials, purchased parts or components, in-process samples, and finished products meet established testing and inspection standards.",4.22,11-3051.01
+11-3061,1,"Develop and implement purchasing and contract management instructions, policies, and procedures.",4.56,11-3061.00
+11-3061,2,"Locate vendors of materials, equipment or supplies, and interview them to determine product availability and terms of sales.",4.53,11-3061.00
+11-3061,3,Prepare bid awards requiring board approval.,4.22,11-3061.00
+11-3061,4,"Direct and coordinate activities of personnel engaged in buying, selling, and distributing materials, equipment, machinery, and supplies.",4.21,11-3061.00
+11-3061,5,Review purchase order claims and contracts for conformance to company policy.,4.18,11-3061.00
+11-3061,6,"Review, evaluate, and approve specifications for issuing and awarding bids.",4.18,11-3061.00
+11-3071,1,"Supervise the activities of workers engaged in receiving, storing, testing, and shipping products or materials.",4.55,11-3071.00
+11-3071,2,"Plan, develop, or implement warehouse safety and security programs and activities.",4.33,11-3071.00
+11-3071,3,"Inspect physical conditions of warehouses, vehicle fleets, or equipment and order testing, maintenance, repairs, or replacements.",4.30,11-3071.00
+11-3071,4,"Plan, organize, or manage the work of subordinate staff to ensure that the work is accomplished in a manner consistent with organizational requirements.",4.29,11-3071.00
+11-3071,5,"Determine appropriate equipment and staffing levels to load, unload, move, or store materials.",4.24,11-3071.04
+11-3071,6,"Manage activities related to strategic or tactical purchasing, material requirements planning, controlling inventory, warehousing, or receiving.",4.20,11-3071.04
+13-1020,1,Monitor and follow applicable laws and regulations.,4.85,13-1023.00
+13-1020,2,Purchase the highest quality merchandise at the lowest possible price and in correct amounts.,4.55,13-1023.00
+13-1020,3,"Purchase, for further processing or for resale, farm products, such as milk, grains, or Christmas trees.",4.53,13-1021.00
+13-1020,4,Formulate policies and procedures for bid proposals and procurement of goods and services.,4.40,13-1023.00
+13-1020,5,"Prepare purchase orders, solicit bid proposals, and review requisitions for goods and services.",4.40,13-1023.00
+13-1020,6,"Negotiate prices, discount terms, or transportation arrangements with suppliers.",4.30,13-1022.00
+13-1041,1,"Pay, or arrange for payment of, taxes and duties on shipments.",4.94,13-1041.08
+13-1041,2,Classify goods according to tariff coding system.,4.80,13-1041.08
+13-1041,3,Clear goods through customs and to their destinations for clients.,4.78,13-1041.08
+13-1041,4,"Prepare and process import and export documentation according to customs regulations, laws, or procedures.",4.75,13-1041.08
+13-1041,5,"Stay abreast of changes in import or export laws or regulations by reading current literature, attending meetings or conferences, or conferring with colleagues.",4.60,13-1041.08
+13-1041,6,Calculate duty and tariff payments owed on shipments.,4.58,13-1041.08
+13-1081,1,Maintain databases of logistics information.,4.48,13-1081.02
+13-1081,2,"Maintain and develop positive business relationships with a customer's key personnel involved in, or directly relevant to, a logistics activity.",4.46,13-1081.00
+13-1081,3,"Remotely monitor the flow of vehicles or inventory, using Web-based logistics information systems to track vehicles or containers.",4.39,13-1081.02
+13-1081,4,"Communicate with or monitor service providers, such as ocean carriers, air freight forwarders, global consolidators, customs brokers, or trucking companies.",4.38,13-1081.02
+13-1081,5,"Reorganize shipping schedules to consolidate loads, maximize vehicle usage, or limit the movement of empty vehicles or containers.",4.36,13-1081.02
+13-1081,6,Track product flow from origin to final delivery.,4.35,13-1081.02
+15-2031,1,Present the results of mathematical modeling and data analysis to management or other end users.,4.62,15-2031.00
+15-2031,2,"Define data requirements, and gather and validate information, applying judgment and statistical tests.",4.55,15-2031.00
+15-2031,3,"Perform validation and testing of models to ensure adequacy, and reformulate models, as necessary.",4.52,15-2031.00
+15-2031,4,Prepare management reports defining and evaluating problems and recommending solutions.,4.50,15-2031.00
+15-2031,5,Collaborate with others in the organization to ensure successful implementation of chosen problem solutions.,4.43,15-2031.00
+15-2031,6,"Formulate mathematical or simulation models of problems, relating constants and variables, restrictions, alternatives, conflicting objectives, and their numerical parameters.",4.38,15-2031.00
+17-2112,1,"Troubleshoot new or existing product problems involving designs, materials, or processes.",4.35,17-2112.03
+17-2112,2,"Investigate or resolve operational problems, such as material use variances or bottlenecks.",4.27,17-2112.03
+17-2112,3,"Identify opportunities or implement changes to improve manufacturing processes or products or to reduce costs, using knowledge of fabrication processes, tooling and production equipment, assembly methods, quality control standards, or product design, materials and parts.",4.19,17-2112.03
+17-2112,4,"Apply continuous improvement methods, such as lean manufacturing, to enhance manufacturing quality, reliability, or cost-effectiveness.",4.16,17-2112.03
+17-2112,5,Provide technical expertise or support related to manufacturing.,4.04,17-2112.03
+17-2112,6,"Estimate production costs, cost saving methods, and the effects of product design changes on expenditures for management review, action, and control.",3.97,17-2112.00
+17-3026,1,"Adhere to all applicable regulations, policies, and procedures for health, safety, and environmental compliance.",4.22,17-3026.00
+17-3026,2,"Calibrate or adjust equipment to ensure quality production, using tools such as calipers, micrometers, height gauges, protractors, or ring gauges.",4.00,17-3026.00
+17-3026,3,Oversee or inspect production processes.,3.98,17-3026.00
+17-3026,4,"Identify opportunities for improvements in quality, cost, or efficiency of automation equipment.",3.97,17-3026.00
+17-3026,5,"Develop or implement programs to address problems related to production, materials, safety, or quality.",3.96,17-3026.00
+17-3026,6,Test selected products at specified stages in the production process for performance characteristics or adherence to specifications.,3.95,17-3026.00
+41-1012,1,Monitor sales staff performance to ensure that goals are met.,4.29,41-1012.00
+41-1012,2,Provide staff with assistance in performing difficult or complicated duties.,4.06,41-1012.00
+41-1012,3,Visit retailers and sales representatives to promote products and gather information.,4.06,41-1012.00
+41-1012,4,Formulate pricing policies on merchandise according to profitability requirements.,4.06,41-1012.00
+41-1012,5,Prepare sales and inventory reports for management and budget departments.,4.02,41-1012.00
+41-1012,6,"Direct and supervise employees engaged in sales, inventory-taking, reconciling cash receipts, or performing specific services.",3.95,41-1012.00
+41-4011,1,Negotiate prices or terms of sales or service agreements.,4.30,41-4011.00
+41-4011,2,Prepare and submit sales contracts for orders.,4.24,41-4011.00
+41-4011,3,Visit establishments to evaluate needs or to promote product or service sales.,4.22,41-4011.00
+41-4011,4,Sell service contracts for technical or scientific products.,4.22,41-4011.00
+41-4011,5,"Maintain customer records, using automated systems.",4.20,41-4011.00
+41-4011,6,"Answer customers' questions about products, prices, availability, or credit terms.",4.15,41-4011.00
+41-4012,1,"Negotiate with retail merchants to improve product exposure, such as shelf positioning and advertising.",4.41,41-4012.00
+41-4012,2,Check stock levels and reorder merchandise as necessary.,4.40,41-4012.00
+41-4012,3,"Plan, assemble, and stock product displays in retail stores, or make recommendations to retailers regarding product displays, promotional programs, and advertising.",4.38,41-4012.00
+41-4012,4,"Answer customers' questions about products, prices, availability, product uses, and credit terms.",4.37,41-4012.00
+41-4012,5,"Recommend products to customers, based on customers' needs and interests.",4.29,41-4012.00
+41-4012,6,"Estimate or quote prices, credit or contract terms, warranties, and delivery dates.",4.27,41-4012.00
+43-3021,1,Verify accuracy of billing data and revise any errors.,4.66,43-3021.00
+43-3021,2,Review compiled data on operating costs and revenues to set rates.,4.35,43-3021.00
+43-3021,3,"Prepare itemized statements, bills, or invoices and record amounts due for items purchased or services rendered.",4.24,43-3021.00
+43-3021,4,"Answer inquiries regarding rates, routing, or procedures.",4.23,43-3021.00
+43-3021,5,Keep records of invoices and support documents.,4.13,43-3021.00
+43-3021,6,"Operate typing, adding, calculating, or billing machines.",4.03,43-3021.00
+43-3031,1,"Operate computers programmed with accounting software to record, store, and analyze information.",4.76,43-3031.00
+43-3031,2,Prepare and process payroll information.,4.71,43-3031.00
+43-3031,3,"Check figures, postings, and documents for correct entry, mathematical accuracy, and proper codes.",4.68,43-3031.00
+43-3031,4,"Prepare bank deposits by compiling data from cashiers, verifying and balancing receipts, and sending cash, checks, or other forms of payment to banks.",4.61,43-3031.00
+43-3031,5,"Comply with federal, state, and company policies, procedures, and regulations.",4.57,43-3031.00
+43-3031,6,"Operate 10-key calculators, typewriters, and copy machines to perform calculations and produce documents.",4.47,43-3031.00
+43-3061,1,"Track the status of requisitions, contracts, and orders.",4.45,43-3061.00
+43-3061,2,Perform buying duties when necessary.,4.42,43-3061.00
+43-3061,3,Prepare purchase orders and send copies to suppliers and to departments originating requests.,4.36,43-3061.00
+43-3061,4,"Calculate costs of orders, and charge or forward invoices to appropriate accounts.",4.34,43-3061.00
+43-3061,5,"Compare prices, specifications, and delivery dates to determine the best bid among potential suppliers.",4.33,43-3061.00
+43-3061,6,Approve and pay bills.,4.29,43-3061.00
+43-4051,1,"Confer with customers by telephone or in person to provide information about products or services, take or enter orders, cancel accounts, or obtain details of complaints.",4.67,43-4051.00
+43-4051,2,"Keep records of customer interactions or transactions, recording details of inquiries, complaints, or comments, as well as actions taken.",4.53,43-4051.00
+43-4051,3,Check to ensure that appropriate changes were made to resolve customers' problems.,4.39,43-4051.00
+43-4051,4,Contact customers to respond to inquiries or to notify them of claim investigation results or any planned adjustments.,4.22,43-4051.00
+43-4051,5,"Resolve customers' service or billing complaints by performing activities such as exchanging merchandise, refunding money, or adjusting bills.",4.19,43-4051.00
+43-4051,6,"Determine charges for services requested, collect deposits or payments, or arrange for billing.",4.18,43-4051.00
+43-4151,1,Review orders for completeness according to reporting procedures and forward incomplete orders for further processing.,4.49,43-4151.00
+43-4151,2,"Obtain customers' names, addresses, and billing information, product numbers, and specifications of items to be purchased, and enter this information on order forms.",4.44,43-4151.00
+43-4151,3,"Prepare invoices, shipping documents, and contracts.",4.30,43-4151.00
+43-4151,4,Recommend merchandise or services that will meet customers' needs.,4.29,43-4151.00
+43-4151,5,Inspect outgoing work for compliance with customers' specifications.,4.26,43-4151.00
+43-4151,6,Receive and respond to customer complaints.,4.24,43-4151.00
+43-5011,1,Negotiate shipping rates with freight carriers.,4.63,43-5011.01
+43-5011,2,"Arrange for special transport of sensitive cargoes, such as livestock, food, or medical supplies.",4.53,43-5011.01
+43-5011,3,"Arrange for applicable duties, taxes, or paperwork for customs clearance.",4.52,43-5011.01
+43-5011,4,"Inform clients of factors such as shipping options, timelines, transfers, or regulations affecting shipments.",4.52,43-5011.01
+43-5011,5,"Prepare shipping documentation, such as bills of lading, packing lists, dock receipts, or certificates of origin.",4.51,43-5011.01
+43-5011,6,Complete customs paperwork.,4.47,43-5011.01
+43-5021,1,"Deliver and pick up medical records, lab specimens, and medications to and from hospitals and other medical facilities.",4.38,43-5021.00
+43-5021,2,"Walk, ride bicycles, drive vehicles, or use public conveyances to reach destinations to deliver messages or materials.",4.18,43-5021.00
+43-5021,3,"Load vehicles with listed goods, ensuring goods are loaded correctly and taking precautions with hazardous goods.",4.13,43-5021.00
+43-5021,4,"Receive messages or materials to be delivered, and information on recipients, such as names, addresses, telephone numbers, and delivery instructions, communicated via telephone, two-way radio, or in person.",4.08,43-5021.00
+43-5021,5,"Deliver messages and items, such as newspapers, documents, and packages, between establishment departments and to other establishments and private homes.",4.05,43-5021.00
+43-5021,6,"Obtain signatures and payments, or arrange for recipients to make payments.",4.05,43-5021.00
+43-5032,1,"Schedule or dispatch workers, work crews, equipment, or service vehicles to appropriate locations, according to customer requests, specifications, or needs, using radios or telephones.",4.79,43-5032.00
+43-5032,2,Prepare daily work and run schedules.,4.66,43-5032.00
+43-5032,3,"Confer with customers or supervising personnel to address questions, problems, or requests for service or equipment.",4.65,43-5032.00
+43-5032,4,"Relay work orders, messages, or information to or from work crews, supervisors, or field inspectors, using telephones or two-way radios.",4.62,43-5032.00
+43-5032,5,Oversee all communications within specifically assigned territories.,4.53,43-5032.00
+43-5032,6,Receive or prepare work orders.,4.46,43-5032.00
+43-5052,1,Scan labels on letters or parcels to confirm receipt.,4.77,43-5052.00
+43-5052,2,"Obtain signed receipts for registered, certified, and insured mail, collect associated charges, and complete any necessary paperwork.",4.70,43-5052.00
+43-5052,3,"Return to the post office with mail collected from homes, businesses, and public mailboxes.",4.68,43-5052.00
+43-5052,4,"Sort mail for delivery, arranging it in delivery sequence.",4.63,43-5052.00
+43-5052,5,"Deliver mail to residences and business establishments along specified routes by walking or driving, using a combination of satchels, carts, cars, and small trucks.",4.58,43-5052.00
+43-5052,6,Meet schedules for the collection and return of mail.,4.58,43-5052.00
+43-5053,1,"Direct items according to established routing schemes, using computer-controlled keyboards or voice-recognition equipment.",4.55,43-5053.00
+43-5053,2,"Check items to ensure that addresses are legible and correct, that sufficient postage has been paid or the appropriate documentation is attached, and that items are in a suitable condition for processing.",4.45,43-5053.00
+43-5053,3,Clear jams in sorting equipment.,4.44,43-5053.00
+43-5053,4,"Bundle, label, and route sorted mail to designated areas, depending on destinations and according to established procedures and deadlines.",4.41,43-5053.00
+43-5053,5,"Operate various types of equipment, such as computer scanning equipment, addressographs, mimeographs, optical character readers, and bar-code sorters.",4.35,43-5053.00
+43-5053,6,"Move containers of mail, using equipment, such as forklifts and automated ""trains"".",4.28,43-5053.00
+43-5061,1,Distribute production schedules or work orders to departments.,4.35,43-5061.00
+43-5061,2,"Revise production schedules when required due to design changes, labor or material shortages, backlogs, or other interruptions, collaborating with management, marketing, sales, production, or engineering.",4.29,43-5061.00
+43-5061,3,"Review documents, such as production schedules, work orders, or staffing tables, to determine personnel or materials requirements or material priorities.",4.16,43-5061.00
+43-5061,4,"Arrange for delivery, assembly, or distribution of supplies or parts to expedite flow of materials and meet production schedules.",3.99,43-5061.00
+43-5061,5,"Confer with establishment personnel, vendors, or customers to coordinate production or shipping activities and to resolve complaints or eliminate delays.",3.98,43-5061.00
+43-5061,6,Requisition and maintain inventories of materials or supplies necessary to meet production demands.,3.94,43-5061.00
+43-5071,1,"Examine shipment contents and compare with records, such as manifests, invoices, or orders, to verify accuracy.",4.22,43-5071.00
+43-5071,2,Requisition and store shipping materials and supplies to maintain inventory of stock.,4.05,43-5071.00
+43-5071,3,"Prepare documents, such as work orders, bills of lading, or shipping orders, to route materials.",4.05,43-5071.00
+43-5071,4,"Pack, seal, label, or affix postage to prepare materials for shipping, using hand tools, power tools, or postage meter.",4.00,43-5071.00
+43-5071,5,"Record shipment data, such as weight, charges, space availability, damages, or discrepancies, for reporting, accounting, or recordkeeping purposes.",3.96,43-5071.00
+43-5071,6,"Confer or correspond with establishment representatives to rectify problems, such as damages, shortages, or nonconformance to specifications.",3.95,43-5071.00
+43-5111,1,"Compare product labels, tags, or tickets, shipping manifests, purchase orders, and bills of lading to verify accuracy of shipment contents, quality specifications, or weights.",4.45,43-5111.00
+43-5111,2,"Document quantity, quality, type, weight, test result data, and value of materials or products to maintain shipping, receiving, and production records and files.",4.43,43-5111.00
+43-5111,3,"Weigh or measure materials, equipment, or products to maintain relevant records, using volume meters, scales, rules, or calipers.",4.41,43-5111.00
+43-5111,4,"Collect or prepare measurement, weight, or identification labels and attach them to products.",4.35,43-5111.00
+43-5111,5,"Remove from stock products or loads not meeting quality standards, and notify supervisors or appropriate departments of discrepancies or shortages.",4.35,43-5111.00
+43-5111,6,Inspect products and examination records to determine the number of defects per worker and the reasons for examiners' rejections.,4.33,43-5111.00
+49-1011,1,"Inspect, test, and measure completed work, using devices such as hand tools or gauges to verify conformance to standards or repair requirements.",3.89,49-1011.00
+49-1011,2,"Inspect and monitor work areas, examine tools and equipment, and provide employee safety training to prevent, detect, and correct unsafe conditions or violations of procedures and safety rules.",3.88,49-1011.00
+49-1011,3,"Interpret specifications, blueprints, or job orders to construct templates and lay out reference points for workers.",3.86,49-1011.00
+49-1011,4,Monitor employees' work levels and review work performance.,3.86,49-1011.00
+49-1011,5,"Perform skilled repair or maintenance operations, using equipment such as hand or power tools, hydraulic presses or shears, or welding equipment.",3.81,49-1011.00
+49-1011,6,"Compute estimates and actual costs of factors such as materials, labor, or outside contractors.",3.75,49-1011.00
+49-2094,1,"Test faulty equipment to diagnose malfunctions, using test equipment or software, and applying knowledge of the functional operation of electronic units and systems.",4.32,49-2094.00
+49-2094,2,"Maintain equipment logs that record performance problems, repairs, calibrations, or tests.",4.26,49-2094.00
+49-2094,3,Set up and test industrial equipment to ensure that it functions properly.,4.24,49-2094.00
+49-2094,4,"Inspect components of industrial equipment for accurate assembly and installation or for defects, such as loose connections or frayed wires.",4.15,49-2094.00
+49-2094,5,"Install repaired equipment in various settings, such as industrial or military establishments.",4.10,49-2094.00
+49-2094,6,Operate equipment to demonstrate proper use or to analyze malfunctions.,4.09,49-2094.00
+49-3031,1,"Use handtools, such as screwdrivers, pliers, wrenches, pressure gauges, or precision instruments, as well as power tools, such as pneumatic wrenches, lathes, welding equipment, or jacks and hoists.",4.54,49-3031.00
+49-3031,2,"Inspect brake systems, steering mechanisms, wheel bearings, and other important parts to ensure that they are in proper operating condition.",4.30,49-3031.00
+49-3031,3,"Raise trucks, buses, and heavy parts or equipment using hydraulic jacks or hoists.",4.23,49-3031.00
+49-3031,4,"Adjust and reline brakes, align wheels, tighten bolts and screws, and reassemble equipment.",4.21,49-3031.00
+49-3031,5,"Attach test instruments to equipment, and read dials and gauges to diagnose malfunctions.",4.17,49-3031.00
+49-3031,6,"Perform routine maintenance such as changing oil, checking batteries, and lubricating equipment and machinery.",4.16,49-3031.00
+49-3043,1,"Record conditions of cars, and repair and maintenance work performed or to be performed.",4.24,49-3043.00
+49-3043,2,"Inspect components such as bearings, seals, gaskets, wheels, and coupler assemblies to determine if repairs are needed.",4.22,49-3043.00
+49-3043,3,"Repair or replace defective or worn parts such as bearings, pistons, and gears, using hand tools, torque wrenches, power tools, and welding equipment.",4.13,49-3043.00
+49-3043,4,Inspect the interior and exterior of rail cars coming into rail yards to identify defects and to determine the extent of wear and damage.,4.07,49-3043.00
+49-3043,5,"Remove locomotives, car mechanical units, or other components, using pneumatic hoists and jacks, pinch bars, hand tools, and cutting torches.",4.01,49-3043.00
+49-3043,6,Test units for operability before and after repairs.,3.94,49-3043.00
+49-9041,1,Repair or maintain the operating condition of industrial production or processing machinery or equipment.,4.29,49-9041.00
+49-9041,2,Repair or replace broken or malfunctioning components of machinery or equipment.,4.24,49-9041.00
+49-9041,3,"Clean, lubricate, or adjust parts, equipment, or machinery.",4.17,49-9041.00
+49-9041,4,Disassemble machinery or equipment to remove parts and make repairs.,4.14,49-9041.00
+49-9041,5,"Reassemble equipment after completion of inspections, testing, or repairs.",4.11,49-9041.00
+49-9041,6,"Examine parts for defects, such as breakage or excessive wear.",4.10,49-9041.00
+49-9043,1,"Dismantle machines and remove parts for repair, using hand tools, chain falls, jacks, cranes, or hoists.",4.14,49-9043.00
+49-9043,2,Reassemble machines after the completion of repair or maintenance work.,4.12,49-9043.00
+49-9043,3,"Record production, repair, and machine maintenance information.",4.10,49-9043.00
+49-9043,4,"Lubricate or apply adhesives or other materials to machines, machine parts, or other equipment according to specified procedures.",4.04,49-9043.00
+49-9043,5,"Install, replace, or change machine parts and attachments, according to production specifications.",4.03,49-9043.00
+49-9043,6,"Set up and operate machines, and adjust controls to regulate operations.",4.03,49-9043.00
+49-9044,1,"Replace defective parts of machine, or adjust clearances and alignment of moving parts.",4.81,49-9044.00
+49-9044,2,"Align machines or equipment, using hoists, jacks, hand tools, squares, rules, micrometers, lasers, or plumb bobs.",4.73,49-9044.00
+49-9044,3,"Insert shims, adjust tension on nuts and bolts, or position parts, using hand tools and measuring instruments, to set specified clearances between moving and stationary parts.",4.68,49-9044.00
+49-9044,4,"Signal crane operator to lower basic assembly units to bedplate, and align unit to centerline.",4.64,49-9044.00
+49-9044,5,"Conduct preventative maintenance and repair, and lubricate machines and equipment.",4.59,49-9044.00
+49-9044,6,"Assemble and install equipment, using hand tools and power tools.",4.55,49-9044.00
+49-9071,1,"Perform routine maintenance, such as inspecting drives, motors, or belts, checking fluid levels, replacing filters, or doing other preventive maintenance actions.",4.26,49-9071.00
+49-9071,2,"Inspect, operate, or test machinery or equipment to diagnose machine malfunctions.",4.05,49-9071.00
+49-9071,3,"Adjust functional parts of devices or control instruments, using hand tools, levels, plumb bobs, or straightedges.",3.89,49-9071.00
+49-9071,4,"Repair machines, equipment, or structures, using tools such as hammers, hoists, saws, drills, wrenches, or equipment such as precision measuring instruments or electrical or electronic testing devices.",3.86,49-9071.00
+49-9071,5,"Order parts, supplies, or equipment from catalogs or suppliers.",3.83,49-9071.00
+49-9071,6,"Perform routine maintenance on boilers, such as replacing burners or hoses, installing replacement parts, or reinforcing structural weaknesses to ensure optimal boiler efficiency.",3.82,49-9071.00
+51-1011,1,Enforce safety and sanitation regulations.,4.48,51-1011.00
+51-1011,2,Keep records of employees' attendance and hours worked.,4.23,51-1011.00
+51-1011,3,"Inspect materials, products, or equipment to detect defects or malfunctions.",4.23,51-1011.00
+51-1011,4,"Read and analyze charts, work orders, production schedules, and other records and reports to determine production requirements and to evaluate current production estimates and outputs.",4.22,51-1011.00
+51-1011,5,"Plan and establish work schedules, assignments, and production sequences to meet production goals.",4.20,51-1011.00
+51-1011,6,Confer with other supervisors to coordinate operations and activities within or between departments.,4.15,51-1011.00
+51-2011,1,"Read blueprints, illustrations, or specifications to determine layouts, sequences of operations, or identities or relationships of parts.",4.60,51-2011.00
+51-2011,2,"Inspect or test installed units, parts, systems, or assemblies for fit, alignment, performance, defects, or compliance with standards, using measuring instruments or test equipment.",4.58,51-2011.00
+51-2011,3,"Set, align, adjust, or synchronize aircraft armament or rigging or control system components to established tolerances or requirements, using sighting devices and hand tools.",4.58,51-2011.00
+51-2011,4,"Join structural assemblies, such as wings, tails, or fuselage.",4.57,51-2011.00
+51-2011,5,"Assemble parts, fittings, or subassemblies on aircraft, using layout tools, hand tools, power tools, or fasteners, such as bolts, screws, rivets, or clamps.",4.44,51-2011.00
+51-2011,6,"Capture or segregate waste material, such as aluminum swarf, machine cutting fluid, or solvents, for recycling or environmentally responsible disposal.",4.40,51-2011.00
+51-2021,1,"Operate or tend wire-coiling machines to wind wire coils used in electrical components such as resistors and transformers, and in electrical equipment and instruments such as bobbins and generators.",4.58,51-2021.00
+51-2021,2,"Attach, alter, and trim materials such as wire, insulation, and coils, using hand tools.",4.43,51-2021.00
+51-2021,3,"Cut, strip, and bend wire leads at ends of coils, using pliers and wire scrapers.",4.40,51-2021.00
+51-2021,4,Review work orders and specifications to determine materials needed and types of parts to be processed.,4.40,51-2021.00
+51-2021,5,"Examine and test wired electrical components such as motors, armatures, and stators, using measuring devices, and record test results.",4.38,51-2021.00
+51-2021,6,"Select and load materials such as workpieces, objects, and machine parts onto equipment used in coiling processes.",4.25,51-2021.00
+51-2031,1,"Read and interpret assembly blueprints or specifications manuals, and plan assembly or building operations.",4.65,51-2031.00
+51-2031,2,"Inspect, operate, and test completed products to verify functioning, machine capabilities, or conformance to customer specifications.",4.46,51-2031.00
+51-2031,3,"Position or align components for assembly, manually or using hoists.",4.42,51-2031.00
+51-2031,4,Set and verify parts clearances.,4.40,51-2031.00
+51-2031,5,"Verify conformance of parts to stock lists or blueprints, using measuring instruments such as calipers, gauges, or micrometers.",4.39,51-2031.00
+51-2031,6,"Fasten or install piping, fixtures, or wiring and electrical components to form assemblies or subassemblies, using hand tools, rivet guns, or welding equipment.",4.25,51-2031.00
+51-2041,1,"Verify conformance of workpieces to specifications, using squares, rulers, and measuring tapes.",4.46,51-2041.00
+51-2041,2,Study engineering drawings and blueprints to determine materials requirements and task sequences.,4.41,51-2041.00
+51-2041,3,"Position, align, fit, and weld parts to form complete units or subunits, following blueprints and layout specifications, and using jigs, welding torches, and hand tools.",4.39,51-2041.00
+51-2041,4,Lay out and examine metal stock or workpieces to be processed to ensure that specifications are met.,4.27,51-2041.00
+51-2041,5,Tack-weld fitted parts together.,4.24,51-2041.00
+51-2041,6,"Move parts into position, manually or with hoists or cranes.",4.21,51-2041.00
+51-2051,1,"Release air bubbles and smooth seams, using rollers.",4.55,51-2051.00
+51-2051,2,"Spray chopped fiberglass, resins, and catalysts onto prepared molds or dies using pneumatic spray guns with chopper attachments.",4.47,51-2051.00
+51-2051,3,"Apply layers of plastic resin to mold surfaces prior to placement of fiberglass mats, repeating layers until products have the desired thicknesses and plastics have jelled.",4.44,51-2051.00
+51-2051,4,"Mix catalysts into resins, and saturate cloth and mats with mixtures, using brushes.",4.43,51-2051.00
+51-2051,5,"Check completed products for conformance to specifications and for defects by measuring with rulers or micrometers, by checking them visually, or by tapping them to detect bubbles or dead spots.",4.38,51-2051.00
+51-2051,6,"Pat or press layers of saturated mat or cloth into place on molds, using brushes or hands, and smooth out wrinkles and air bubbles with hands or squeegees.",4.29,51-2051.00
+51-2061,1,Change timing weights on balance wheels to correct deficient timing.,4.57,51-2061.00
+51-2061,2,"Assemble and install components of timepieces to complete mechanisms, using watchmakers' tools and loupes.",4.52,51-2061.00
+51-2061,3,"Adjust sizes or positioning of timepiece parts to achieve specified fit or function, using calipers, fixtures, and loupes.",4.52,51-2061.00
+51-2061,4,"Observe operation of timepiece parts and subassemblies to determine accuracy of movement, and to diagnose causes of defects.",4.47,51-2061.00
+51-2061,5,"Test operation and fit of timepiece parts and subassemblies, using electronic testing equipment, tweezers, watchmakers' tools, and loupes.",4.28,51-2061.00
+51-2061,6,Mount hairsprings and balance wheel assemblies between jaws of truing calipers.,4.18,51-2061.00
+51-2090,1,Perform quality checks on products and parts.,4.62,51-2092.00
+51-2090,2,Review work orders and blueprints to ensure work is performed according to specifications.,4.43,51-2092.00
+51-2090,3,Provide assistance in the production of wiring assemblies.,4.24,51-2092.00
+51-2090,4,Maintain production equipment and machinery.,4.17,51-2092.00
+51-2090,5,Rotate through all the tasks required in a particular production process.,4.15,51-2092.00
+51-2090,6,Complete production reports to communicate team production level to management.,4.08,51-2092.00
+51-3011,1,"Measure or weigh flour or other ingredients to prepare batters, doughs, fillings, or icings, using scales or graduated containers.",4.62,51-3011.00
+51-3011,2,"Set oven temperatures, and place items into hot ovens for baking.",4.47,51-3011.00
+51-3011,3,"Check products for quality, and identify damaged or expired goods.",4.46,51-3011.00
+51-3011,4,"Check equipment to ensure that it meets health and safety regulations, and perform maintenance or cleaning, as necessary.",4.46,51-3011.00
+51-3011,5,Adapt the quantity of ingredients to match the amount of items to be baked.,4.43,51-3011.00
+51-3011,6,"Place dough in pans, molds, or on sheets, and bake in production ovens or on grills.",4.42,51-3011.00
+51-3021,1,Prepare and place meat cuts and products in display counter to appear attractive and catch the shopper's eye.,4.70,51-3021.00
+51-3021,2,"Wrap, weigh, label, and price cuts of meat.",4.60,51-3021.00
+51-3021,3,"Cut, trim, bone, tie, and grind meats, such as beef, pork, poultry, and fish, to prepare in cooking form.",4.55,51-3021.00
+51-3021,4,Prepare special cuts of meat ordered by customers.,4.52,51-3021.00
+51-3021,5,"Receive, inspect, and store meat upon delivery to ensure meat quality.",4.46,51-3021.00
+51-3021,6,Estimate requirements and order or requisition meat supplies to maintain inventories.,4.28,51-3021.00
+51-3022,1,"Use knives, cleavers, meat saws, bandsaws, or other equipment to perform meat cutting and trimming.",4.60,51-3022.00
+51-3022,2,Weigh meats and tag containers for weight and contents.,4.48,51-3022.00
+51-3022,3,Process primal parts into cuts that are ready for retail use.,4.36,51-3022.00
+51-3022,4,"Inspect meat products for defects, bruises or blemishes and remove them along with any excess fat.",4.33,51-3022.00
+51-3022,5,Cut and trim meat to prepare for packing.,4.28,51-3022.00
+51-3022,6,Separate meats and byproducts into specified containers and seal containers.,4.25,51-3022.00
+51-3023,1,"Remove bones, and cut meat into standard cuts in preparation for marketing.",4.69,51-3023.00
+51-3023,2,Sever jugular veins to drain blood and facilitate slaughtering.,4.64,51-3023.00
+51-3023,3,"Tend assembly lines, performing a few of the many cuts needed to process a carcass.",4.53,51-3023.00
+51-3023,4,Shackle hind legs of animals to raise them for slaughtering or skinning.,4.50,51-3023.00
+51-3023,5,"Slit open, eviscerate, and trim carcasses of slaughtered animals.",4.45,51-3023.00
+51-3023,6,Stun animals prior to slaughtering.,4.42,51-3023.00
+51-3091,1,"Observe, feel, taste, or otherwise examine products during and after processing to ensure conformance to standards.",4.58,51-3091.00
+51-3091,2,Take product samples during or after processing for laboratory analyses.,4.58,51-3091.00
+51-3091,3,"Set temperature and time controls, light ovens, burners, driers, or roasters, and start equipment, such as conveyors, cylinders, blowers, driers, or pumps.",4.57,51-3091.00
+51-3091,4,"Observe temperature, humidity, pressure gauges, and product samples and adjust controls, such as thermostats and valves, to maintain prescribed operating conditions for specific stages.",4.36,51-3091.00
+51-3091,5,"Observe flow of materials and listen for machine malfunctions, such as jamming or spillage, and notify supervisors if corrective actions fail.",4.36,51-3091.00
+51-3091,6,"Test products for moisture content, using moisture meters.",4.35,51-3091.00
+51-3092,1,"Record production and test data for each food product batch, such as the ingredients used, temperature, test results, and time cycle.",4.77,51-3092.00
+51-3092,2,Clean and sterilize vats and factory processing areas.,4.73,51-3092.00
+51-3092,3,"Test food product samples for moisture content, acidity level, specific gravity, or butter-fat content, and continue processing until desired levels are reached.",4.66,51-3092.00
+51-3092,4,"Set up, operate, and tend equipment that cooks, mixes, blends, or processes ingredients in the manufacturing of food products, according to formulas or recipes.",4.65,51-3092.00
+51-3092,5,"Mix or blend ingredients, according to recipes, using a paddle or an agitator, or by controlling vats that heat and mix ingredients.",4.61,51-3092.00
+51-3092,6,Inspect vats after cleaning to ensure that fermentable residue has been removed.,4.61,51-3092.00
+51-3093,1,"Clean, wash, and sterilize equipment and cooking area, using water hoses, cleaning or sterilizing solutions, or rinses.",4.65,51-3093.00
+51-3093,2,"Read work orders, recipes, or formulas to determine cooking times and temperatures, and ingredient specifications.",4.61,51-3093.00
+51-3093,3,"Observe gauges, dials, and product characteristics, and adjust controls to maintain appropriate temperature, pressure, and flow of ingredients.",4.56,51-3093.00
+51-3093,4,"Measure or weigh ingredients, using scales or measuring containers.",4.52,51-3093.00
+51-3093,5,"Tend or operate and control equipment, such as kettles, cookers, vats and tanks, and boilers, to cook ingredients or prepare products for further processing.",4.48,51-3093.00
+51-3093,6,"Record production and test data, such as processing steps, temperature and steam readings, cooking time, batches processed, and test results.",4.45,51-3093.00
+51-4021,1,Reel extruded products into rolls of specified lengths and weights.,4.74,51-4021.00
+51-4021,2,"Measure and examine extruded products to locate defects and to check for conformance to specifications, adjusting controls as necessary to alter products.",4.73,51-4021.00
+51-4021,3,"Start machines and set controls to regulate vacuum, air pressure, sizing rings, and temperature, and to synchronize speed of extrusion.",4.70,51-4021.00
+51-4021,4,"Weigh and mix pelletized, granular, or powdered thermoplastic materials and coloring pigments.",4.69,51-4021.00
+51-4021,5,"Determine setup procedures and select machine dies and parts, according to specifications.",4.57,51-4021.00
+51-4021,6,"Troubleshoot, maintain, and make minor repairs to equipment.",4.57,51-4021.00
+51-4022,1,"Install, adjust, and remove dies, synchronizing cams, forging hammers, and stop guides, using overhead cranes or other hoisting devices, and hand tools.",4.38,51-4022.00
+51-4022,2,"Start machines to produce sample workpieces, and observe operations to detect machine malfunctions and to verify that machine setups conform to specifications.",4.07,51-4022.00
+51-4022,3,Remove dies from machines when production runs are finished.,4.04,51-4022.00
+51-4022,4,"Select, align, and bolt positioning fixtures, stops, and specified dies to rams and anvils, forging rolls, or presses and hammers.",3.93,51-4022.00
+51-4022,5,Read work orders or blueprints to determine specified tolerances and sequences of operations for machine setup.,3.91,51-4022.00
+51-4022,6,"Repair, maintain, and replace parts on dies.",3.83,51-4022.00
+51-4023,1,Monitor machine cycles and mill operation to detect jamming and to ensure that products conform to specifications.,4.57,51-4023.00
+51-4023,2,"Adjust and correct machine set-ups to reduce thicknesses, reshape products, and eliminate product defects.",4.56,51-4023.00
+51-4023,3,"Start operation of rolling and milling machines to flatten, temper, form, and reduce sheet metal sections and to produce steel strips.",4.47,51-4023.00
+51-4023,4,"Examine, inspect, and measure raw materials and finished products to verify conformance to specifications.",4.39,51-4023.00
+51-4023,5,"Read rolling orders, blueprints, and mill schedules to determine setup specifications, work sequences, product dimensions, and installation procedures.",4.34,51-4023.00
+51-4023,6,"Thread or feed sheets or rods through rolling mechanisms, or start and control mechanisms that automatically feed steel into rollers.",4.28,51-4023.00
+51-4031,1,"Measure completed workpieces to verify conformance to specifications, using micrometers, gauges, calipers, templates, or rulers.",4.67,51-4031.00
+51-4031,2,"Examine completed workpieces for defects, such as chipped edges or marred surfaces and sort defective pieces according to types of flaws.",4.56,51-4031.00
+51-4031,3,Lubricate workpieces with oil.,4.50,51-4031.00
+51-4031,4,"Read work orders or production schedules to determine specifications, such as materials to be used, locations of cutting lines, or dimensions and tolerances.",4.47,51-4031.00
+51-4031,5,"Install, align, and lock specified punches, dies, cutting blades, or other fixtures in rams or beds of machines, using gauges, templates, feelers, shims, and hand tools.",4.47,51-4031.00
+51-4031,6,"Start machines, monitor their operations, and record operational data.",4.46,51-4031.00
+51-4032,1,"Verify conformance of machined work to specifications, using measuring instruments, such as calipers, micrometers, or fixed or telescoping gauges.",4.84,51-4032.00
+51-4032,2,"Study machining instructions, job orders, or blueprints to determine dimensional or finish specifications, sequences of operations, setups, or tooling requirements.",4.70,51-4032.00
+51-4032,3,Move machine controls to lower tools to workpieces and to engage automatic feeds.,4.55,51-4032.00
+51-4032,4,"Verify that workpiece reference lines are parallel to the axis of table rotation, using dial indicators mounted in spindles.",4.49,51-4032.00
+51-4032,5,"Establish zero reference points on workpieces, such as at the intersections of two edges or over hole locations.",4.47,51-4032.00
+51-4032,6,"Change worn cutting tools, using wrenches.",4.46,51-4032.00
+51-4033,1,"Measure workpieces and lay out work, using precision measuring devices.",4.46,51-4033.00
+51-4033,2,"Inspect or measure finished workpieces to determine conformance to specifications, using measuring instruments, such as gauges or micrometers.",4.33,51-4033.00
+51-4033,3,"Set and adjust machine controls according to product specifications, using knowledge of machine operation.",4.30,51-4033.00
+51-4033,4,"Observe machine operations to detect any problems, making necessary adjustments to correct problems.",4.29,51-4033.00
+51-4033,5,"Activate machine start-up switches to grind, lap, hone, debar, shear, or cut workpieces, according to specifications.",4.24,51-4033.00
+51-4033,6,"Study blueprints, work orders, or machining instructions to determine product specifications, tool requirements, and operational sequences.",4.23,51-4033.00
+51-4034,1,Adjust machine controls and change tool settings to keep dimensions within specified tolerances.,4.34,51-4034.00
+51-4034,2,"Move controls to set cutting speeds and depths and feed rates, and to position tools in relation to workpieces.",4.31,51-4034.00
+51-4034,3,"Study blueprints, layouts or charts, and job orders for information on specifications and tooling instructions, and to determine material requirements and operational sequences.",4.30,51-4034.00
+51-4034,4,"Inspect sample workpieces to verify conformance with specifications, using instruments such as gauges, micrometers, and dial indicators.",4.24,51-4034.00
+51-4034,5,"Replace worn tools, and sharpen dull cutting tools and dies, using bench grinders or cutter-grinding machines.",4.22,51-4034.00
+51-4034,6,"Move toolholders manually or by turning handwheels, or engage automatic feeding mechanisms to feed tools to and along workpieces.",4.18,51-4034.00
+51-4035,1,"Remove workpieces from machines, and check to ensure that they conform to specifications, using measuring instruments such as microscopes, gauges, calipers, and micrometers.",4.45,51-4035.00
+51-4035,2,"Verify alignment of workpieces on machines, using measuring instruments such as rules, gauges, or calipers.",4.37,51-4035.00
+51-4035,3,"Move controls to set cutting specifications, to position cutting tools and workpieces in relation to each other, and to start machines.",4.35,51-4035.00
+51-4035,4,"Observe milling or planing machine operation, and adjust controls to ensure conformance with specified tolerances.",4.33,51-4035.00
+51-4035,5,"Select and install cutting tools and other accessories according to specifications, using hand tools or power tools.",4.32,51-4035.00
+51-4035,6,"Position and secure workpieces on machines, using holding devices, measuring instruments, hand tools, and hoists.",4.29,51-4035.00
+51-4041,1,"Calculate dimensions or tolerances, using instruments, such as micrometers or vernier calipers.",4.79,51-4041.00
+51-4041,2,"Machine parts to specifications, using machine tools, such as lathes, milling machines, shapers, or grinders.",4.77,51-4041.00
+51-4041,3,"Measure, examine, or test completed units to check for defects and ensure conformance to specifications, using precision instruments, such as micrometers.",4.62,51-4041.00
+51-4041,4,"Set up, adjust, or operate basic or specialized machine tools used to perform precision machining operations.",4.56,51-4041.00
+51-4041,5,"Program computers or electronic instruments, such as numerically controlled machine tools.",4.54,51-4041.00
+51-4041,6,"Study sample parts, blueprints, drawings, or engineering information to determine methods or sequences of operations needed to fabricate products.",4.48,51-4041.00
+51-4051,1,"Regulate supplies of fuel and air, or control flow of electric current and water coolant to heat furnaces and adjust temperatures.",4.62,51-4051.00
+51-4051,2,"Draw smelted metal samples from furnaces or kettles for analysis, and calculate types and amounts of materials needed to ensure that materials meet specifications.",4.60,51-4051.00
+51-4051,3,"Prepare material to load into furnaces, including cleaning, crushing, or applying chemicals, by using crushing machines, shovels, rakes, or sprayers.",4.55,51-4051.00
+51-4051,4,"Weigh materials to be charged into furnaces, using scales.",4.54,51-4051.00
+51-4051,5,"Record production data, and maintain production logs.",4.51,51-4051.00
+51-4051,6,"Observe air and temperature gauges or metal color and fluidity, and turn fuel valves or adjust controls to maintain required temperatures.",4.49,51-4051.00
+51-4052,1,"Pour and regulate the flow of molten metal into molds and forms to produce ingots or other castings, using ladles or hand-controlled mechanisms.",4.69,51-4052.00
+51-4052,2,"Read temperature gauges and observe color changes, adjusting furnace flames, torches, or electrical heating units as necessary to melt metal to specifications.",4.66,51-4052.00
+51-4052,3,"Remove solidified steel or slag from pouring nozzles, using long bars or oxygen burners.",4.63,51-4052.00
+51-4052,4,"Assemble and embed cores in casting frames, using hand tools and equipment.",4.62,51-4052.00
+51-4052,5,"Examine molds to ensure they are clean, smooth, and properly coated.",4.59,51-4052.00
+51-4052,6,"Collect samples, or signal workers to sample metal for analysis.",4.57,51-4052.00
+51-4061,1,"Study blueprints, drawings, and sketches to determine material dimensions, required equipment, and operations sequences.",4.49,51-4061.00
+51-4061,2,"Set up and operate machines, such as lathes, drill presses, punch presses, or bandsaws, to fabricate prototypes or models.",4.31,51-4061.00
+51-4061,3,Program computer numerical control (CNC) machines to fabricate model parts.,4.27,51-4061.00
+51-4061,4,"Inspect and test products to verify conformance to specifications, using precision measuring instruments or circuit testers.",4.18,51-4061.00
+51-4061,5,"Cut, shape, and form metal parts, using lathes, power saws, snips, power brakes and shears, files, and mallets.",4.18,51-4061.00
+51-4061,6,Rework or alter component model or parts as required to ensure that products meet standards.,4.07,51-4061.00
+51-4062,1,"Read and interpret blueprints or drawings of parts to be cast or patterns to be made, compute dimensions, and plan operational sequences.",4.60,51-4062.00
+51-4062,2,"Verify conformance of patterns or template dimensions to specifications, using measuring instruments such as calipers, scales, and micrometers.",4.54,51-4062.00
+51-4062,3,"Assemble pattern sections, using hand tools, bolts, screws, rivets, glue, or welding equipment.",4.29,51-4062.00
+51-4062,4,Repair and rework templates and patterns.,4.11,51-4062.00
+51-4062,5,"Clean and finish patterns or templates, using emery cloths, files, scrapers, and power grinders.",4.07,51-4062.00
+51-4062,6,"Set up and operate machine tools, such as milling machines, lathes, drill presses, and grinders, to machine castings or patterns.",4.02,51-4062.00
+51-4071,1,"Clean and smooth molds, cores, and core boxes, and repair surface imperfections.",4.68,51-4071.00
+51-4071,2,"Sift and pack sand into mold sections, core boxes, and pattern contours, using hand or pneumatic ramming tools.",4.64,51-4071.00
+51-4071,3,"Position patterns inside mold sections, and clamp sections together.",4.64,51-4071.00
+51-4071,4,"Position cores into lower sections of molds, and reassemble molds for pouring.",4.64,51-4071.00
+51-4071,5,Tend machines that bond cope and drag together to form completed shell molds.,4.61,51-4071.00
+51-4071,6,Sprinkle or spray parting agents onto patterns and mold sections to facilitate removal of patterns from molds.,4.53,51-4071.00
+51-4072,1,"Measure and visually inspect products for surface and dimension defects to ensure conformance to specifications, using precision measuring instruments.",4.49,51-4072.00
+51-4072,2,"Observe continuous operation of automatic machines to ensure that products meet specifications and to detect jams or malfunctions, making adjustments as necessary.",4.38,51-4072.00
+51-4072,3,"Set up, operate, or tend metal or plastic molding, casting, or coremaking machines to mold or cast metal or thermoplastic parts or products.",4.28,51-4072.00
+51-4072,4,"Turn valves and dials of machines to regulate pressure, temperature, and speed and feed rates, and to set cycle times.",4.20,51-4072.00
+51-4072,5,"Read specifications, blueprints, and work orders to determine setups, temperatures, and time settings required to mold, form, or cast plastic materials, as well as to plan production sequences.",4.09,51-4072.00
+51-4072,6,"Observe meters and gauges to verify and record temperatures, pressures, and press-cycle times.",4.01,51-4072.00
+51-4081,1,"Inspect workpieces for defects, and measure workpieces to determine accuracy of machine operation, using rules, templates, or other measuring instruments.",4.56,51-4081.00
+51-4081,2,"Position, adjust, and secure stock material or workpieces against stops, on arbors, or in chucks, fixtures, or automatic feeding mechanisms, manually or using hoists.",4.37,51-4081.00
+51-4081,3,Read blueprints or job orders to determine product specifications and tooling instructions and to plan operational sequences.,4.33,51-4081.00
+51-4081,4,"Select, install, and adjust alignment of drills, cutters, dies, guides, and holding devices, using templates, measuring instruments, and hand tools.",4.33,51-4081.00
+51-4081,5,"Observe machine operation to detect workpiece defects or machine malfunctions, adjusting machines as necessary.",4.22,51-4081.00
+51-4081,6,"Set up and operate machines, such as lathes, cutters, shears, borers, millers, grinders, presses, drills, or auxiliary machines, to make metallic and plastic workpieces.",4.20,51-4081.00
+51-4111,1,"Verify dimensions, alignments, and clearances of finished parts for conformance to specifications, using measuring instruments such as calipers, gauge blocks, micrometers, or dial indicators.",4.55,51-4111.00
+51-4111,2,"Set up and operate conventional or computer numerically controlled machine tools such as lathes, milling machines, or grinders to cut, bore, grind, or otherwise shape parts to prescribed dimensions and finishes.",4.37,51-4111.00
+51-4111,3,"Visualize and compute dimensions, sizes, shapes, and tolerances of assemblies, based on specifications.",4.21,51-4111.00
+51-4111,4,"Study blueprints, sketches, models, or specifications to plan sequences of operations for fabricating tools, dies, or assemblies.",4.19,51-4111.00
+51-4111,5,"Fit and assemble parts to make, repair, or modify dies, jigs, gauges, and tools, using machine tools, hand tools, or welders.",4.12,51-4111.00
+51-4111,6,"Inspect finished dies for smoothness, contour conformity, and defects.",4.11,51-4111.00
+51-4121,1,Operate safety equipment and use safe work habits.,4.61,51-4121.00
+51-4121,2,Examine workpieces for defects and measure workpieces with straightedges or templates to ensure conformance with specifications.,4.26,51-4121.00
+51-4121,3,"Weld components in flat, vertical, or overhead positions.",4.15,51-4121.00
+51-4121,4,"Check grooves, angles, or gap allowances, using micrometers, calipers, and precision measuring instruments.",4.15,51-4121.00
+51-4121,5,Detect faulty operation of equipment or defective materials and notify supervisors.,4.11,51-4121.00
+51-4121,6,"Recognize, set up, and operate hand and power tools common to the welding trade, such as shielded metal arc and gas metal arc welding equipment.",4.09,51-4121.00
+51-4122,1,"Read blueprints, work orders, or production schedules to determine product or job instructions or specifications.",4.20,51-4122.00
+51-4122,2,"Inspect, measure, or test completed metal workpieces to ensure conformance to specifications, using measuring and testing devices.",4.15,51-4122.00
+51-4122,3,Add chemicals or materials to workpieces or machines to facilitate bonding or to cool workpieces.,4.05,51-4122.00
+51-4122,4,Record operational information on specified production reports.,4.03,51-4122.00
+51-4122,5,Correct problems by adjusting controls or by stopping machines and opening holding devices.,4.02,51-4122.00
+51-4122,6,"Set up, operate, or tend welding machines that join or bond components to fabricate metal products or assemblies.",4.02,51-4122.00
+51-4191,1,"Read production schedules and work orders to determine processing sequences, furnace temperatures, and heat cycle requirements for objects to be heat-treated.",4.83,51-4191.00
+51-4191,2,"Determine flame temperatures, current frequencies, heating cycles, and induction heating coils needed, based on degree of hardness required and properties of stock to be treated.",4.71,51-4191.00
+51-4191,3,Record times that parts are removed from furnaces to document that objects have attained specified temperatures for specified times.,4.69,51-4191.00
+51-4191,4,"Determine types and temperatures of baths and quenching media needed to attain specified part hardness, toughness, and ductility, using heat-treating charts and knowledge of methods, equipment, and metals.",4.66,51-4191.00
+51-4191,5,"Examine parts to ensure metal shades and colors conform to specifications, using knowledge of metal heat-treating.",4.60,51-4191.00
+51-4191,6,"Adjust controls to maintain temperatures and heating times, using thermal instruments and charts, dials and gauges of furnaces, and color of stock in furnaces to make setting determinations.",4.59,51-4191.00
+51-4192,1,"Mark curves, lines, holes, dimensions, and welding symbols onto workpieces, using scribes, soapstones, punches, and hand drills.",4.44,51-4192.00
+51-4192,2,"Plan locations and sequences of cutting, drilling, bending, rolling, punching, and welding operations, using compasses, protractors, dividers, and rules.",4.40,51-4192.00
+51-4192,3,Fit and align fabricated parts to be welded or assembled.,4.38,51-4192.00
+51-4192,4,"Locate center lines and verify template positions, using measuring instruments such as gauge blocks, height gauges, and dial indicators.",4.34,51-4192.00
+51-4192,5,"Plan and develop layouts from blueprints and templates, applying knowledge of trigonometry, design, effects of heat, and properties of metals.",4.25,51-4192.00
+51-4192,6,"Lay out and fabricate metal structural parts such as plates, bulkheads, and frames.",4.23,51-4192.00
+51-4193,1,Immerse workpieces in coating solutions or liquid metal or plastic for specified times.,4.65,51-4193.00
+51-4193,2,Adjust dials to regulate flow of current and voltage supplied to terminals to control plating processes.,4.46,51-4193.00
+51-4193,3,"Inspect coated or plated areas for defects, such as air bubbles or uneven coverage.",4.45,51-4193.00
+51-4193,4,"Set up, operate, or tend plating or coating machines to coat metal or plastic products with chromium, zinc, copper, cadmium, nickel, or other metal to protect or decorate surfaces.",4.44,51-4193.00
+51-4193,5,"Observe gauges to ensure that machines are operating properly, making adjustments or stopping machines when problems occur.",4.38,51-4193.00
+51-4193,6,Remove objects from solutions at periodic intervals and observe objects to verify conformance to specifications.,4.38,51-4193.00
+51-4194,1,"Monitor machine operations to determine whether adjustments are necessary, stopping machines when problems occur.",4.50,51-4194.00
+51-4194,2,"Select and mount grinding wheels on machines, according to specifications, using hand tools and applying knowledge of abrasives and grinding procedures.",4.48,51-4194.00
+51-4194,3,"Set up and operate grinding or polishing machines to grind metal workpieces, such as dies, parts, and tools.",4.47,51-4194.00
+51-4194,4,"Inspect, feel, and measure workpieces to ensure that surfaces and dimensions meet specifications.",4.41,51-4194.00
+51-4194,5,"Perform basic maintenance, such as cleaning and lubricating machine parts.",4.30,51-4194.00
+51-4194,6,"Remove finished workpieces from machines and place them in boxes or on racks, setting aside pieces that are defective.",4.22,51-4194.00
+51-5111,1,Generate prepress proofs in digital or other format to approximate the appearance of the final printed piece.,4.67,51-5111.00
+51-5111,2,Proofread and perform quality control of text and images.,4.65,51-5111.00
+51-5111,3,"Enter, position, and alter text size, using computers, to make up and arrange pages so that printed materials can be produced.",4.58,51-5111.00
+51-5111,4,"Perform ""preflight"" check of required font, graphic, text and image files to ensure completeness prior to delivery to printer.",4.52,51-5111.00
+51-5111,5,Operate and maintain laser plate-making equipment that converts electronic data to plates without the use of film.,4.46,51-5111.00
+51-5111,6,"Enter, store, and retrieve information on computer-aided equipment.",4.44,51-5111.00
+51-5112,1,"Start presses and pull proofs to check for ink coverage and density, alignment, and registration.",4.67,51-5112.00
+51-5112,2,"Examine job orders to determine quantities to be printed, stock specifications, colors, or special printing instructions.",4.64,51-5112.00
+51-5112,3,Adjust ink fountain flow rates.,4.61,51-5112.00
+51-5112,4,Verify that paper and ink meet the specifications for a given job.,4.57,51-5112.00
+51-5112,5,Collect and inspect random samples during print runs to identify any necessary adjustments.,4.56,51-5112.00
+51-5112,6,Feed paper through press cylinders and adjust feed and tension controls.,4.53,51-5112.00
+51-5113,1,"Examine stitched, collated, bound, or unbound product samples for defects, such as imperfect bindings, ink spots, torn pages, loose pages, or loose or uncut threads.",4.59,51-5113.00
+51-5113,2,Read work orders to determine instructions and specifications for machine set-up.,4.55,51-5113.00
+51-5113,3,"Install or adjust bindery machine devices, such as knives, guides, rollers, rounding forms, creasing rams, or clamps, to accommodate sheets, signatures, or books of specified sizes.",4.48,51-5113.00
+51-5113,4,"Trim edges of books to size, using cutting machines, book trimming machines, or hand cutters.",4.47,51-5113.00
+51-5113,5,"Stitch or glue endpapers, bindings, backings, or signatures, using sewing machines, glue machines, or glue and brushes.",4.47,51-5113.00
+51-5113,6,Monitor machine operations to detect malfunctions or to determine whether adjustments are needed.,4.42,51-5113.00
+51-6031,1,"Monitor machine operation to detect problems such as defective stitching, breaks in thread, or machine malfunctions.",4.39,51-6031.00
+51-6031,2,"Cut materials according to specifications, using blades, scissors, or electric knives.",4.37,51-6031.00
+51-6031,3,"Place spools of thread, cord, or other materials on spindles, insert bobbins, and thread ends through machine guides and components.",4.32,51-6031.00
+51-6031,4,"Position items under needles, using marks on machines, clamps, templates, or cloth as guides.",4.31,51-6031.00
+51-6031,5,Guide garments or garment parts under machine needles and presser feet to sew parts together.,4.26,51-6031.00
+51-6031,6,Remove holding devices and finished items from machines.,4.17,51-6031.00
+51-6041,1,"Prepare inserts, heel pads, and lifts from casts of customers' feet.",4.84,51-6041.00
+51-6041,2,"Dress and otherwise finish boots or shoes, as by trimming the edges of new soles and heels to the shoe shape.",4.81,51-6041.00
+51-6041,3,"Attach insoles to shoe lasts, affix shoe uppers, and apply heels and outsoles.",4.53,51-6041.00
+51-6041,4,Clean and polish shoes.,4.47,51-6041.00
+51-6041,5,"Cement, nail, or sew soles and heels to shoes.",4.46,51-6041.00
+51-6041,6,"Check the texture, color, and strength of leather to ensure that it is adequate for a particular purpose.",4.41,51-6041.00
+51-6042,1,Inspect finished products to ensure that shoes have been completed according to specifications.,4.68,51-6042.00
+51-6042,2,"Align parts to be stitched, following seams, edges, or markings, before positioning them under needles.",4.67,51-6042.00
+51-6042,3,"Operate or tend machines to join, decorate, reinforce, or finish shoes and shoe parts.",4.47,51-6042.00
+51-6042,4,"Remove and examine shoes, shoe parts, and designs to verify conformance to specifications such as proper embedding of stitches in channels.",4.46,51-6042.00
+51-6042,5,"Switch on machines, lower pressure feet or rollers to secure parts, and start machine stitching, using hand, foot, or knee controls.",4.39,51-6042.00
+51-6042,6,Fill shuttle spools with thread from a machine's bobbin winder by pressing a foot treadle.,4.39,51-6042.00
+51-6051,1,"Fit garments on clients, altering as needed.",4.94,51-6051.00
+51-6051,2,"Select thread, twine, cord, or yarn to be used, and thread needles.",4.83,51-6051.00
+51-6051,3,"Measure and align parts, fasteners, or trimmings, following seams, edges, or markings on parts.",4.81,51-6051.00
+51-6051,4,"Trim excess threads or edges of parts, using scissors or knives.",4.72,51-6051.00
+51-6051,5,"Smooth seams with heated irons, flat bones, or rubbing sticks.",4.70,51-6051.00
+51-6051,6,"Sew, join, reinforce, or finish parts of articles, such as garments, books, mattresses, toys, and wigs, using needles and thread or other materials.",4.60,51-6051.00
+51-6061,1,"Weigh ingredients, such as dye, to be mixed together for use in textile processing.",4.64,51-6061.00
+51-6061,2,"Start and control machines and equipment to wash, bleach, dye, or otherwise process and finish fabric, yarn, thread, or other textile goods.",4.58,51-6061.00
+51-6061,3,"Observe display screens, control panels, equipment, and cloth entering or exiting processes to determine if equipment is operating correctly.",4.55,51-6061.00
+51-6061,4,Notify supervisors or mechanics of equipment malfunctions.,4.53,51-6061.00
+51-6061,5,Monitor factors such as temperatures and dye flow rates to ensure that they are within specified ranges.,4.53,51-6061.00
+51-6061,6,"Sew ends of cloth together, by hand or using machines, to form endless lengths of cloth to facilitate processing.",4.53,51-6061.00
+51-6062,1,"Thread yarn, thread, or fabric through guides, needles, and rollers of machines.",4.50,51-6062.00
+51-6062,2,"Operate machines to cut multiple layers of fabric into parts for articles such as canvas goods, house furnishings, garments, hats, or stuffed toys.",4.43,51-6062.00
+51-6062,3,Inspect products to ensure that the quality standards and specifications are met.,4.42,51-6062.00
+51-6062,4,Adjust cutting techniques to types of fabrics and styles of garments.,4.42,51-6062.00
+51-6062,5,"Place patterns on top of layers of fabric and cut fabric following patterns, using electric or manual knives, cutters, or computer numerically controlled cutting devices.",4.29,51-6062.00
+51-6062,6,Program electronic equipment.,4.21,51-6062.00
+51-6063,1,Observe woven cloth to detect weaving defects.,4.65,51-6063.00
+51-6063,2,"Thread yarn, thread, and fabric through guides, needles, and rollers of machines for weaving, knitting, or other processing.",4.58,51-6063.00
+51-6063,3,Remove defects in cloth by cutting and pulling out filling.,4.50,51-6063.00
+51-6063,4,"Examine looms to determine causes of loom stoppage, such as warp filling, harness breaks, or mechanical defects.",4.48,51-6063.00
+51-6063,5,Inspect products to ensure that specifications are met and to determine if machines need adjustment.,4.47,51-6063.00
+51-6063,6,Notify supervisors or repair staff of mechanical malfunctions.,4.45,51-6063.00
+51-6064,1,"Observe bobbins as they are winding and cut threads to remove loaded bobbins, using knives.",4.58,51-6064.00
+51-6064,2,Notify supervisors or mechanics of equipment malfunctions.,4.49,51-6064.00
+51-6064,3,"Thread yarn, thread, or fabric through guides, needles, and rollers of machines.",4.29,51-6064.00
+51-6064,4,"Unwind lengths of yarn, thread, or twine from spools and wind onto bobbins.",4.29,51-6064.00
+51-6064,5,"Start machines, monitor operation, and make adjustments as needed.",4.27,51-6064.00
+51-6064,6,Inspect machinery to determine whether repairs are needed.,4.27,51-6064.00
+51-6091,1,"Set up, operate, or tend machines that extrude and form filaments from synthetic materials such as rayon, fiberglass, or liquid polymers.",4.27,51-6091.00
+51-6091,2,Press buttons to stop machines when processes are complete or when malfunctions are detected.,4.26,51-6091.00
+51-6091,3,"Notify other workers of defects, and direct them to adjust extruding and forming machines.",4.25,51-6091.00
+51-6091,4,"Observe flow of finish across finish rollers, and turn valves to adjust flow to specifications.",4.25,51-6091.00
+51-6091,5,"Observe machine operations, control boards, and gauges to detect malfunctions such as clogged bushings and defective binder applicators.",4.15,51-6091.00
+51-6091,6,"Remove polymer deposits from spinnerettes and equipment, using silicone spray, brass chisels, and bronze-wool pads.",4.04,51-6091.00
+51-6092,1,"Create a master pattern for each size within a range of garment sizes, using charts, drafting instruments, computers, or grading devices.",4.69,51-6092.00
+51-6092,2,Input specifications into computers to assist with pattern design and pattern cutting.,4.58,51-6092.00
+51-6092,3,"Draw details on outlined parts to indicate where parts are to be joined, as well as the positions of pleats, pockets, buttonholes, and other features, using computers or drafting instruments.",4.51,51-6092.00
+51-6092,4,Make adjustments to patterns after fittings.,4.48,51-6092.00
+51-6092,5,"Compute dimensions of patterns according to sizes, considering stretching of material.",4.45,51-6092.00
+51-6092,6,"Mark samples and finished patterns with information, such as garment size, section, style, identification, and sewing instructions.",4.44,51-6092.00
+51-6093,1,"Fit, install, and secure material on frames, using hand tools, power tools, glue, cement, or staples.",4.51,51-6093.00
+51-6093,2,"Measure and cut new covering materials, using patterns and measuring and cutting instruments, following sketches and design specifications.",4.49,51-6093.00
+51-6093,3,"Build furniture up with loose fiber stuffing, cotton, felt, or foam padding to form smooth, rounded surfaces.",4.45,51-6093.00
+51-6093,4,"Make, restore, or create custom upholstered furniture, using hand tools and knowledge of fabrics and upholstery methods.",4.36,51-6093.00
+51-6093,5,"Read work orders, and apply knowledge and experience with materials to determine types and amounts of materials required to cover workpieces.",4.35,51-6093.00
+51-6093,6,"Draw cutting lines on material following patterns, templates, sketches, or blueprints, using chalk, pencils, paint, or other methods.",4.27,51-6093.00
+51-7011,1,Verify dimensions or check the quality or fit of pieces to ensure adherence to specifications.,4.39,51-7011.00
+51-7011,2,"Design furniture, using computer-aided drawing programs.",4.37,51-7011.00
+51-7011,3,"Produce or assemble components of articles, such as store fixtures, office equipment, cabinets, or high-grade furniture.",4.36,51-7011.00
+51-7011,4,Program computers to operate machinery.,4.36,51-7011.00
+51-7011,5,"Trim, sand, or scrape surfaces or joints to prepare articles for finishing.",4.33,51-7011.00
+51-7011,6,"Measure and mark dimensions of parts on paper or lumber stock prior to cutting, following blueprints, to ensure a tight fit and quality product.",4.32,51-7011.00
+51-7021,1,Confer with customers to determine furniture colors or finishes.,4.34,51-7021.00
+51-7021,2,"Brush, spray, or hand-rub finishing ingredients, such as paint, oil, stain, or wax, onto and into wood grain and apply lacquer or other sealers.",4.28,51-7021.00
+51-7021,3,"Fill and smooth cracks or depressions, remove marks and imperfections, and repair broken parts, using plastic or wood putty, glue, nails, or screws.",4.26,51-7021.00
+51-7021,4,"Smooth, shape, and touch up surfaces to prepare them for finishing, using sandpaper, pumice stones, steel wool, chisels, sanders, or grinders.",4.24,51-7021.00
+51-7021,5,"Remove accessories prior to finishing, and mask areas that should not be exposed to finishing processes or substances.",4.20,51-7021.00
+51-7021,6,"Remove old finishes and damaged or deteriorated parts, using hand tools, stripping tools, sandpaper, steel wool, abrasives, solvents, or dip baths.",4.17,51-7021.00
+51-7031,1,"Read blueprints, drawings, or written specifications, and consult with designers to determine sizes and shapes of patterns and required machine setups.",4.48,51-7031.00
+51-7031,2,"Fit, fasten, and assemble wood parts together to form patterns, models, or sections, using glue, nails, dowels, bolts, screws, and other fasteners.",4.22,51-7031.00
+51-7031,3,"Verify dimensions and contours of models during hand-forming processes, using templates and measuring devices.",4.16,51-7031.00
+51-7031,4,"Trim, smooth, and shape surfaces, and plane, shave, file, scrape, and sand models to attain specified shapes, using hand tools.",4.14,51-7031.00
+51-7031,5,"Plan, lay out, and draw outlines of units, sectional patterns, or full-scale mock-ups of products.",4.12,51-7031.00
+51-7031,6,"Construct wooden models, patterns, templates, full scale mock-ups, and molds for parts of products and production tools.",4.12,51-7031.00
+51-7032,1,"Read blueprints, drawings, or written specifications to determine sizes and shapes of patterns and required machine setups.",4.70,51-7032.00
+51-7032,2,"Fit, fasten, and assemble wood parts together to form patterns, models, or sections, using glue, nails, dowels, bolts, and screws.",4.55,51-7032.00
+51-7032,3,"Lay out patterns on wood stock and draw outlines of units, sectional patterns, or full-scale mock-ups of products, based on blueprint specifications and sketches, and using marking and measuring devices.",4.50,51-7032.00
+51-7032,4,"Trim, smooth, and shape surfaces, and plane, shave, file, scrape, and sand models to attain specified shapes, using hand tools.",4.43,51-7032.00
+51-7032,5,Divide patterns into sections according to shapes of castings to facilitate removal of patterns from molds.,4.40,51-7032.00
+51-7032,6,"Verify dimensions of completed patterns, using templates, straightedges, calipers, or protractors.",4.40,51-7032.00
+51-7041,1,"Inspect and measure workpieces to mark for cuts and to verify the accuracy of cuts, using rulers, squares, or caliper rules.",4.63,51-7041.00
+51-7041,2,"Adjust saw blades, using wrenches and rulers, or by turning handwheels or pressing pedals, levers, or panel buttons.",4.54,51-7041.00
+51-7041,3,Mount and bolt sawing blades or attachments to machine shafts.,4.53,51-7041.00
+51-7041,4,"Adjust bolts, clamps, stops, guides, or table angles or heights, using hand tools.",4.48,51-7041.00
+51-7041,5,"Set up, operate, or tend saws or machines that cut or trim wood to specified dimensions, such as circular saws, band saws, multiple-blade sawing machines, scroll saws, ripsaws, or crozer machines.",4.45,51-7041.00
+51-7041,6,Examine logs or lumber to plan the best cuts.,4.43,51-7041.00
+51-7042,1,"Set up, program, operate, or tend computerized or manual woodworking machines, such as drill presses, lathes, shapers, routers, sanders, planers, or wood-nailing machines.",4.38,51-7042.00
+51-7042,2,"Examine finished workpieces for smoothness, shape, angle, depth-of-cut, or conformity to specifications and verify dimensions, visually and using hands, rules, calipers, templates, or gauges.",4.38,51-7042.00
+51-7042,3,"Start machines, adjust controls, and make trial cuts to ensure that machinery is operating properly.",4.36,51-7042.00
+51-7042,4,Monitor operation of machines and make adjustments to correct problems and ensure conformance to specifications.,4.34,51-7042.00
+51-7042,5,Examine raw woodstock for defects and to ensure conformity to size and other specification standards.,4.31,51-7042.00
+51-7042,6,Adjust machine tables or cutting devices and set controls on machines to produce specified cuts or operations.,4.30,51-7042.00
+51-8091,1,"Monitor recording instruments, flowmeters, panel lights, or other indicators and listen for warning signals to verify conformity of process conditions.",4.84,51-8091.00
+51-8091,2,"Move control settings to make necessary adjustments on equipment units affecting speeds of chemical reactions, quality, or yields.",4.77,51-8091.00
+51-8091,3,Draw samples of products and conduct quality control tests to monitor processing and to ensure that standards are met.,4.72,51-8091.00
+51-8091,4,"Record operating data, such as process conditions, test results, or instrument readings.",4.72,51-8091.00
+51-8091,5,"Control or operate chemical processes or systems of machines, using panelboards, control boards, or semi-automatic equipment.",4.68,51-8091.00
+51-8091,6,Patrol work areas to ensure that solutions in tanks or troughs are not in danger of overflowing.,4.66,51-8091.00
+51-8093,1,"Signal other workers by telephone or radio to operate pumps, open and close valves, and check temperatures.",4.30,51-8093.00
+51-8093,2,"Maintain and repair equipment, or report malfunctioning equipment to supervisors so that repairs can be scheduled.",4.29,51-8093.00
+51-8093,3,"Monitor process indicators, instruments, gauges, and meters to detect and report any possible problems.",4.28,51-8093.00
+51-8093,4,Start pumps and open valves or use automated equipment to regulate the flow of oil in pipelines and into and out of tanks.,4.23,51-8093.00
+51-8093,5,"Operate control panels to coordinate and regulate process variables such as temperature and pressure, and to direct product flow rate, according to process schedules.",4.23,51-8093.00
+51-8093,6,"Verify that incoming and outgoing products are moving through the correct meters, and that meters are working properly.",4.20,51-8093.00
+51-9011,1,Observe safety precautions to prevent fires or explosions.,4.62,51-9011.00
+51-9011,2,Patrol work areas to detect leaks or equipment malfunctions or to monitor operating conditions.,4.45,51-9011.00
+51-9011,3,"Monitor gauges, recording instruments, flowmeters, or products to ensure that specified conditions are maintained.",4.44,51-9011.00
+51-9011,4,"Inspect equipment or units to detect leaks or malfunctions, shutting equipment down, if necessary.",4.42,51-9011.00
+51-9011,5,"Record operational data, such as temperatures, pressures, ingredients used, processing times, or test results.",4.39,51-9011.00
+51-9011,6,Draw samples of products at specified stages so that analyses can be performed.,4.39,51-9011.00
+51-9012,1,"Monitor material flow or instruments, such as temperature or pressure gauges, indicators, or meters, to ensure optimal processing conditions.",4.76,51-9012.00
+51-9012,2,"Inspect machines or equipment for hazards, operating efficiency, malfunctions, wear, or leaks.",4.69,51-9012.00
+51-9012,3,"Set up or adjust machine controls to regulate conditions such as material flow, temperature, or pressure.",4.69,51-9012.00
+51-9012,4,Collect samples of materials or products for laboratory analysis.,4.66,51-9012.00
+51-9012,5,"Operate machines to process materials in compliance with applicable safety, energy, or environmental regulations.",4.60,51-9012.00
+51-9012,6,"Test samples to determine viscosity, acidity, specific gravity, or degree of concentration, using test equipment such as viscometers, pH meters, or hydrometers.",4.54,51-9012.00
+51-9021,1,"Observe operation of equipment to ensure continuity of flow, safety, and efficient operation, and to detect malfunctions.",4.35,51-9021.00
+51-9021,2,"Clean, adjust, and maintain equipment, using hand tools.",4.12,51-9021.00
+51-9021,3,"Tend accessory equipment, such as pumps and conveyors, to move materials or ingredients through production processes.",4.09,51-9021.00
+51-9021,4,"Move controls to start, stop, or adjust machinery and equipment that crushes, grinds, polishes, or blends materials.",4.05,51-9021.00
+51-9021,5,Notify supervisors of needed repairs.,4.04,51-9021.00
+51-9021,6,"Weigh or measure materials, ingredients, or products at specified intervals to ensure conformance to requirements.",4.03,51-9021.00
+51-9022,1,"Verify quality of finished workpieces by inspecting them, comparing them to templates, measuring their dimensions, or testing them in working machinery.",4.62,51-9022.00
+51-9022,2,"Grind, sand, clean, or polish objects or parts to correct defects or to prepare surfaces for further finishing, using hand tools and power tools.",4.55,51-9022.00
+51-9022,3,"Measure and mark equipment, objects, or parts to ensure grinding and polishing standards are met.",4.46,51-9022.00
+51-9022,4,"Trim, scrape, or deburr objects or parts, using chisels, scrapers, and other hand tools and equipment.",4.42,51-9022.00
+51-9022,5,"Mark defects, such as knotholes, cracks, and splits, for repair.",4.39,51-9022.00
+51-9022,6,Study blueprints or layouts to determine how to lay out workpieces or saw out templates.,4.37,51-9022.00
+51-9023,1,"Weigh or measure materials, ingredients, or products to ensure conformance to requirements.",4.61,51-9023.00
+51-9023,2,Read work orders to determine production specifications or information.,4.58,51-9023.00
+51-9023,3,Observe production or monitor equipment to ensure safe and efficient operation.,4.56,51-9023.00
+51-9023,4,Mix or blend ingredients by starting machines and mixing for specified times.,4.54,51-9023.00
+51-9023,5,Stop mixing or blending machines when specified product qualities are obtained and open valves and start pumps to transfer mixtures.,4.47,51-9023.00
+51-9023,6,"Compound or process ingredients or dyes, according to formulas.",4.46,51-9023.00
+51-9031,1,"Mark or discard items with defects such as spots, stains, scars, snags, chips, scratches, or unacceptable shapes or finishes.",4.43,51-9031.00
+51-9031,2,"Trim excess material or cut threads off finished products, such as cutting loose ends of plastic off a manufactured toy for a smoother finish.",4.34,51-9031.00
+51-9031,3,"Cut, shape, and trim materials, such as textiles, food, glass, stone, and metal, using knives, scissors, and other hand tools, portable power tools, or bench-mounted tools.",4.33,51-9031.00
+51-9031,4,"Position templates or measure materials to locate specified points of cuts or to obtain maximum yields, using rules, scales, or patterns.",4.30,51-9031.00
+51-9031,5,"Read work orders to determine dimensions, cutting locations, and quantities to cut.",4.28,51-9031.00
+51-9031,6,"Mark cutting lines around patterns or templates, or follow layout points, using squares, rules, and straightedges, and chalk, pencils, or scribes.",4.27,51-9031.00
+51-9032,1,"Remove defective or substandard materials from machines, and readjust machine components so that products meet standards.",4.34,51-9032.00
+51-9032,2,"Maintain production records, such as quantities, types, and dimensions of materials produced.",4.33,51-9032.00
+51-9032,3,"Start machines to verify setups, and make any necessary adjustments.",4.31,51-9032.00
+51-9032,4,"Press buttons, pull levers, or depress pedals to start and operate cutting and slicing machines.",4.28,51-9032.00
+51-9032,5,Start pumps to circulate water and abrasives onto blades or cables during cutting.,4.24,51-9032.00
+51-9032,6,"Review work orders, blueprints, specifications, or job samples to determine components, settings, and adjustments for cutting and slicing machines.",4.23,51-9032.00
+51-9041,1,"Adjust machine components to regulate speeds, pressures, and temperatures, and amounts, dimensions, and flow of materials or ingredients.",4.55,51-9041.00
+51-9041,2,Press control buttons to activate machinery and equipment.,4.52,51-9041.00
+51-9041,3,"Examine, measure, and weigh materials or products to verify conformance to standards, using measuring devices such as templates, micrometers, or scales.",4.51,51-9041.00
+51-9041,4,"Activate machines to shape or form products, such as candy bars, light bulbs, balloons, or insulation panels.",4.49,51-9041.00
+51-9041,5,Monitor machine operations and observe lights and gauges to detect malfunctions.,4.45,51-9041.00
+51-9041,6,"Clear jams, and remove defective or substandard materials or products.",4.39,51-9041.00
+51-9051,1,"Monitor equipment operation, gauges, and panel lights to detect deviations from standards.",4.51,51-9051.00
+51-9051,2,Confer with supervisors or other equipment operators to report equipment malfunctions or to resolve production problems.,4.25,51-9051.00
+51-9051,3,"Press and adjust controls to activate, set, and regulate equipment according to specifications.",4.22,51-9051.00
+51-9051,4,"Record gauge readings, test results, and shift production in log books.",4.21,51-9051.00
+51-9051,5,"Stop equipment and clear blockages or jams, using fingers, wire, or hand tools.",4.19,51-9051.00
+51-9051,6,"Read and interpret work orders and instructions to determine work assignments, process specifications, and production schedules.",4.16,51-9051.00
+51-9061,1,"Discard or reject products, materials, or equipment not meeting specifications.",4.68,51-9061.00
+51-9061,2,"Mark items with details, such as grade or acceptance-rejection status.",4.57,51-9061.00
+51-9061,3,"Measure dimensions of products to verify conformance to specifications, using measuring instruments, such as rulers, calipers, gauges, or micrometers.",4.49,51-9061.00
+51-9061,4,Notify supervisors or other personnel of production problems.,4.48,51-9061.00
+51-9061,5,"Inspect, test, or measure materials, products, installations, or work for conformance to specifications.",4.46,51-9061.00
+51-9061,6,"Write test or inspection reports describing results, recommendations, or needed repairs.",4.39,51-9061.00
+51-9111,1,"Attach identification labels to finished packaged items, or cut stencils and stencil information on containers, such as lot numbers or shipping destinations.",4.53,51-9111.00
+51-9111,2,"Sort, grade, weigh, and inspect products, verifying and adjusting product weight or measurement to meet specifications.",4.47,51-9111.00
+51-9111,3,"Stop or reset machines when malfunctions occur, clear machine jams, and report malfunctions to a supervisor.",4.45,51-9111.00
+51-9111,4,Observe machine operations to ensure quality and conformity of filled or packaged products to standards.,4.44,51-9111.00
+51-9111,5,Remove finished packaged items from machine and separate rejected items.,4.42,51-9111.00
+51-9111,6,"Monitor the production line, watching for problems such as pile-ups, jams, or glue that isn't sticking properly.",4.41,51-9111.00
+51-9123,1,"Apply coatings, such as paint, ink, or lacquer, to protect or decorate workpiece surfaces, using spray guns, pens, or brushes.",4.68,51-9123.00
+51-9123,2,Examine finished surfaces of workpieces to verify conformance to specifications and retouch any defective areas.,4.46,51-9123.00
+51-9123,3,"Select and mix ingredients to prepare coating substances according to specifications, using paddles or mechanical mixers.",4.36,51-9123.00
+51-9123,4,Place coated workpieces in ovens or dryers for specified times to dry or harden finishes.,4.29,51-9123.00
+51-9123,5,"Clean and maintain tools and equipment, using solvents, brushes, and rags.",4.10,51-9123.00
+51-9123,6,Read job orders and inspect workpieces to determine work procedures and materials required.,4.09,51-9123.00
+51-9124,1,Dispose of hazardous waste in an appropriate manner.,4.42,51-9124.00
+51-9124,2,Hold or position spray guns to direct spray onto articles.,4.41,51-9124.00
+51-9124,3,Spray prepared surfaces with specified amounts of primers and decorative or finish coatings.,4.30,51-9124.00
+51-9124,4,"Monitor painting operations to identify flaws, such as blisters or streaks, and correct their causes.",4.29,51-9124.00
+51-9124,5,"Disassemble, clean, and reassemble sprayers or power equipment, using solvents, wire brushes, and cloths.",4.28,51-9124.00
+51-9124,6,"Fill hoppers, reservoirs, troughs, or pans with material used to coat, paint, or spray, using conveyors or pails.",4.28,51-9124.00
+51-9141,1,"Inspect materials, components, or products for surface defects and measure circuitry, using electronic test equipment, precision measuring instruments, microscope, and standard procedures.",4.60,51-9141.00
+51-9141,2,"Study work orders, instructions, formulas, and processing charts to determine specifications and sequence of operations.",4.53,51-9141.00
+51-9141,3,"Clean semiconductor wafers using cleaning equipment, such as chemical baths, automatic wafer cleaners, or blow-off wands.",4.51,51-9141.00
+51-9141,4,"Maintain processing, production, and inspection information and reports.",4.49,51-9141.00
+51-9141,5,"Stamp, etch, or scribe identifying information on finished component according to specifications.",4.48,51-9141.00
+51-9141,6,"Place semiconductor wafers in processing containers or equipment holders, using vacuum wand or tweezers.",4.47,51-9141.00
+51-9161,1,"Measure dimensions of finished workpieces to ensure conformance to specifications, using precision measuring instruments, templates, and fixtures.",4.76,51-9161.00
+51-9161,2,Set up and operate computer-controlled machines or robots to perform one or more machine functions on metal or plastic workpieces.,4.68,51-9161.00
+51-9161,3,"Mount, install, align, and secure tools, attachments, fixtures, and workpieces on machines, using hand tools and precision measuring instruments.",4.63,51-9161.00
+51-9161,4,"Review program specifications or blueprints to determine and set machine operations and sequencing, finished workpiece dimensions, or numerical control sequences.",4.61,51-9161.00
+51-9161,5,"Stop machines to remove finished workpieces or to change tooling, setup, or workpiece placement, according to required machining sequences.",4.56,51-9161.00
+51-9161,6,"Listen to machines during operation to detect sounds such as those made by dull cutting tools or excessive vibration, and adjust machines to compensate for problems.",4.55,51-9161.00
+51-9162,1,"Determine the sequence of machine operations, and select the proper cutting tools needed to machine workpieces into the desired shapes.",4.56,51-9162.00
+51-9162,2,"Analyze job orders, drawings, blueprints, specifications, printed circuit board pattern films, and design data to calculate dimensions, tool selection, machine speeds, and feed rates.",4.46,51-9162.00
+51-9162,3,Observe machines on trial runs or conduct computer simulations to ensure that programs and machinery will function properly and produce items that meet specifications.,4.39,51-9162.00
+51-9162,4,"Write programs in the language of a machine's controller and store programs on media, such as punch tapes, magnetic tapes, or disks.",4.36,51-9162.00
+51-9162,5,"Determine reference points, machine cutting paths, or hole locations, and compute angular and linear dimensions, radii, and curvatures.",4.33,51-9162.00
+51-9162,6,"Enter computer commands to store or retrieve parts patterns, graphic displays, or programs that transfer data to other media.",4.22,51-9162.00
+51-9191,1,Align and position materials being joined to ensure accurate application of adhesive or heat sealing.,4.59,51-9191.00
+51-9191,2,"Adjust machine components according to specifications such as widths, lengths, and thickness of materials and amounts of glue, cement, or adhesive required.",4.55,51-9191.00
+51-9191,3,Monitor machine operations to detect malfunctions and report or resolve problems.,4.54,51-9191.00
+51-9191,4,"Start machines, and turn valves or move controls to feed, admit, apply, or transfer materials and adhesives, and to adjust temperature, pressure, and time settings.",4.50,51-9191.00
+51-9191,5,"Fill machines with glue, cement, or adhesives.",4.46,51-9191.00
+51-9191,6,Perform test production runs and make adjustments as necessary to ensure that completed products meet standards and specifications.,4.41,51-9191.00
+51-9192,1,Add specified amounts of chemicals to equipment at required times to maintain solution levels and concentrations.,4.25,51-9192.00
+51-9192,2,"Observe machine operations, gauges, or thermometers, and adjust controls to maintain specified conditions.",4.13,51-9192.00
+51-9192,3,"Set controls to regulate temperature and length of cycles, and start conveyors, pumps, agitators, and machines.",4.09,51-9192.00
+51-9192,4,"Draw samples for laboratory analysis, or test solutions for conformance to specifications, such as acidity or specific gravity.",4.07,51-9192.00
+51-9192,5,"Adjust, clean, and lubricate mechanical parts of machines, using hand tools and grease guns.",4.05,51-9192.00
+51-9192,6,"Drain, clean, and refill machines or tanks at designated intervals, using cleaning solutions or water.",3.96,51-9192.00
+51-9193,1,"Record temperatures, amounts of materials processed, or test results on report forms.",4.35,51-9193.00
+51-9193,2,"Monitor pressure gauges, ammeters, flowmeters, thermometers, or products, and adjust controls to maintain specified conditions, such as feed rate, product consistency, temperature, air pressure, and machine speed.",4.28,51-9193.00
+51-9193,3,"Read dials and gauges on panel control boards to ascertain temperatures, alkalinities, and densities of mixtures, and turn valves to obtain specified mixtures.",4.23,51-9193.00
+51-9193,4,"Measure or weigh specified amounts of ingredients or materials, and load them into tanks, vats, hoppers, or other equipment.",4.23,51-9193.00
+51-9193,5,Adjust machine or freezer speed and air intake to obtain desired consistency and amount of product.,4.20,51-9193.00
+51-9193,6,"Start machinery, such as pumps, feeders, or conveyors, and turn valves to heat, admit, or transfer products, refrigerants, or mixes.",4.17,51-9193.00
+51-9194,1,"Inspect etched work for depth of etching, uniformity, and defects, using calibrated microscopes, gauges, fingers, or magnifying lenses.",4.55,51-9194.00
+51-9194,2,"Prepare workpieces for etching or engraving by cutting, sanding, cleaning, polishing, or treating them with wax, acid resist, lime, etching powder, or light-sensitive enamel.",4.53,51-9194.00
+51-9194,3,"Engrave and print patterns, designs, etchings, trademarks, or lettering onto flat or curved surfaces of a wide variety of metal, glass, plastic, or paper items, using hand tools or hand-held power tools.",4.52,51-9194.00
+51-9194,4,"Prepare etching chemicals according to formulas, diluting acid with water to obtain solutions of specified concentration.",4.50,51-9194.00
+51-9194,5,Use computer software to design patterns for engraving.,4.49,51-9194.00
+51-9194,6,"Examine sketches, diagrams, samples, blueprints, or photographs to decide how designs are to be etched, cut, or engraved onto workpieces.",4.45,51-9194.00
+51-9195,1,Read work orders or examine parts to determine parts or sections of products to be produced.,4.09,51-9195.00
+51-9195,2,Brush or spray mold surfaces with parting agents or insert paper into molds to ensure smoothness and prevent sticking or seepage.,4.02,51-9195.00
+51-9195,3,"Engrave or stamp identifying symbols, letters, or numbers on products.",4.02,51-9195.00
+51-9195,4,"Assemble, insert, and adjust wires, tubes, cores, fittings, rods, or patterns into molds, using hand tools and depth gauges.",4.00,51-9195.00
+51-9195,5,"Clean, finish, and lubricate molds and mold parts.",4.00,51-9195.00
+51-9195,6,Separate models or patterns from molds and examine products for accuracy.,3.94,51-9195.00
+51-9196,1,"Examine completed work to detect defects and verify conformance to work orders, and adjust machinery as necessary to correct production problems.",4.66,51-9196.00
+51-9196,2,"Observe operation of various machines to detect and correct machine malfunctions such as improper forming, glue flow, or pasteboard tension.",4.43,51-9196.00
+51-9196,3,"Install attachments to machines for gluing, folding, printing, or cutting.",4.39,51-9196.00
+51-9196,4,"Cut products to specified dimensions, using hand or power cutters.",4.35,51-9196.00
+51-9196,5,"Place rolls of paper or cardboard on machine feed tracks, and thread paper through gluing, coating, and slitting rollers.",4.33,51-9196.00
+51-9196,6,Monitor finished cartons as they drop from forming machines into rotating hoppers and into gravity feed chutes to prevent jamming.,4.25,51-9196.00
+51-9197,1,Place tires into molds for new tread.,4.85,51-9197.00
+51-9197,2,Fit inner tubes and final layers of rubber onto tires.,4.82,51-9197.00
+51-9197,3,Buff tires according to specifications for width and undertread depth.,4.72,51-9197.00
+51-9197,4,Build semi-raw rubber treads onto buffed tire casings to prepare tires for vulcanization in recapping or retreading processes.,4.60,51-9197.00
+51-9197,5,"Brush or spray solvents onto plies to ensure adhesion, and repeat process as specified, alternating direction of each ply to strengthen tires.",4.59,51-9197.00
+51-9197,6,Start rollers that bond tread and plies as drums revolve.,4.57,51-9197.00
+51-9198,1,"Lift raw materials, finished products, and packed items, manually or using hoists.",4.37,51-9198.00
+51-9198,2,Mark or tag identification on parts.,4.25,51-9198.00
+51-9198,3,"Observe equipment operations so that malfunctions can be detected, and notify operators of any malfunctions.",4.23,51-9198.00
+51-9198,4,Count finished products to determine if product orders are complete.,4.21,51-9198.00
+51-9198,5,Examine products to verify conformance to quality standards.,4.17,51-9198.00
+51-9198,6,"Operate machinery used in the production process, or assist machine operators.",4.11,51-9198.00
+53-1041,1,"Calculate load weights for different aircraft compartments, using charts and computers.",4.82,53-1041.00
+53-1041,2,"Determine the quantity and orientation of cargo, and compute an aircraft's center of gravity.",4.63,53-1041.00
+53-1041,3,"Direct ground crews in the loading, unloading, securing, or staging of aircraft cargo or baggage.",4.54,53-1041.00
+53-1041,4,Train new employees in areas such as safety procedures or equipment operation.,4.51,53-1041.00
+53-1041,5,Distribute cargo to maximize use of space.,4.35,53-1041.00
+53-1041,6,Accompany aircraft as a member of the flight crew to monitor and handle cargo in flight.,4.14,53-1041.00
+53-1047,1,Enforce safety rules and regulations.,4.51,53-1043.00
+53-1047,2,Maintain a safe working environment by monitoring safety procedures and equipment.,4.47,53-1042.00
+53-1047,3,Collaborate with workers and managers to solve work-related problems.,4.42,53-1042.00
+53-1047,4,Review work throughout the work process and at completion to ensure that it has been performed properly.,4.39,53-1042.00
+53-1047,5,Examine freight to determine loading sequences.,4.38,53-1042.00
+53-1047,6,"Interpret transportation or tariff regulations, shipping orders, safety regulations, or company policies and procedures for workers.",4.17,53-1043.00
+53-2011,1,Use instrumentation to guide flights when visibility is poor.,4.91,53-2011.00
+53-2011,2,"Start engines, operate controls, and pilot airplanes to transport passengers, mail, or freight, adhering to flight plans, regulations, and procedures.",4.89,53-2011.00
+53-2011,3,"Work as part of a flight team with other crew members, especially during takeoffs and landings.",4.88,53-2011.00
+53-2011,4,Respond to and report in-flight emergencies and malfunctions.,4.86,53-2011.00
+53-2011,5,"Inspect aircraft for defects and malfunctions, according to pre-flight checklists.",4.82,53-2011.00
+53-2011,6,"Contact control towers for takeoff clearances, arrival instructions, and other information, using radio equipment.",4.81,53-2011.00
+53-2012,1,"Check aircraft prior to flights to ensure that the engines, controls, instruments, and other systems are functioning properly.",4.97,53-2012.00
+53-2012,2,"Co-pilot aircraft or perform captain's duties, as required.",4.94,53-2012.00
+53-2012,3,"Consider airport altitudes, outside temperatures, plane weights, and wind speeds and directions to calculate the speed needed to become airborne.",4.93,53-2012.00
+53-2012,4,Use instrumentation to pilot aircraft when visibility is poor.,4.90,53-2012.00
+53-2012,5,"Monitor engine operation, fuel consumption, and functioning of aircraft systems during flights.",4.82,53-2012.00
+53-2012,6,"Order changes in fuel supplies, loads, routes, or schedules to ensure safety of flights.",4.81,53-2012.00
+53-3031,1,"Drive trucks to deliver such items as food, medical supplies, or newspapers.",4.32,53-3031.00
+53-3031,2,Arrange merchandise and sales promotion displays or issue sales promotion materials to customers.,4.17,53-3031.00
+53-3031,3,"Collect coins from vending machines, refill machines, and remove aged merchandise.",4.10,53-3031.00
+53-3031,4,Inform regular customers of new products or services and price changes.,4.06,53-3031.00
+53-3031,5,Record sales or delivery information on daily sales or delivery record.,4.04,53-3031.00
+53-3031,6,Listen to and resolve customers' complaints regarding products or services.,3.99,53-3031.00
+53-3032,1,"Secure cargo for transport, using ropes, blocks, chain, binders, or covers.",4.66,53-3032.00
+53-3032,2,Follow appropriate safety procedures for transporting dangerous goods.,4.66,53-3032.00
+53-3032,3,Check all load-related documentation for completeness and accuracy.,4.63,53-3032.00
+53-3032,4,Inspect loads to ensure that cargo is secure.,4.62,53-3032.00
+53-3032,5,"Check vehicles to ensure that mechanical, safety, and emergency equipment is in good working order.",4.61,53-3032.00
+53-3032,6,Crank trailer landing gear up or down to safely secure vehicles.,4.60,53-3032.00
+53-3033,1,Obey traffic laws and follow established traffic and transportation procedures.,4.83,53-3033.00
+53-3033,2,Report any mechanical problems encountered with vehicles.,4.79,53-3033.00
+53-3033,3,Verify the contents of inventory loads against shipping papers.,4.76,53-3033.00
+53-3033,4,"Inspect and maintain vehicle supplies and equipment, such as gas, oil, water, tires, lights, or brakes, to ensure that vehicles are in proper working condition.",4.72,53-3033.00
+53-3033,5,Read maps and follow written or verbal geographic directions.,4.70,53-3033.00
+53-3033,6,Turn in receipts and money received from deliveries.,4.67,53-3033.00
+53-4011,1,"Receive starting signals from conductors and use controls such as throttles or air brakes to drive electric, diesel-electric, steam, or gas turbine-electric locomotives.",4.91,53-4011.00
+53-4011,2,"Monitor gauges or meters that measure speed, amperage, battery charge, or air pressure in brake lines or in main reservoirs.",4.85,53-4011.00
+53-4011,3,"Interpret train orders, signals, or railroad rules and regulations that govern the operation of locomotives.",4.78,53-4011.00
+53-4011,4,Observe tracks to detect obstructions.,4.69,53-4011.00
+53-4011,5,"Confer with conductors or traffic control center personnel via radiophones to issue or receive information concerning stops, delays, or oncoming trains.",4.66,53-4011.00
+53-4011,6,"Inspect locomotives to verify adequate fuel, sand, water, or other supplies before each run or to check for mechanical problems.",4.48,53-4011.00
+53-4013,1,"Observe and respond to wayside and cab signals, including color light signals, position signals, torpedoes, flags, and hot box detectors.",4.63,53-4013.00
+53-4013,2,Inspect engines before and after use to ensure proper operation.,4.61,53-4013.00
+53-4013,3,Apply and release hand brakes.,4.55,53-4013.00
+53-4013,4,"Signal crew members for movement of engines or trains, using lanterns, hand signals, radios, or telephones.",4.53,53-4013.00
+53-4013,5,Confer with conductors and other workers via radiotelephones or computers to exchange switching information.,4.53,53-4013.00
+53-4013,6,Inspect track for defects such as broken rails and switch malfunctions.,4.50,53-4013.00
+53-4022,1,"Signal locomotive engineers to start or stop trains when coupling or uncoupling cars, using hand signals, lanterns, or radio communication.",4.83,53-4022.00
+53-4022,2,Inspect locomotives to detect damaged or worn parts.,4.74,53-4022.00
+53-4022,3,Observe train signals along routes and verify their meanings for engineers.,4.64,53-4022.00
+53-4022,4,"Operate and drive locomotives, diesel switch engines, dinkey engines, flatcars, and railcars in train yards and at industrial sites.",4.60,53-4022.00
+53-4022,5,"Inspect couplings, air hoses, journal boxes, and handbrakes to ensure that they are securely fastened and functioning properly.",4.59,53-4022.00
+53-4022,6,Raise levers to couple and uncouple cars for makeup and breakup of trains.,4.58,53-4022.00
+53-4031,1,Observe yard traffic to determine tracks available to accommodate inbound and outbound traffic.,4.77,53-4031.00
+53-4031,2,"Inspect freight cars for compliance with sealing procedures, and record car numbers and seal numbers.",4.61,53-4031.00
+53-4031,3,"Receive instructions from dispatchers regarding trains' routes, timetables, and cargoes.",4.59,53-4031.00
+53-4031,4,"Direct and instruct workers engaged in yard activities, such as switching tracks, coupling and uncoupling cars, and routing inbound and outbound traffic.",4.54,53-4031.00
+53-4031,5,"Signal engineers to begin train runs, stop trains, or change speed, using telecommunications equipment or hand signals.",4.52,53-4031.00
+53-4031,6,"Direct engineers to move cars to fit planned train configurations, combining or separating cars to make up or break up trains.",4.47,53-4031.00
+53-5011,1,"Maintain government-issued certifications, as required.",4.51,53-5011.00
+53-5011,2,"Handle lines to moor vessels to wharfs, to tie up vessels to other vessels, or to rig towing lines.",4.42,53-5011.00
+53-5011,3,Lower and man lifeboats when emergencies occur.,4.31,53-5011.00
+53-5011,4,"Stand watch in ships' bows or bridge wings to look for obstructions in a ship's path or to locate navigational aids, such as buoys or lighthouses.",4.29,53-5011.00
+53-5011,5,"Steer ships under the direction of commanders or navigating officers or direct helmsmen to steer, following designated courses.",4.23,53-5011.00
+53-5011,6,"Tie barges together into tow units for tugboats to handle, inspecting barges periodically during voyages and disconnecting them when destinations are reached.",4.13,53-5011.00
+53-5021,1,"Direct courses and speeds of ships, based on specialized knowledge of local winds, weather, water depths, tides, currents, and hazards.",5.00,53-5021.00
+53-5021,2,Prevent ships under navigational control from engaging in unsafe operations.,4.90,53-5021.00
+53-5021,3,Serve as a vessel's docking master upon arrival at a port or at a berth.,4.87,53-5021.00
+53-5021,4,"Consult maps, charts, weather reports, or navigation equipment to determine and direct ship movements.",4.83,53-5021.00
+53-5021,5,"Steer and operate vessels, using radios, depth finders, radars, lights, buoys, or lighthouses.",4.75,53-5021.00
+53-5021,6,Operate ship-to-shore radios to exchange information needed for ship operations.,4.72,53-5021.00
+53-5031,1,"Monitor engine, machinery, or equipment indicators when vessels are underway, and report abnormalities to appropriate shipboard staff.",4.82,53-5031.00
+53-5031,2,"Monitor the availability, use, or condition of lifesaving equipment or pollution preventatives to ensure that international regulations are followed.",4.78,53-5031.00
+53-5031,3,Monitor and test operations of engines or other equipment so that malfunctions and their causes can be identified.,4.73,53-5031.00
+53-5031,4,"Start engines to propel ships, and regulate engines and power transmissions to control speeds of ships, according to directions from captains or bridge computers.",4.68,53-5031.00
+53-5031,5,"Perform or participate in emergency drills, as required.",4.56,53-5031.00
+53-5031,6,"Perform general marine vessel maintenance or repair work, such as repairing leaks, finishing interiors, refueling, or maintaining decks.",4.55,53-5031.00
+53-6051,1,Inspect repairs to transportation vehicles or equipment to ensure that repair work was performed properly.,4.50,53-6051.07
+53-6051,2,"Inspect vehicles or equipment to ensure compliance with rules, standards, or regulations.",4.43,53-6051.07
+53-6051,3,Investigate complaints regarding safety violations.,4.24,53-6051.07
+53-6051,4,"Inspect vehicles or other equipment for evidence of abuse, damage, or mechanical malfunction.",4.20,53-6051.07
+53-6051,5,"Conduct vehicle or transportation equipment tests, using diagnostic equipment.",4.15,53-6051.07
+53-6051,6,"Conduct remote inspections of motor vehicles, using handheld controllers and remotely directed vehicle inspection devices.",3.92,53-6051.07
+53-7011,1,"Manipulate controls, levers, and valves to start pumps, auxiliary equipment, or conveyors, and to adjust equipment positions, speeds, timing, and material flows.",4.30,53-7011.00
+53-7011,2,"Stop equipment or machinery and clear jams, using poles, bars, and hand tools, or remove damaged materials from conveyors.",4.21,53-7011.00
+53-7011,3,"Load, unload, or adjust materials or products on conveyors by hand, by using lifts, hoists, and scoops, or by opening gates, chutes, or hoppers.",4.13,53-7011.00
+53-7011,4,"Observe conveyor operations and monitor lights, dials, and gauges to maintain specified operating levels and to detect equipment malfunctions.",3.99,53-7011.00
+53-7011,5,"Distribute materials, supplies, and equipment to work stations, using lifts and trucks.",3.97,53-7011.00
+53-7011,6,Press console buttons to deflect packages to predetermined accumulators or reject lines.,3.94,53-7011.00
+53-7021,1,"Move levers, depress foot pedals, or turn dials to operate cranes, cherry pickers, electromagnets, or other moving equipment for lifting, moving, or placing loads.",4.77,53-7021.00
+53-7021,2,Inspect crane site conditions to determine ground stability.,4.76,53-7021.00
+53-7021,3,Inspect and adjust crane mechanisms or lifting accessories to prevent malfunctions or damage.,4.61,53-7021.00
+53-7021,4,Direct helpers engaged in placing blocking or outrigging under cranes.,4.61,53-7021.00
+53-7021,5,Determine load weights and check them against lifting capacities to prevent overload.,4.51,53-7021.00
+53-7021,6,"Clean, lubricate, and maintain mechanisms such as cables, pulleys, or grappling devices, making repairs, as necessary.",4.45,53-7021.00
+53-7041,1,"Operate compressed air, diesel, electric, gasoline, or steam-driven hoists or winches to control movement of cableways, cages, derricks, draglines, loaders, railcars, or skips.",4.34,53-7041.00
+53-7041,2,Signal and assist other workers loading or unloading materials.,4.31,53-7041.00
+53-7041,3,Observe equipment gauges and indicators and hand signals of other workers to verify load positions or depths.,4.30,53-7041.00
+53-7041,4,Start engines of hoists or winches and use levers and pedals to wind or unwind cable on drums.,4.29,53-7041.00
+53-7041,5,Apply hand or foot brakes and move levers to lock hoists or winches.,4.29,53-7041.00
+53-7041,6,"Repair, maintain, and adjust equipment, using hand tools.",4.26,53-7041.00
+53-7051,1,"Move levers or controls that operate lifting devices, such as forklifts, lift beams with swivel-hooks, hoists, or elevating platforms, to load, unload, transport, or stack material.",4.61,53-7051.00
+53-7051,2,"Move controls to drive gasoline- or electric-powered trucks, cars, or tractors and transport materials between loading, processing, and storage areas.",4.52,53-7051.00
+53-7051,3,"Manually or mechanically load or unload materials from pallets, skids, platforms, cars, lifting devices, or other transport vehicles.",4.51,53-7051.00
+53-7051,4,"Position lifting devices under, over, or around loaded pallets, skids, or boxes and secure material or products for transport to designated areas.",4.49,53-7051.00
+53-7051,5,Inspect product load for accuracy and safely move it around the warehouse or facility to ensure timely and complete delivery.,4.34,53-7051.00
+53-7051,6,Weigh materials or products and record weight or other production data on tags or labels.,4.26,53-7051.00
+53-7062,1,"Install protective devices, such as bracing, padding, or strapping, to prevent shifting or damage to items being transported.",4.52,53-7062.00
+53-7062,2,Maintain equipment storage areas to ensure that inventory is protected.,4.48,53-7062.00
+53-7062,3,Sort cargo before loading and unloading.,4.26,53-7062.00
+53-7062,4,Attach identifying tags to containers or mark them with identifying information.,4.14,53-7062.00
+53-7062,5,Read work orders or receive oral instructions to determine work assignments or material or equipment needs.,4.13,53-7062.00
+53-7062,6,"Move freight, stock, or other materials to and from storage or production areas, loading docks, delivery vehicles, ships, or containers, by hand or using trucks, tractors, or other equipment.",4.05,53-7062.00
+53-7063,1,"Inspect materials and products for defects, and to ensure conformance to specifications.",4.40,53-7063.00
+53-7063,2,"Record production and operational data, such as amount of materials processed.",4.39,53-7063.00
+53-7063,3,"Push dual control buttons and move controls to start, stop, or adjust machinery and equipment.",4.29,53-7063.00
+53-7063,4,Weigh or measure materials or products to ensure conformance to specifications.,4.25,53-7063.00
+53-7063,5,"Identify and mark materials, products, and samples, following instructions.",4.20,53-7063.00
+53-7063,6,"Clean and maintain machinery, equipment, and work areas to ensure proper functioning and safe working conditions.",4.13,53-7063.00
+53-7064,1,"Examine and inspect containers, materials, or products to ensure that product quality and packing specifications are met.",4.50,53-7064.00
+53-7064,2,"Measure, weigh, and count products and materials.",4.40,53-7064.00
+53-7064,3,"Remove completed or defective products or materials, placing them on moving equipment, such as conveyors, or in specified areas, such as loading docks.",4.28,53-7064.00
+53-7064,4,"Record product, packaging, and order information on specified forms and records.",4.24,53-7064.00
+53-7064,5,"Seal containers or materials, using glues, fasteners, nails, and hand tools.",4.23,53-7064.00
+53-7064,6,"Assemble, line, and pad cartons, crates, and containers, using hand tools.",4.09,53-7064.00
+53-7065,1,Take inventory or examine merchandise to identify items to be reordered or replenished.,4.23,53-7065.00
+53-7065,2,Answer customers' questions about merchandise and advise customers on merchandise selection.,4.22,53-7065.00
+53-7065,3,"Receive and count stock items, and record data manually or on computer.",4.21,53-7065.00
+53-7065,4,"Receive, unload, open, unpack, or issue sales floor merchandise.",4.03,53-7065.00
+53-7065,5,"Stock shelves, racks, cases, bins, and tables with new or transferred merchandise.",4.03,53-7065.00
+53-7065,6,"Pack and unpack items to be stocked on shelves in stockrooms, warehouses, or storage yards.",4.02,53-7065.00
+53-7121,1,"Seal outlet valves on tank cars, barges, and trucks.",4.72,53-7121.00
+53-7121,2,"Verify tank car, barge, or truck load numbers to ensure car placement accuracy based on written or verbal instructions.",4.60,53-7121.00
+53-7121,3,Connect ground cables to carry off static electricity when unloading tanker cars.,4.60,53-7121.00
+53-7121,4,"Start pumps and adjust valves or cables to regulate the flow of products to vessels, using knowledge of loading procedures.",4.48,53-7121.00
+53-7121,5,Check conditions and weights of vessels to ensure cleanliness and compliance with loading procedures.,4.48,53-7121.00
+53-7121,6,"Observe positions of cars passing loading spouts, and swing spouts into the correct positions at the appropriate times.",4.47,53-7121.00

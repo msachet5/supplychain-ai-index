@@ -1,0 +1,294 @@
+country,code_system,occ_code,year,employment,mean_annual_wage,currency,source,source_url
+US,SOC2018,11-1021,2025,3503020,134940,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,11-3051,2025,246250,134170,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,11-3061,2025,84320,156360,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,11-3071,2025,221180,121600,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,13-1020,2025,491430,83770,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,13-1041,2025,417070,88400,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,13-1081,2025,251040,89730,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,13-1111,2025,898280,113790,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,13-1199,2025,1087090,93970,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,15-2031,2025,108510,99730,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,17-2112,2025,365740,109900,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,17-3026,2025,75570,70700,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,41-1012,2025,214390,99370,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,41-2011,2025,3089410,33180,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,41-2031,2025,3897860,37310,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,41-4011,2025,284800,119730,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,41-4012,2025,1238190,82530,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,43-3021,2025,404060,51070,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,43-3031,2025,1373680,53560,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,43-3061,2025,55810,52370,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,43-4051,2025,2595750,46590,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,43-4151,2025,75200,48220,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,43-5011,2025,97670,57230,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,43-5021,2025,68640,40970,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,43-5032,2025,202810,54740,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,43-5052,2025,328820,62540,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,43-5053,2025,105200,59430,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,43-5061,2025,390160,62150,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,43-5071,2025,816870,46810,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,43-5111,2025,53300,47630,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,45-2092,2025,265500,37630,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,49-1011,2025,617500,85220,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,49-2094,2025,65010,75570,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,49-3031,2025,289960,64320,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,49-3043,2025,21350,70680,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,49-9041,2025,439640,68460,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,49-9043,2025,60020,64610,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,49-9044,2025,40330,69780,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,49-9071,2025,1529700,53780,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-1011,2025,673430,76600,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-2011,2025,34020,71420,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-2021,2025,12840,50470,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-2028,2025,246970,47660,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-2031,2025,34000,57790,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-2041,2025,52360,54030,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-2051,2025,16170,49550,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-2061,2025,250,56720,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-2090,2025,1405030,46660,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-3011,2025,236200,38480,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-3021,2025,136430,42380,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-3022,2025,145700,39280,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-3023,2025,69950,41770,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-3091,2025,20370,45930,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-3092,2025,174520,43750,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-3093,2025,31250,42570,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-3099,2025,65000,40300,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4021,2025,60840,49480,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4022,2025,8930,51680,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4023,2025,25250,53220,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4031,2025,171200,48430,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4032,2025,4680,51810,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4033,2025,67000,48170,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4034,2025,16710,52490,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4035,2025,12460,56740,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4041,2025,287050,59320,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4051,2025,16780,55490,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4052,2025,4560,54290,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4061,2025,2610,68570,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4062,2025,1470,60610,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4071,2025,12790,49860,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4072,2025,150470,45960,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4081,2025,124590,50030,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4111,2025,56930,66860,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4121,2025,416210,56760,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4122,2025,31600,50220,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4191,2025,14000,50450,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4192,2025,5970,66520,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4193,2025,32410,45100,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4194,2025,5600,53240,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-4199,2025,15900,48580,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-5111,2025,23840,50800,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-5112,2025,144260,47360,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-5113,2025,33180,44460,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-6011,2025,198040,34920,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-6021,2025,26120,34640,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-6031,2025,104880,37600,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-6041,2025,7450,39160,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-6042,2025,3280,36280,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-6051,2025,2190,37210,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-6052,2025,13920,45140,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-6061,2025,5310,40380,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-6062,2025,9000,39530,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-6063,2025,13030,40720,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-6064,2025,22020,40120,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-6091,2025,12850,48580,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-6092,2025,2950,71420,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-6093,2025,20140,47340,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-6099,2025,13530,40560,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-7011,2025,77170,48290,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-7021,2025,14480,45300,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-7031,2025,280,63670,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-7032,2025,220,54240,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-7041,2025,40850,43580,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-7042,2025,61420,43570,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-7099,2025,5490,46070,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-8011,2025,5150,121380,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-8012,2025,8520,111320,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-8013,2025,29320,99790,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-8021,2025,28250,83960,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-8031,2025,128490,62540,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-8091,2025,16610,79970,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-8092,2025,18030,88710,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-8093,2025,33160,90630,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-8099,2025,14080,65700,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9011,2025,139630,60710,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9012,2025,60100,56030,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9021,2025,26000,51380,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9022,2025,10510,45020,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9023,2025,94920,52090,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9031,2025,6060,41050,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9032,2025,44980,47460,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9041,2025,58770,47260,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9051,2025,14280,50940,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9061,2025,597370,53450,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9071,2025,22440,57960,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9081,2025,34410,54290,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9082,2025,11280,52730,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9083,2025,18660,43190,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9111,2025,379060,44590,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9123,2025,7940,45210,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9124,2025,158740,52620,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9141,2025,31460,60180,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9151,2025,4800,46050,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9161,2025,169450,54320,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9162,2025,28500,72210,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9191,2025,11500,46850,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9192,2025,14760,44600,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9193,2025,6900,44940,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9194,2025,7750,46320,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9195,2025,33190,47500,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9196,2025,96130,52840,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9197,2025,20770,57160,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9198,2025,165700,41120,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,51-9199,2025,251700,44380,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-1041,2025,9760,65010,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-1047,2025,623640,66860,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-2011,2025,103560,288650,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-2012,2025,47630,146080,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-3031,2025,409180,40730,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-3032,2025,2062040,59710,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-3033,2025,983300,48770,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-3052,2025,159240,60280,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-3054,2025,41050,49930,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-4011,2025,33470,85900,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-4013,2025,3920,68450,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-4022,2025,12400,69030,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-4031,2025,46440,79100,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-4041,2025,10200,77170,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-4099,2025,1120,60140,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-5011,2025,31670,56830,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-5021,2025,36850,103720,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-5031,2025,8400,111790,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-6051,2025,24500,88540,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-7011,2025,22930,45080,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-7021,2025,42890,72130,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-7041,2025,2600,67710,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-7051,2025,774420,48370,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-7061,2025,380430,36980,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-7062,2025,2950280,42260,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-7063,2025,42330,43660,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-7064,2025,559820,37540,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-7065,2025,2833810,39540,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-7081,2025,147240,52820,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-7121,2025,10700,59970,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+US,SOC2018,53-7199,2025,23480,45640,USD,BLS OEWS May 2025 national,https://data.bls.gov/oes/#/area/0000000/2025
+CA,NOC2021,10012,2025,20000,125798,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,12013,2025,81400,65187,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,12102,2025,80500,82014,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,12200,2025,204400,64584,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,13200,2025,7800,59842,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,13201,2025,33400,67018,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,14200,2025,151100,55453,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,14400,2025,114600,48963,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,14401,2025,21600,58406,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,14402,2025,3100,64938,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,14403,2025,30000,53310,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,14404,2025,33100,62691,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,14405,2025,3400,73362,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,21210,2025,16000,115024,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,21321,2025,20400,101005,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,21399,2025,42900,112632,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,22230,2025,4800,75691,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,22231,2025,7100,87776,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,22302,2025,22400,69098,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,22311,2025,44600,59987,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,22312,2025,12100,101650,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,60010,2025,28300,144123,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,62100,2025,133000,84843,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,62101,2025,22900,66685,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,63201,2025,14400,43992,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,63202,2025,32500,38958,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,63221,2025,4000,49400,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,64101,2025,240900,73029,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,64313,2025,3600,47174,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,64409,2025,181700,49712,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,65102,2025,262900,36816,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,65202,2025,5100,43139,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,70020,2025,37700,114296,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,72020,2025,73800,86112,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,72022,2025,5100,64792,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,72023,2025,1300,81078,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,72024,2025,35500,73840,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,72100,2025,43400,64355,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,72101,2025,11700,69534,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,72104,2025,4300,63357,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,72106,2025,90900,68162,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,72311,2025,5200,51272,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,72400,2025,88500,78104,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,72403,2025,3100,84323,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,72410,2025,140400,63107,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,72422,2025,10900,68182,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,72500,2025,16600,84718,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,72600,2025,19200,121971,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,72602,2025,6200,95306,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,72603,2025,4100,85342,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,73201,2025,76400,55494,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,73300,2025,319400,58011,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,73310,2025,6200,105373,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,73311,2025,5700,89461,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,73401,2025,14600,54413,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,74100,2025,22200,53331,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,74101,2025,33000,59779,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,74102,2025,20100,52395,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,74201,2025,5500,62483,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,74202,2025,13600,51688,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,75100,2025,7300,72696,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,75101,2025,229400,47798,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,75201,2025,97900,43181,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,75211,2025,4600,47798,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,90010,2025,110100,120869,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,92010,2025,10100,81099,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,92011,2025,19900,96699,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,92012,2025,26800,63211,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,92013,2025,9400,69638,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,92014,2025,11300,80122,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,92015,2025,3400,61381,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,92020,2025,13000,73174,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,92021,2025,4400,73570,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,92022,2025,5700,61506,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,92023,2025,18600,78104,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,92024,2025,12600,66997,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,93101,2025,16200,104790,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,93200,2025,9900,71448,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94100,2025,14200,72821,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94103,2025,4600,55390,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94104,2025,4300,60382,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94105,2025,26200,54309,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94106,2025,11900,54288,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94107,2025,38100,51168,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94110,2025,14400,59280,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94111,2025,15000,49525,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94112,2025,5400,61131,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94120,2025,7200,58282,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94121,2025,7700,69701,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94122,2025,6300,57158,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94124,2025,6400,49338,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94129,2025,4200,54246,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94130,2025,2300,47965,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94132,2025,17700,38501,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94140,2025,66300,49546,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94141,2025,18600,46904,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94142,2025,3300,36629,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94143,2025,8700,52811,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94152,2025,1900,48568,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94200,2025,31100,66560,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94201,2025,18400,46634,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94202,2025,12200,52291,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94203,2025,10800,52624,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94204,2025,17400,56742,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94210,2025,29700,48069,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94211,2025,14000,48298,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94212,2025,8800,48194,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94213,2025,14700,54267,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,94219,2025,38500,50128,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,95100,2025,5000,57429,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,95101,2025,18200,51667,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,95102,2025,9800,56306,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,95103,2025,19300,52582,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,95104,2025,6800,44429,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,95105,2025,3000,40227,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,95106,2025,53400,43534,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,95107,2025,3400,38272,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116
+CA,NOC2021,95109,2025,20900,42619,CAD,ESDC COPS 2023 employment; Job Bank 2025 wages,https://open.canada.ca/data/dataset/adad580f-76b0-4502-bd05-20c125de9116

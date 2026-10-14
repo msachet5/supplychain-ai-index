@@ -1,0 +1,721 @@
+soc_code,process_id,time_share,method,confidence,note
+11-3051,MFG-06,0.4,llm,med,
+11-3051,PP-02,0.1,llm,med,
+11-3051,MFG-08,0.1,llm,med,
+11-3051,QM-04,0.1,llm,med,
+11-3051,PP-03,0.08,llm,med,
+11-3051,IBP-07,0.07,llm,med,
+11-3051,EAM-01,0.05,llm,med,
+11-3051,MFG-07,0.05,llm,med,
+11-3051,SRC-08,0.05,llm,med,
+11-3061,SRC-04,0.2,llm,med,
+11-3061,SRC-01,0.15,llm,med,
+11-3061,SRC-03,0.15,llm,med,
+11-3061,SRC-05,0.15,llm,med,
+11-3061,SRC-02,0.1,llm,med,
+11-3061,SRC-08,0.08,llm,med,
+11-3061,SRC-06,0.07,llm,med,
+11-3061,VIS-03,0.05,llm,med,
+11-3061,IBP-07,0.05,llm,med,
+11-3071,EWM-08,0.18,llm,med,
+11-3071,VIS-02,0.1,llm,med,
+11-3071,TM-01,0.07,llm,med,
+11-3071,TM-04,0.07,llm,med,
+11-3071,IBP-07,0.07,llm,med,
+11-3071,VIS-05,0.06,llm,med,
+11-3071,IBP-04,0.06,llm,med,
+11-3071,IBP-09,0.06,llm,med,
+11-3071,EWM-07,0.05,llm,med,
+11-3071,TM-13,0.05,llm,med,
+11-3071,SRC-04,0.04,llm,med,
+11-3071,EWM-09,0.03,llm,med,
+11-3071,IBP-03,0.03,llm,med,
+11-3071,EAM-01,0.03,llm,med,
+11-3071,GTS-04,0.03,llm,med,
+11-3071,EWM-03,0.02,llm,med,
+11-3071,TM-02,0.02,llm,med,
+11-3071,RET-03,0.02,llm,med,
+11-3071,VIS-03,0.01,llm,med,
+13-1020,SRC-04,0.2,llm,med,
+13-1020,SRC-03,0.15,llm,med,
+13-1020,SRC-06,0.15,llm,med,
+13-1020,SRC-07,0.15,llm,med,
+13-1020,SRC-02,0.08,llm,med,
+13-1020,SRC-08,0.08,llm,med,
+13-1020,SRC-05,0.05,llm,med,
+13-1020,IBP-06,0.05,llm,med,
+13-1020,QM-01,0.05,llm,med,
+13-1020,O2C-03,0.04,llm,med,
+13-1041,GTS-02,0.4,llm,med,
+13-1041,GTS-01,0.25,llm,med,
+13-1041,GTS-04,0.15,llm,med,
+13-1041,GTS-05,0.15,llm,med,
+13-1041,GTS-03,0.05,llm,med,
+13-1081,IBP-04,0.12,llm,med,
+13-1081,VIS-02,0.08,llm,med,
+13-1081,TM-05,0.07,llm,med,
+13-1081,VIS-01,0.07,llm,med,
+13-1081,VIS-05,0.07,llm,med,
+13-1081,IBP-05,0.06,llm,med,
+13-1081,IBP-01,0.05,llm,med,
+13-1081,IBP-06,0.05,llm,med,
+13-1081,IBP-08,0.05,llm,med,
+13-1081,IBP-09,0.05,llm,med,
+13-1081,TM-04,0.05,llm,med,
+13-1081,TM-06,0.04,llm,med,
+13-1081,TM-11,0.04,llm,med,
+13-1081,IBP-02,0.03,llm,med,
+13-1081,TM-13,0.03,llm,med,
+13-1081,O2C-02,0.03,llm,med,
+13-1081,SRC-08,0.03,llm,med,
+13-1081,TM-01,0.02,llm,med,
+13-1081,TM-02,0.02,llm,med,
+13-1081,VIS-03,0.02,llm,med,
+13-1081,GTS-05,0.02,llm,med,
+15-2031,IBP-09,0.3,llm,low,
+15-2031,IBP-05,0.2,llm,low,
+15-2031,TM-06,0.15,llm,low,
+15-2031,VIS-05,0.15,llm,low,
+15-2031,PP-04,0.1,llm,low,
+15-2031,IBP-04,0.1,llm,low,
+17-2112,MFG-08,0.55,llm,med,
+17-2112,QM-04,0.12,llm,med,
+17-2112,PP-03,0.1,llm,med,
+17-2112,IBP-09,0.05,llm,med,
+17-2112,MFG-07,0.05,llm,med,
+17-2112,EAM-01,0.05,llm,med,
+17-2112,QM-05,0.05,llm,med,
+17-2112,EWM-03,0.03,llm,med,
+17-3026,MFG-08,0.55,llm,med,
+17-3026,MFG-07,0.15,llm,med,
+17-3026,QM-04,0.1,llm,med,
+17-3026,PP-03,0.1,llm,med,
+17-3026,QM-02,0.1,llm,med,
+41-1012,O2C-05,0.8,llm,low,
+41-1012,O2C-03,0.1,llm,low,
+41-1012,O2C-04,0.1,llm,low,
+41-4011,O2C-05,0.7,llm,med,
+41-4011,O2C-03,0.15,llm,med,
+41-4011,O2C-04,0.1,llm,med,
+41-4011,O2C-07,0.05,llm,med,
+41-4012,O2C-05,0.6,llm,med,
+41-4012,O2C-03,0.12,llm,med,
+41-4012,O2C-04,0.1,llm,med,
+41-4012,O2C-07,0.08,llm,med,
+41-4012,IBP-03,0.05,llm,med,
+41-4012,EWM-10,0.05,llm,med,
+43-3021,O2C-06,0.85,llm,low,
+43-3021,TM-12,0.1,llm,low,
+43-3021,RET-05,0.05,llm,low,
+43-3031,SRC-09,0.7,llm,low,
+43-3031,TM-12,0.2,llm,low,
+43-3031,O2C-06,0.1,llm,low,
+43-3061,SRC-06,0.35,llm,med,
+43-3061,SRC-07,0.25,llm,med,
+43-3061,SRC-09,0.15,llm,med,
+43-3061,SRC-03,0.1,llm,med,
+43-3061,IBP-06,0.1,llm,med,
+43-3061,SRC-08,0.05,llm,med,
+43-4051,O2C-04,0.55,llm,low,
+43-4051,O2C-01,0.2,llm,low,
+43-4051,RET-01,0.15,llm,low,
+43-4051,RET-05,0.05,llm,low,
+43-4051,VIS-04,0.05,llm,low,
+43-4151,O2C-01,0.55,llm,med,
+43-4151,O2C-02,0.15,llm,med,
+43-4151,O2C-04,0.15,llm,med,
+43-4151,O2C-06,0.1,llm,med,
+43-4151,RET-01,0.05,llm,med,
+43-5011,TM-11,0.2,llm,med,
+43-5011,TM-03,0.13,llm,med,
+43-5011,TM-10,0.12,llm,med,
+43-5011,GTS-05,0.12,llm,med,
+43-5011,TM-07,0.1,llm,med,
+43-5011,VIS-01,0.1,llm,med,
+43-5011,GTS-02,0.08,llm,med,
+43-5011,TM-02,0.05,llm,med,
+43-5011,TM-12,0.05,llm,med,
+43-5011,VIS-04,0.05,llm,med,
+43-5021,FX-03,0.85,llm,high,
+43-5021,FX-02,0.15,llm,high,
+43-5032,TM-08,0.6,llm,med,
+43-5032,VIS-02,0.15,llm,med,
+43-5032,TM-09,0.1,llm,med,
+43-5032,VIS-01,0.1,llm,med,
+43-5032,TM-07,0.05,llm,med,
+43-5052,FX-03,1,llm,med,
+43-5053,FX-08,0.85,llm,low,
+43-5053,EWM-01,0.15,llm,low,
+43-5061,PP-04,0.25,llm,med,
+43-5061,PP-05,0.25,llm,med,
+43-5061,PP-01,0.15,llm,med,
+43-5061,PP-02,0.1,llm,med,
+43-5061,MFG-07,0.1,llm,med,
+43-5061,IBP-06,0.05,llm,med,
+43-5061,TM-09,0.05,llm,med,
+43-5061,SRC-07,0.05,llm,med,
+43-5071,EWM-01,0.25,llm,med,
+43-5071,EWM-06,0.2,llm,med,
+43-5071,EWM-07,0.18,llm,med,
+43-5071,EWM-05,0.1,llm,med,
+43-5071,TM-09,0.05,llm,med,
+43-5071,VIS-04,0.05,llm,med,
+43-5071,RET-02,0.05,llm,med,
+43-5071,GTS-05,0.05,llm,med,
+43-5071,EWM-02,0.05,llm,med,
+43-5071,RET-03,0.02,llm,med,
+43-5111,EWM-01,0.35,llm,med,
+43-5111,QM-01,0.25,llm,med,
+43-5111,EWM-07,0.2,llm,med,
+43-5111,EWM-06,0.1,llm,med,
+43-5111,QM-03,0.1,llm,med,
+49-1011,EAM-01,0.5,llm,low,
+49-1011,EAM-03,0.3,llm,low,
+49-1011,EAM-04,0.1,llm,low,
+49-1011,EAM-05,0.1,llm,low,
+49-2094,EAM-03,0.65,llm,low,
+49-2094,EAM-02,0.15,llm,low,
+49-2094,EAM-01,0.1,llm,low,
+49-2094,RET-04,0.1,llm,low,
+49-3031,EAM-05,1,llm,high,
+49-3043,EAM-05,1,llm,high,
+49-9041,EAM-03,0.65,llm,med,
+49-9041,EAM-02,0.15,llm,med,
+49-9041,EAM-01,0.1,llm,med,
+49-9041,EAM-04,0.05,llm,med,
+49-9041,MFG-08,0.05,llm,med,
+49-9043,EAM-03,0.7,llm,med,
+49-9043,EAM-01,0.2,llm,med,
+49-9043,EAM-04,0.1,llm,med,
+49-9044,EAM-03,0.8,llm,med,
+49-9044,MFG-08,0.1,llm,med,
+49-9044,EAM-01,0.1,llm,med,
+49-9071,EAM-03,0.7,llm,low,
+49-9071,EAM-01,0.2,llm,low,
+49-9071,EAM-04,0.1,llm,low,
+51-1011,MFG-06,0.65,llm,med,
+51-1011,MFG-07,0.1,llm,med,
+51-1011,MFG-08,0.08,llm,med,
+51-1011,PP-05,0.07,llm,med,
+51-1011,QM-04,0.05,llm,med,
+51-1011,EAM-01,0.05,llm,med,
+51-2011,MFG-02,0.82,llm,med,ASM template
+51-2011,QM-02,0.07,llm,med,ASM template
+51-2011,MFG-05,0.05,llm,med,ASM template
+51-2011,MFG-07,0.04,llm,med,ASM template
+51-2011,EAM-03,0.02,llm,med,ASM template
+51-2021,MFG-02,0.82,llm,med,ASM template
+51-2021,QM-02,0.07,llm,med,ASM template
+51-2021,MFG-05,0.05,llm,med,ASM template
+51-2021,MFG-07,0.04,llm,med,ASM template
+51-2021,EAM-03,0.02,llm,med,ASM template
+51-2028,MFG-02,0.82,llm,med,ASM template
+51-2028,QM-02,0.07,llm,med,ASM template
+51-2028,MFG-05,0.05,llm,med,ASM template
+51-2028,MFG-07,0.04,llm,med,ASM template
+51-2028,EAM-03,0.02,llm,med,ASM template
+51-2031,MFG-02,0.82,llm,med,ASM template
+51-2031,QM-02,0.07,llm,med,ASM template
+51-2031,MFG-05,0.05,llm,med,ASM template
+51-2031,MFG-07,0.04,llm,med,ASM template
+51-2031,EAM-03,0.02,llm,med,ASM template
+51-2041,MFG-01,0.82,llm,med,FAB template
+51-2041,QM-02,0.06,llm,med,FAB template
+51-2041,MFG-07,0.05,llm,med,FAB template
+51-2041,MFG-05,0.04,llm,med,FAB template
+51-2041,EAM-03,0.03,llm,med,FAB template
+51-2051,MFG-01,0.82,llm,med,FAB template
+51-2051,QM-02,0.06,llm,med,FAB template
+51-2051,MFG-07,0.05,llm,med,FAB template
+51-2051,MFG-05,0.04,llm,med,FAB template
+51-2051,EAM-03,0.03,llm,med,FAB template
+51-2061,MFG-02,0.82,llm,med,ASM template
+51-2061,QM-02,0.07,llm,med,ASM template
+51-2061,MFG-05,0.05,llm,med,ASM template
+51-2061,MFG-07,0.04,llm,med,ASM template
+51-2061,EAM-03,0.02,llm,med,ASM template
+51-2090,MFG-02,0.82,llm,med,ASM template
+51-2090,QM-02,0.07,llm,med,ASM template
+51-2090,MFG-05,0.05,llm,med,ASM template
+51-2090,MFG-07,0.04,llm,med,ASM template
+51-2090,EAM-03,0.02,llm,med,ASM template
+51-3011,MFG-03,0.8,llm,med,PROC template
+51-3011,QM-03,0.06,llm,med,PROC template
+51-3011,MFG-07,0.06,llm,med,PROC template
+51-3011,MFG-05,0.05,llm,med,PROC template
+51-3011,EAM-03,0.03,llm,med,PROC template
+51-3021,MFG-03,0.8,llm,med,PROC template
+51-3021,QM-03,0.06,llm,med,PROC template
+51-3021,MFG-07,0.06,llm,med,PROC template
+51-3021,MFG-05,0.05,llm,med,PROC template
+51-3021,EAM-03,0.03,llm,med,PROC template
+51-3022,MFG-03,0.8,llm,med,PROC template
+51-3022,QM-03,0.06,llm,med,PROC template
+51-3022,MFG-07,0.06,llm,med,PROC template
+51-3022,MFG-05,0.05,llm,med,PROC template
+51-3022,EAM-03,0.03,llm,med,PROC template
+51-3023,MFG-03,0.8,llm,med,PROC template
+51-3023,QM-03,0.06,llm,med,PROC template
+51-3023,MFG-07,0.06,llm,med,PROC template
+51-3023,MFG-05,0.05,llm,med,PROC template
+51-3023,EAM-03,0.03,llm,med,PROC template
+51-3091,MFG-03,0.8,llm,med,PROC template
+51-3091,QM-03,0.06,llm,med,PROC template
+51-3091,MFG-07,0.06,llm,med,PROC template
+51-3091,MFG-05,0.05,llm,med,PROC template
+51-3091,EAM-03,0.03,llm,med,PROC template
+51-3092,MFG-03,0.8,llm,med,PROC template
+51-3092,QM-03,0.06,llm,med,PROC template
+51-3092,MFG-07,0.06,llm,med,PROC template
+51-3092,MFG-05,0.05,llm,med,PROC template
+51-3092,EAM-03,0.03,llm,med,PROC template
+51-3093,MFG-03,0.8,llm,med,PROC template
+51-3093,QM-03,0.06,llm,med,PROC template
+51-3093,MFG-07,0.06,llm,med,PROC template
+51-3093,MFG-05,0.05,llm,med,PROC template
+51-3093,EAM-03,0.03,llm,med,PROC template
+51-3099,MFG-03,0.8,llm,med,PROC template
+51-3099,QM-03,0.06,llm,med,PROC template
+51-3099,MFG-07,0.06,llm,med,PROC template
+51-3099,MFG-05,0.05,llm,med,PROC template
+51-3099,EAM-03,0.03,llm,med,PROC template
+51-4021,MFG-01,0.82,llm,med,FAB template
+51-4021,QM-02,0.06,llm,med,FAB template
+51-4021,MFG-07,0.05,llm,med,FAB template
+51-4021,MFG-05,0.04,llm,med,FAB template
+51-4021,EAM-03,0.03,llm,med,FAB template
+51-4022,MFG-01,0.82,llm,med,FAB template
+51-4022,QM-02,0.06,llm,med,FAB template
+51-4022,MFG-07,0.05,llm,med,FAB template
+51-4022,MFG-05,0.04,llm,med,FAB template
+51-4022,EAM-03,0.03,llm,med,FAB template
+51-4023,MFG-01,0.82,llm,med,FAB template
+51-4023,QM-02,0.06,llm,med,FAB template
+51-4023,MFG-07,0.05,llm,med,FAB template
+51-4023,MFG-05,0.04,llm,med,FAB template
+51-4023,EAM-03,0.03,llm,med,FAB template
+51-4031,MFG-01,0.82,llm,med,FAB template
+51-4031,QM-02,0.06,llm,med,FAB template
+51-4031,MFG-07,0.05,llm,med,FAB template
+51-4031,MFG-05,0.04,llm,med,FAB template
+51-4031,EAM-03,0.03,llm,med,FAB template
+51-4032,MFG-01,0.82,llm,med,FAB template
+51-4032,QM-02,0.06,llm,med,FAB template
+51-4032,MFG-07,0.05,llm,med,FAB template
+51-4032,MFG-05,0.04,llm,med,FAB template
+51-4032,EAM-03,0.03,llm,med,FAB template
+51-4033,MFG-01,0.82,llm,med,FAB template
+51-4033,QM-02,0.06,llm,med,FAB template
+51-4033,MFG-07,0.05,llm,med,FAB template
+51-4033,MFG-05,0.04,llm,med,FAB template
+51-4033,EAM-03,0.03,llm,med,FAB template
+51-4034,MFG-01,0.82,llm,med,FAB template
+51-4034,QM-02,0.06,llm,med,FAB template
+51-4034,MFG-07,0.05,llm,med,FAB template
+51-4034,MFG-05,0.04,llm,med,FAB template
+51-4034,EAM-03,0.03,llm,med,FAB template
+51-4035,MFG-01,0.82,llm,med,FAB template
+51-4035,QM-02,0.06,llm,med,FAB template
+51-4035,MFG-07,0.05,llm,med,FAB template
+51-4035,MFG-05,0.04,llm,med,FAB template
+51-4035,EAM-03,0.03,llm,med,FAB template
+51-4041,MFG-01,0.82,llm,med,FAB template
+51-4041,QM-02,0.06,llm,med,FAB template
+51-4041,MFG-07,0.05,llm,med,FAB template
+51-4041,MFG-05,0.04,llm,med,FAB template
+51-4041,EAM-03,0.03,llm,med,FAB template
+51-4051,MFG-03,0.8,llm,med,PROC template
+51-4051,QM-03,0.06,llm,med,PROC template
+51-4051,MFG-07,0.06,llm,med,PROC template
+51-4051,MFG-05,0.05,llm,med,PROC template
+51-4051,EAM-03,0.03,llm,med,PROC template
+51-4052,MFG-03,0.8,llm,med,PROC template
+51-4052,QM-03,0.06,llm,med,PROC template
+51-4052,MFG-07,0.06,llm,med,PROC template
+51-4052,MFG-05,0.05,llm,med,PROC template
+51-4052,EAM-03,0.03,llm,med,PROC template
+51-4061,MFG-01,0.82,llm,med,FAB template
+51-4061,QM-02,0.06,llm,med,FAB template
+51-4061,MFG-07,0.05,llm,med,FAB template
+51-4061,MFG-05,0.04,llm,med,FAB template
+51-4061,EAM-03,0.03,llm,med,FAB template
+51-4062,MFG-01,0.82,llm,med,FAB template
+51-4062,QM-02,0.06,llm,med,FAB template
+51-4062,MFG-07,0.05,llm,med,FAB template
+51-4062,MFG-05,0.04,llm,med,FAB template
+51-4062,EAM-03,0.03,llm,med,FAB template
+51-4071,MFG-01,0.82,llm,med,FAB template
+51-4071,QM-02,0.06,llm,med,FAB template
+51-4071,MFG-07,0.05,llm,med,FAB template
+51-4071,MFG-05,0.04,llm,med,FAB template
+51-4071,EAM-03,0.03,llm,med,FAB template
+51-4072,MFG-01,0.82,llm,med,FAB template
+51-4072,QM-02,0.06,llm,med,FAB template
+51-4072,MFG-07,0.05,llm,med,FAB template
+51-4072,MFG-05,0.04,llm,med,FAB template
+51-4072,EAM-03,0.03,llm,med,FAB template
+51-4081,MFG-01,0.82,llm,med,FAB template
+51-4081,QM-02,0.06,llm,med,FAB template
+51-4081,MFG-07,0.05,llm,med,FAB template
+51-4081,MFG-05,0.04,llm,med,FAB template
+51-4081,EAM-03,0.03,llm,med,FAB template
+51-4111,MFG-01,0.82,llm,med,FAB template
+51-4111,QM-02,0.06,llm,med,FAB template
+51-4111,MFG-07,0.05,llm,med,FAB template
+51-4111,MFG-05,0.04,llm,med,FAB template
+51-4111,EAM-03,0.03,llm,med,FAB template
+51-4121,MFG-01,0.82,llm,med,FAB template
+51-4121,QM-02,0.06,llm,med,FAB template
+51-4121,MFG-07,0.05,llm,med,FAB template
+51-4121,MFG-05,0.04,llm,med,FAB template
+51-4121,EAM-03,0.03,llm,med,FAB template
+51-4122,MFG-01,0.82,llm,med,FAB template
+51-4122,QM-02,0.06,llm,med,FAB template
+51-4122,MFG-07,0.05,llm,med,FAB template
+51-4122,MFG-05,0.04,llm,med,FAB template
+51-4122,EAM-03,0.03,llm,med,FAB template
+51-4191,MFG-01,0.82,llm,med,FAB template
+51-4191,QM-02,0.06,llm,med,FAB template
+51-4191,MFG-07,0.05,llm,med,FAB template
+51-4191,MFG-05,0.04,llm,med,FAB template
+51-4191,EAM-03,0.03,llm,med,FAB template
+51-4192,MFG-01,0.82,llm,med,FAB template
+51-4192,QM-02,0.06,llm,med,FAB template
+51-4192,MFG-07,0.05,llm,med,FAB template
+51-4192,MFG-05,0.04,llm,med,FAB template
+51-4192,EAM-03,0.03,llm,med,FAB template
+51-4193,MFG-01,0.82,llm,med,FAB template
+51-4193,QM-02,0.06,llm,med,FAB template
+51-4193,MFG-07,0.05,llm,med,FAB template
+51-4193,MFG-05,0.04,llm,med,FAB template
+51-4193,EAM-03,0.03,llm,med,FAB template
+51-4194,MFG-01,0.82,llm,med,FAB template
+51-4194,QM-02,0.06,llm,med,FAB template
+51-4194,MFG-07,0.05,llm,med,FAB template
+51-4194,MFG-05,0.04,llm,med,FAB template
+51-4194,EAM-03,0.03,llm,med,FAB template
+51-4199,MFG-01,0.82,llm,med,FAB template
+51-4199,QM-02,0.06,llm,med,FAB template
+51-4199,MFG-07,0.05,llm,med,FAB template
+51-4199,MFG-05,0.04,llm,med,FAB template
+51-4199,EAM-03,0.03,llm,med,FAB template
+51-5111,MFG-03,0.8,llm,med,PROC template
+51-5111,QM-03,0.06,llm,med,PROC template
+51-5111,MFG-07,0.06,llm,med,PROC template
+51-5111,MFG-05,0.05,llm,med,PROC template
+51-5111,EAM-03,0.03,llm,med,PROC template
+51-5112,MFG-03,0.8,llm,med,PROC template
+51-5112,QM-03,0.06,llm,med,PROC template
+51-5112,MFG-07,0.06,llm,med,PROC template
+51-5112,MFG-05,0.05,llm,med,PROC template
+51-5112,EAM-03,0.03,llm,med,PROC template
+51-5113,MFG-03,0.8,llm,med,PROC template
+51-5113,QM-03,0.06,llm,med,PROC template
+51-5113,MFG-07,0.06,llm,med,PROC template
+51-5113,MFG-05,0.05,llm,med,PROC template
+51-5113,EAM-03,0.03,llm,med,PROC template
+51-6031,MFG-02,0.82,llm,med,ASM template
+51-6031,QM-02,0.07,llm,med,ASM template
+51-6031,MFG-05,0.05,llm,med,ASM template
+51-6031,MFG-07,0.04,llm,med,ASM template
+51-6031,EAM-03,0.02,llm,med,ASM template
+51-6041,MFG-02,0.82,llm,med,ASM template
+51-6041,QM-02,0.07,llm,med,ASM template
+51-6041,MFG-05,0.05,llm,med,ASM template
+51-6041,MFG-07,0.04,llm,med,ASM template
+51-6041,EAM-03,0.02,llm,med,ASM template
+51-6042,MFG-02,0.82,llm,med,ASM template
+51-6042,QM-02,0.07,llm,med,ASM template
+51-6042,MFG-05,0.05,llm,med,ASM template
+51-6042,MFG-07,0.04,llm,med,ASM template
+51-6042,EAM-03,0.02,llm,med,ASM template
+51-6051,MFG-02,0.82,llm,med,ASM template
+51-6051,QM-02,0.07,llm,med,ASM template
+51-6051,MFG-05,0.05,llm,med,ASM template
+51-6051,MFG-07,0.04,llm,med,ASM template
+51-6051,EAM-03,0.02,llm,med,ASM template
+51-6061,MFG-03,0.8,llm,med,PROC template
+51-6061,QM-03,0.06,llm,med,PROC template
+51-6061,MFG-07,0.06,llm,med,PROC template
+51-6061,MFG-05,0.05,llm,med,PROC template
+51-6061,EAM-03,0.03,llm,med,PROC template
+51-6062,MFG-01,0.82,llm,med,FAB template
+51-6062,QM-02,0.06,llm,med,FAB template
+51-6062,MFG-07,0.05,llm,med,FAB template
+51-6062,MFG-05,0.04,llm,med,FAB template
+51-6062,EAM-03,0.03,llm,med,FAB template
+51-6063,MFG-03,0.8,llm,med,PROC template
+51-6063,QM-03,0.06,llm,med,PROC template
+51-6063,MFG-07,0.06,llm,med,PROC template
+51-6063,MFG-05,0.05,llm,med,PROC template
+51-6063,EAM-03,0.03,llm,med,PROC template
+51-6064,MFG-03,0.8,llm,med,PROC template
+51-6064,QM-03,0.06,llm,med,PROC template
+51-6064,MFG-07,0.06,llm,med,PROC template
+51-6064,MFG-05,0.05,llm,med,PROC template
+51-6064,EAM-03,0.03,llm,med,PROC template
+51-6091,MFG-03,0.8,llm,med,PROC template
+51-6091,QM-03,0.06,llm,med,PROC template
+51-6091,MFG-07,0.06,llm,med,PROC template
+51-6091,MFG-05,0.05,llm,med,PROC template
+51-6091,EAM-03,0.03,llm,med,PROC template
+51-6092,MFG-01,0.82,llm,med,FAB template
+51-6092,QM-02,0.06,llm,med,FAB template
+51-6092,MFG-07,0.05,llm,med,FAB template
+51-6092,MFG-05,0.04,llm,med,FAB template
+51-6092,EAM-03,0.03,llm,med,FAB template
+51-6093,MFG-02,0.82,llm,med,ASM template
+51-6093,QM-02,0.07,llm,med,ASM template
+51-6093,MFG-05,0.05,llm,med,ASM template
+51-6093,MFG-07,0.04,llm,med,ASM template
+51-6093,EAM-03,0.02,llm,med,ASM template
+51-6099,MFG-02,0.82,llm,med,ASM template
+51-6099,QM-02,0.07,llm,med,ASM template
+51-6099,MFG-05,0.05,llm,med,ASM template
+51-6099,MFG-07,0.04,llm,med,ASM template
+51-6099,EAM-03,0.02,llm,med,ASM template
+51-7011,MFG-02,0.82,llm,med,ASM template
+51-7011,QM-02,0.07,llm,med,ASM template
+51-7011,MFG-05,0.05,llm,med,ASM template
+51-7011,MFG-07,0.04,llm,med,ASM template
+51-7011,EAM-03,0.02,llm,med,ASM template
+51-7021,MFG-01,0.82,llm,med,FAB template
+51-7021,QM-02,0.06,llm,med,FAB template
+51-7021,MFG-07,0.05,llm,med,FAB template
+51-7021,MFG-05,0.04,llm,med,FAB template
+51-7021,EAM-03,0.03,llm,med,FAB template
+51-7031,MFG-01,0.82,llm,med,FAB template
+51-7031,QM-02,0.06,llm,med,FAB template
+51-7031,MFG-07,0.05,llm,med,FAB template
+51-7031,MFG-05,0.04,llm,med,FAB template
+51-7031,EAM-03,0.03,llm,med,FAB template
+51-7032,MFG-01,0.82,llm,med,FAB template
+51-7032,QM-02,0.06,llm,med,FAB template
+51-7032,MFG-07,0.05,llm,med,FAB template
+51-7032,MFG-05,0.04,llm,med,FAB template
+51-7032,EAM-03,0.03,llm,med,FAB template
+51-7041,MFG-01,0.82,llm,med,FAB template
+51-7041,QM-02,0.06,llm,med,FAB template
+51-7041,MFG-07,0.05,llm,med,FAB template
+51-7041,MFG-05,0.04,llm,med,FAB template
+51-7041,EAM-03,0.03,llm,med,FAB template
+51-7042,MFG-01,0.82,llm,med,FAB template
+51-7042,QM-02,0.06,llm,med,FAB template
+51-7042,MFG-07,0.05,llm,med,FAB template
+51-7042,MFG-05,0.04,llm,med,FAB template
+51-7042,EAM-03,0.03,llm,med,FAB template
+51-7099,MFG-01,0.82,llm,med,FAB template
+51-7099,QM-02,0.06,llm,med,FAB template
+51-7099,MFG-07,0.05,llm,med,FAB template
+51-7099,MFG-05,0.04,llm,med,FAB template
+51-7099,EAM-03,0.03,llm,med,FAB template
+51-8091,MFG-03,0.8,llm,med,PROC template
+51-8091,QM-03,0.06,llm,med,PROC template
+51-8091,MFG-07,0.06,llm,med,PROC template
+51-8091,MFG-05,0.05,llm,med,PROC template
+51-8091,EAM-03,0.03,llm,med,PROC template
+51-8093,MFG-03,0.8,llm,med,PROC template
+51-8093,QM-03,0.06,llm,med,PROC template
+51-8093,MFG-07,0.06,llm,med,PROC template
+51-8093,MFG-05,0.05,llm,med,PROC template
+51-8093,EAM-03,0.03,llm,med,PROC template
+51-9011,MFG-03,0.8,llm,med,PROC template
+51-9011,QM-03,0.06,llm,med,PROC template
+51-9011,MFG-07,0.06,llm,med,PROC template
+51-9011,MFG-05,0.05,llm,med,PROC template
+51-9011,EAM-03,0.03,llm,med,PROC template
+51-9012,MFG-03,0.8,llm,med,PROC template
+51-9012,QM-03,0.06,llm,med,PROC template
+51-9012,MFG-07,0.06,llm,med,PROC template
+51-9012,MFG-05,0.05,llm,med,PROC template
+51-9012,EAM-03,0.03,llm,med,PROC template
+51-9021,MFG-03,0.8,llm,med,PROC template
+51-9021,QM-03,0.06,llm,med,PROC template
+51-9021,MFG-07,0.06,llm,med,PROC template
+51-9021,MFG-05,0.05,llm,med,PROC template
+51-9021,EAM-03,0.03,llm,med,PROC template
+51-9022,MFG-01,0.82,llm,med,FAB template
+51-9022,QM-02,0.06,llm,med,FAB template
+51-9022,MFG-07,0.05,llm,med,FAB template
+51-9022,MFG-05,0.04,llm,med,FAB template
+51-9022,EAM-03,0.03,llm,med,FAB template
+51-9023,MFG-03,0.8,llm,med,PROC template
+51-9023,QM-03,0.06,llm,med,PROC template
+51-9023,MFG-07,0.06,llm,med,PROC template
+51-9023,MFG-05,0.05,llm,med,PROC template
+51-9023,EAM-03,0.03,llm,med,PROC template
+51-9031,MFG-01,0.82,llm,med,FAB template
+51-9031,QM-02,0.06,llm,med,FAB template
+51-9031,MFG-07,0.05,llm,med,FAB template
+51-9031,MFG-05,0.04,llm,med,FAB template
+51-9031,EAM-03,0.03,llm,med,FAB template
+51-9032,MFG-01,0.82,llm,med,FAB template
+51-9032,QM-02,0.06,llm,med,FAB template
+51-9032,MFG-07,0.05,llm,med,FAB template
+51-9032,MFG-05,0.04,llm,med,FAB template
+51-9032,EAM-03,0.03,llm,med,FAB template
+51-9041,MFG-01,0.82,llm,med,FAB template
+51-9041,QM-02,0.06,llm,med,FAB template
+51-9041,MFG-07,0.05,llm,med,FAB template
+51-9041,MFG-05,0.04,llm,med,FAB template
+51-9041,EAM-03,0.03,llm,med,FAB template
+51-9051,MFG-03,0.8,llm,med,PROC template
+51-9051,QM-03,0.06,llm,med,PROC template
+51-9051,MFG-07,0.06,llm,med,PROC template
+51-9051,MFG-05,0.05,llm,med,PROC template
+51-9051,EAM-03,0.03,llm,med,PROC template
+51-9061,QM-02,0.45,llm,med,
+51-9061,QM-01,0.25,llm,med,
+51-9061,QM-03,0.12,llm,med,
+51-9061,QM-04,0.1,llm,med,
+51-9061,QM-05,0.05,llm,med,
+51-9061,RET-02,0.03,llm,med,
+51-9111,MFG-04,0.82,llm,med,PACK template
+51-9111,QM-02,0.06,llm,med,PACK template
+51-9111,MFG-07,0.05,llm,med,PACK template
+51-9111,MFG-05,0.05,llm,med,PACK template
+51-9111,EAM-03,0.02,llm,med,PACK template
+51-9123,MFG-01,0.82,llm,med,FAB template
+51-9123,QM-02,0.06,llm,med,FAB template
+51-9123,MFG-07,0.05,llm,med,FAB template
+51-9123,MFG-05,0.04,llm,med,FAB template
+51-9123,EAM-03,0.03,llm,med,FAB template
+51-9124,MFG-01,0.82,llm,med,FAB template
+51-9124,QM-02,0.06,llm,med,FAB template
+51-9124,MFG-07,0.05,llm,med,FAB template
+51-9124,MFG-05,0.04,llm,med,FAB template
+51-9124,EAM-03,0.03,llm,med,FAB template
+51-9141,MFG-03,0.8,llm,med,PROC template
+51-9141,QM-03,0.06,llm,med,PROC template
+51-9141,MFG-07,0.06,llm,med,PROC template
+51-9141,MFG-05,0.05,llm,med,PROC template
+51-9141,EAM-03,0.03,llm,med,PROC template
+51-9161,MFG-01,0.82,llm,med,FAB template
+51-9161,QM-02,0.06,llm,med,FAB template
+51-9161,MFG-07,0.05,llm,med,FAB template
+51-9161,MFG-05,0.04,llm,med,FAB template
+51-9161,EAM-03,0.03,llm,med,FAB template
+51-9162,MFG-01,0.65,llm,med,
+51-9162,MFG-08,0.35,llm,med,
+51-9191,MFG-01,0.82,llm,med,FAB template
+51-9191,QM-02,0.06,llm,med,FAB template
+51-9191,MFG-07,0.05,llm,med,FAB template
+51-9191,MFG-05,0.04,llm,med,FAB template
+51-9191,EAM-03,0.03,llm,med,FAB template
+51-9192,MFG-01,0.82,llm,med,FAB template
+51-9192,QM-02,0.06,llm,med,FAB template
+51-9192,MFG-07,0.05,llm,med,FAB template
+51-9192,MFG-05,0.04,llm,med,FAB template
+51-9192,EAM-03,0.03,llm,med,FAB template
+51-9193,MFG-03,0.8,llm,med,PROC template
+51-9193,QM-03,0.06,llm,med,PROC template
+51-9193,MFG-07,0.06,llm,med,PROC template
+51-9193,MFG-05,0.05,llm,med,PROC template
+51-9193,EAM-03,0.03,llm,med,PROC template
+51-9194,MFG-01,0.82,llm,med,FAB template
+51-9194,QM-02,0.06,llm,med,FAB template
+51-9194,MFG-07,0.05,llm,med,FAB template
+51-9194,MFG-05,0.04,llm,med,FAB template
+51-9194,EAM-03,0.03,llm,med,FAB template
+51-9195,MFG-01,0.82,llm,med,FAB template
+51-9195,QM-02,0.06,llm,med,FAB template
+51-9195,MFG-07,0.05,llm,med,FAB template
+51-9195,MFG-05,0.04,llm,med,FAB template
+51-9195,EAM-03,0.03,llm,med,FAB template
+51-9196,MFG-03,0.8,llm,med,PROC template
+51-9196,QM-03,0.06,llm,med,PROC template
+51-9196,MFG-07,0.06,llm,med,PROC template
+51-9196,MFG-05,0.05,llm,med,PROC template
+51-9196,EAM-03,0.03,llm,med,PROC template
+51-9197,MFG-02,0.82,llm,med,ASM template
+51-9197,QM-02,0.07,llm,med,ASM template
+51-9197,MFG-05,0.05,llm,med,ASM template
+51-9197,MFG-07,0.04,llm,med,ASM template
+51-9197,EAM-03,0.02,llm,med,ASM template
+51-9198,MFG-05,0.35,llm,low,
+51-9198,MFG-02,0.25,llm,low,
+51-9198,MFG-01,0.15,llm,low,
+51-9198,MFG-04,0.15,llm,low,
+51-9198,MFG-03,0.1,llm,low,
+51-9199,MFG-02,0.4,llm,low,
+51-9199,MFG-01,0.3,llm,low,
+51-9199,MFG-03,0.2,llm,low,
+51-9199,MFG-04,0.1,llm,low,
+53-1041,FX-07,0.7,llm,med,
+53-1041,FX-08,0.3,llm,med,
+53-1047,EWM-08,0.35,llm,low,
+53-1047,EWM-06,0.15,llm,low,
+53-1047,EWM-01,0.1,llm,low,
+53-1047,EWM-04,0.1,llm,low,
+53-1047,FX-08,0.1,llm,low,
+53-1047,TM-08,0.1,llm,low,
+53-1047,FX-02,0.05,llm,low,
+53-1047,EWM-09,0.05,llm,low,
+53-2011,FX-07,1,llm,high,
+53-2012,FX-07,1,llm,high,
+53-3031,FX-04,0.75,llm,med,
+53-3031,O2C-05,0.1,llm,med,
+53-3031,O2C-01,0.1,llm,med,
+53-3031,O2C-06,0.05,llm,med,
+53-3032,FX-01,0.55,llm,med,
+53-3032,FX-02,0.3,llm,med,
+53-3032,EWM-06,0.05,llm,med,
+53-3032,VIS-01,0.04,llm,med,
+53-3032,EWM-01,0.03,llm,med,
+53-3032,TM-09,0.03,llm,med,
+53-3033,FX-03,0.65,llm,med,
+53-3033,FX-02,0.3,llm,med,
+53-3033,EWM-06,0.05,llm,med,
+53-4011,FX-05,1,llm,high,
+53-4013,FX-05,1,llm,high,
+53-4022,FX-05,1,llm,high,
+53-4031,FX-05,1,llm,high,
+53-4099,FX-05,1,llm,med,
+53-5011,FX-06,1,llm,high,
+53-5021,FX-06,1,llm,high,
+53-5031,FX-06,1,llm,high,
+53-6051,EAM-05,0.5,llm,low,
+53-6051,FX-05,0.25,llm,low,
+53-6051,FX-06,0.25,llm,low,
+53-7011,MFG-05,0.4,llm,low,
+53-7011,EWM-05,0.3,llm,low,
+53-7011,FX-08,0.3,llm,low,
+53-7021,FX-06,0.6,llm,low,
+53-7021,MFG-05,0.4,llm,low,
+53-7041,MFG-05,0.5,llm,low,
+53-7041,FX-06,0.5,llm,low,
+53-7051,EWM-02,0.3,llm,med,
+53-7051,EWM-01,0.2,llm,med,
+53-7051,EWM-06,0.2,llm,med,
+53-7051,MFG-05,0.15,llm,med,
+53-7051,EWM-04,0.1,llm,med,
+53-7051,EWM-07,0.05,llm,med,
+53-7062,EWM-01,0.22,llm,med,
+53-7062,EWM-06,0.2,llm,med,
+53-7062,EWM-04,0.15,llm,med,
+53-7062,EWM-02,0.1,llm,med,
+53-7062,FX-08,0.1,llm,med,
+53-7062,MFG-05,0.1,llm,med,
+53-7062,FX-06,0.05,llm,med,
+53-7062,EWM-05,0.05,llm,med,
+53-7062,RET-02,0.03,llm,med,
+53-7063,MFG-04,0.45,llm,low,
+53-7063,MFG-05,0.3,llm,low,
+53-7063,MFG-03,0.25,llm,low,
+53-7064,EWM-05,0.75,llm,med,
+53-7064,MFG-04,0.15,llm,med,
+53-7064,RET-02,0.05,llm,med,
+53-7064,EWM-04,0.05,llm,med,
+53-7065,EWM-04,0.35,llm,med,
+53-7065,EWM-10,0.35,llm,med,
+53-7065,EWM-02,0.1,llm,med,
+53-7065,EWM-07,0.1,llm,med,
+53-7065,EWM-01,0.05,llm,med,
+53-7065,RET-02,0.05,llm,med,
+53-7121,EWM-06,0.5,llm,med,
+53-7121,FX-06,0.3,llm,med,
+53-7121,FX-05,0.2,llm,med,
+53-7199,EWM-04,0.3,llm,low,
+53-7199,EWM-02,0.3,llm,low,
+53-7199,EWM-06,0.2,llm,low,
+53-7199,MFG-05,0.2,llm,low,

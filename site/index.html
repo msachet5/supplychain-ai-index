@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Supply Chain AI Index</title>
+  <meta name="description" content="How much end-to-end supply chain work in North America can AI do, and how much is actually deployed.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23191a1e'/%3E%3Crect x='2' y='2' width='7' height='12' rx='1' fill='%239ec5f4'/%3E%3Crect x='10' y='2' width='4' height='7' rx='1' fill='%235598e7'/%3E%3Crect x='10' y='10' width='4' height='4' rx='1' fill='%231f2c3d'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <header>
+        <h1>Supply Chain AI Exposure Index</h1>
+        <p class="lede">North America, end to end: purchasing, making, storing, moving, distributing and returns. Each box is a supply chain process, sized by the wages paid to the people who do it.</p>
+      </header>
+
+      <p id="placeholder-banner" class="banner" hidden></p>
+
+      <section class="scoring-panel" id="scoring-panel" hidden></section>
+
+      <section class="role-search" aria-label="Find your role">
+        <label for="role-input" class="role-label">Find your role</label>
+        <div class="combo">
+          <input id="role-input" type="search" placeholder="e.g. demand planner, buyer, truck driver" autocomplete="off"
+                 role="combobox" aria-autocomplete="list" aria-controls="role-suggestions" aria-expanded="false">
+          <ul id="role-suggestions" class="suggestions" role="listbox" hidden></ul>
+        </div>
+        <div class="role-examples">
+          <span class="muted">Try:</span>
+          <button type="button" class="chip-btn" data-role-example="Demand planner">Demand planner</button>
+          <button type="button" class="chip-btn" data-role-example="Buyer">Buyer</button>
+          <button type="button" class="chip-btn" data-role-example="Truck driver">Truck driver</button>
+          <button type="button" class="chip-btn" data-role-example="Forklift operator">Forklift operator</button>
+        </div>
+      </section>
+
+      <section class="role-card" id="role-card" aria-live="polite" hidden></section>
+
+      <section class="summary" id="summary" aria-label="Headline estimates"></section>
+
+      <section class="detail" id="detail" aria-live="polite"></section>
+    </aside>
+
+    <main class="main">
+      <div class="toolbar" role="toolbar" aria-label="Filters">
+        <div class="seg" data-key="country" role="group" aria-label="Country">
+          <button type="button" data-value="NA">North America</button>
+          <button type="button" data-value="US">US</button>
+          <button type="button" data-value="CA">Canada</button>
+        </div>
+        <div class="seg" data-key="colorBy" role="group" aria-label="Colour by">
+          <span class="seg-label">Colour</span>
+          <button type="button" data-value="capability">Capability</button>
+          <button type="button" data-value="adoption">Adoption</button>
+          <button type="button" data-value="gap">Gap</button>
+        </div>
+        <div class="seg" data-key="sizeBy" role="group" aria-label="Size by">
+          <span class="seg-label">Size</span>
+          <button type="button" data-value="wages">Wages</button>
+          <button type="button" data-value="workers">Workers</button>
+        </div>
+        <div class="toolbar-actions">
+          <button id="copy-link" class="ghost-btn" type="button">Copy link</button>
+          <button id="download-png" class="ghost-btn" type="button">Download image</button>
+        </div>
+      </div>
+
+      <section class="card map-card" id="map-card" aria-labelledby="tm-title">
+        <div class="export-head" aria-hidden="true">
+          <div class="export-title">Supply Chain AI Exposure Index</div>
+          <div class="export-stat" id="export-stat"></div>
+        </div>
+        <div class="card-head">
+          <div>
+            <h2 id="tm-title">Process map</h2>
+            <p class="muted">Area = <span id="tm-size-label">total wages</span>. Click a group header to zoom in, or a box for details.</p>
+            <div class="selection-bar">
+              <span id="selection-note" class="selection-note"></span>
+              <button id="f-clear" class="ghost-btn" type="button" hidden>Clear selection</button>
+            </div>
+          </div>
+          <div class="legend" id="tm-legend" aria-hidden="true"></div>
+        </div>
+        <div id="treemap" class="treemap" role="group" aria-label="Treemap of supply chain processes"></div>
+        <div class="export-src" id="export-src" aria-hidden="true"></div>
+      </section>
+
+      <div class="lower-grid">
+        <section class="card" aria-labelledby="sc-title">
+          <div class="card-head">
+            <div>
+              <h2 id="sc-title">Hype vs reality</h2>
+              <p class="muted">What AI can do vs what's actually deployed. Drag to select a region. Dots are nudged slightly so equal scores stay visible.</p>
+            </div>
+            <div class="legend" id="sc-legend"></div>
+          </div>
+          <div id="scatter" class="scatter"></div>
+        </section>
+
+        <section class="card" aria-labelledby="gb-title">
+          <div class="card-head">
+            <div>
+              <h2 id="gb-title">Exposure index by group</h2>
+              <p class="muted">Wage-weighted, 0–100. Click a group to zoom the map.</p>
+            </div>
+            <div class="legend" id="gb-legend"></div>
+          </div>
+          <div id="group-bars" class="group-bars"></div>
+        </section>
+      </div>
+
+      <details class="card table-card">
+        <summary>Data table</summary>
+        <div class="table-wrap">
+          <table id="data-table">
+            <thead></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </details>
+
+      <details class="card method" id="method">
+        <summary>How this index is built</summary>
+        <div class="method-body">
+          <h3>What it measures</h3>
+          <p>Each box is one of 94 supply chain processes, grouped into 13 groups modelled on SAP modules. Each process gets two scores from 0 to 10. <strong>AI capability</strong> is the share of the work that current AI could do at acceptable quality with typical data. <strong>Adoption</strong> is how widely AI is actually in production for it across North American companies. The <strong>exposure index</strong> (0–100) is capability × 10, weighted by wages. The <strong>adoption index</strong> is the same for adoption.</p>
+          <h3>Who does the work, and what it costs</h3>
+          <p>Worker counts and mean wages come from official statistics: <span data-src="US"></span> for the US, and <span data-src="CA"></span> for Canada (Canadian dollars converted at the <span data-src="fx"></span>). Each occupation's time is split across processes; for example, logisticians spend about 12% of their time on supply planning. Jobs that are only partly supply chain count only that share (for example, about 15% of customer service reps handle orders). Box area is the total wages for that slice of work.</p>
+          <h3>Scope</h3>
+          <p>From buying materials through making, storing, moving and distributing to the customer's door, plus returns. Line workers and distributors are in. Farming, mining, the retail selling floor, R&amp;D and utilities are out.</p>
+          <h3>Scores and evidence</h3>
+          <p>Every score has a one-line reason. Scores marked <em>AI first pass</em> were drafted by an AI model and are pending review; <em>hand-scored</em> processes were reviewed by a supply chain practitioner. AI products are examples, not endorsements; their capabilities are as the vendors describe them. Evidence entries are labelled as independent studies, news reports or company-reported figures.</p>
+          <h3>Limits</h3>
+          <p>Job codes do not match how people describe their jobs: demand planners have no code of their own and are counted as logisticians. Time splits and partial-job shares are estimates. US employment is for 2025 and Canadian employment for 2023. Mexico is not yet included.</p>
+        </div>
+      </details>
+
+      <footer class="footer muted">
+        <p id="generated"></p>
+        <p>This page includes information from the O*NET 31.0 Database by the U.S. Department of Labor, Employment and Training Administration (USDOL/ETA), used under the <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> license. This site selected a subset of task statements; USDOL/ETA has not approved, endorsed, or tested these modifications. O*NET® is a trademark of USDOL/ETA. Contains information licensed under the <a href="https://open.canada.ca/en/open-government-licence-canada">Open Government Licence – Canada</a>. NOC–O*NET crosswalk by The Dais (MIT License). US data: U.S. Bureau of Labor Statistics.</p>
+      </footer>
+    </main>
+  </div>
+
+  <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
+  <div id="toast" class="toast" role="status" hidden></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script src="data.js"></script>
+  <script src="scoring.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
