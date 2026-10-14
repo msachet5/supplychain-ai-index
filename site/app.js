@@ -147,7 +147,7 @@
     const share = state.role && rolesBySoc.get(state.role).alloc.find(([pid]) => pid === p.id);
     const foot = el("div", "tip-foot", [
       share ? `${Math.round(share[1] * 100)}% of the selected role's time` : "",
-      p.scored_by === "llm" ? "AI first-pass scores" : p.scored_by === "placeholder" ? "Placeholder scores" : "",
+      p.scored_by === "llm" ? "Scored by Claude Opus 5.5" : p.scored_by === "placeholder" ? "Placeholder scores" : "",
       "Click for details",
     ].filter(Boolean).join(" · "));
     tip.replaceChildren(
@@ -647,8 +647,8 @@
     const head = el("div", "detail-head");
     head.append(el("h2", null, p.name), el("span", "badge", mod.short), el("span", "badge", `${p.work_type} work`));
     if (isExpert) head.append(el("span", "badge", "Hand-scored"));
-    else if (p.hand_score) head.append(el("span", "badge", "To be hand-scored"));
-    if (p.scored_by === "llm") head.append(el("span", "badge", "AI first-pass score"));
+    else if (p.hand_score && scoring.enabled) head.append(el("span", "badge", "To be hand-scored"));
+    if (p.scored_by === "llm") head.append(el("span", "badge", "Scored by Claude Opus 5.5"));
     if (isPlaceholder) head.append(el("span", "badge", "Placeholder score"));
 
     const stat = (label, value, meter) => {
@@ -1126,15 +1126,16 @@
   syncSegments();
   $("tm-size-label").textContent = state.sizeBy === "wages" ? "total wages" : "number of workers";
   const ph = DATA.placeholder;
-  const banner = $("placeholder-banner");
   const handScored = procs.filter((p) => ["expert", "llm+expert"].includes(p.scored_by)).length;
+  // Small credit line under the title, like the original reference; the banner is only for placeholder data.
+  $("scored-by").textContent = handScored
+    ? `Scored by Claude Opus 5.5, ${handScored} ${handScored === 1 ? "process" : "processes"} reviewed by hand`
+    : "Scored by Claude Opus 5.5";
+  const banner = $("placeholder-banner");
   if (ph.metrics || ph.scores) {
     banner.replaceChildren(el("strong", null, "Placeholder numbers. "), document.createTextNode("Some wages, worker counts or AI scores are generated stand-ins, not research."));
-  } else if (ph.llm_scores) {
-    banner.replaceChildren(el("strong", null, "Draft scores. "), document.createTextNode(
-      `Worker and wage figures are official statistics. ${handScored ? `${handScored} ${handScored === 1 ? "process is" : "processes are"} hand-scored by a supply chain practitioner; the other ${ph.llm_scores}` : `The AI capability and adoption scores for all ${ph.llm_scores} processes`} are a first pass by an AI model.`));
   }
-  banner.hidden = !(ph.metrics || ph.scores || ph.llm_scores);
+  banner.hidden = !(ph.metrics || ph.scores);
   const src = DATA.sources || {};
   document.querySelectorAll("[data-src]").forEach((n) => { n.textContent = src[n.dataset.src] || ""; });
   $("generated").textContent = [
@@ -1145,7 +1146,7 @@
     src.tasks && `Job tasks: ${src.tasks}.`,
     "Box area is total wages (in-scope workers × time share × mean wage).",
   ].filter(Boolean).join(" ");
-  $("export-src").textContent = `Workers and wages: ${src.US}; ${src.CA}. ${ph.llm_scores ? "AI scores: AI first pass, pending practitioner review." : "AI scores: practitioner-reviewed."}`;
+  $("export-src").textContent = `Workers and wages: ${src.US}; ${src.CA}. ${$("scored-by").textContent}. ${location.host.endsWith("github.io") ? location.href.split("#")[0] : "github.com/msachet5/supplychain-ai-index"}`;
   renderAll();
   renderRole();
   onSelectionChange();

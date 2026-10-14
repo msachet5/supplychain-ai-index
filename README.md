@@ -9,7 +9,7 @@ How much of North America's end-to-end supply chain work can AI do, and how much
 - **AI products and evidence:** 123 products mapped to 83 processes, plus sourced evidence labelled as independent, news or company-reported.
 - **Share:** "Copy link" keeps the current view (country, colours, role, selected process) in the URL. "Download image" saves a PNG of the map with a caption and sources.
 
-Workers and wages: BLS OEWS May 2025 (US); ESDC COPS and Job Bank 2025 (Canada); 2025 Bank of Canada exchange rate. AI scores start as an LLM first pass; hand-scored processes are marked as such.
+Workers and wages: BLS OEWS May 2025 (US); ESDC COPS and Job Bank 2025 (Canada); 2025 Bank of Canada exchange rate. AI scores by Claude Opus 5.5; hand-scored processes are marked as such.
 
 ## Layout
 

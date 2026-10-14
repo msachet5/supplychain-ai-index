@@ -350,3 +350,10 @@ a.product:hover { border-color: var(--axis); background: var(--wash); }
   background: var(--raised); color: var(--ink); border: 1px solid var(--axis); border-radius: 8px; padding: 8px 14px; font-size: 13px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
+
+/* Small credit line under the title */
+.credit { margin: 6px 0 0; font-size: 11px; color: var(--muted); }
+.credit > span { white-space: nowrap; }
+.credit a { color: var(--muted); text-decoration: none; display: inline-flex; align-items: center; gap: 3px; }
+.credit a:hover { color: var(--ink); }
+.gh-icon { flex-shrink: 0; }

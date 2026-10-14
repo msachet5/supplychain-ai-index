@@ -14,6 +14,7 @@
       <header>
         <h1>Supply Chain AI Exposure Index</h1>
         <p class="lede">North America, end to end: purchasing, making, storing, moving, distributing and returns. Each box is a supply chain process, sized by the wages paid to the people who do it.</p>
+        <p class="credit"><span>Data from BLS, ESDC &amp; O*NET</span> <span>· <span id="scored-by">Scored by Claude Opus 5.5</span></span> <span>· <a href="https://github.com/msachet5/supplychain-ai-index" target="_blank" rel="noopener noreferrer"><svg class="gh-icon" viewBox="0 0 16 16" width="12" height="12" aria-hidden="true"><path fill="currentColor" d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/></svg><span>GitHub</span></a></span></p>
       </header>
 
       <p id="placeholder-banner" class="banner" hidden></p>
@@ -23,16 +24,16 @@
       <section class="role-search" aria-label="Find your role">
         <label for="role-input" class="role-label">Find your role</label>
         <div class="combo">
-          <input id="role-input" type="search" placeholder="e.g. demand planner, buyer, truck driver" autocomplete="off"
+          <input id="role-input" type="search" placeholder="e.g. demand planner, buyer, supply chain manager" autocomplete="off"
                  role="combobox" aria-autocomplete="list" aria-controls="role-suggestions" aria-expanded="false">
           <ul id="role-suggestions" class="suggestions" role="listbox" hidden></ul>
         </div>
         <div class="role-examples">
           <span class="muted">Try:</span>
           <button type="button" class="chip-btn" data-role-example="Demand planner">Demand planner</button>
+          <button type="button" class="chip-btn" data-role-example="Supply chain manager">Supply chain manager</button>
           <button type="button" class="chip-btn" data-role-example="Buyer">Buyer</button>
-          <button type="button" class="chip-btn" data-role-example="Truck driver">Truck driver</button>
-          <button type="button" class="chip-btn" data-role-example="Forklift operator">Forklift operator</button>
+          <button type="button" class="chip-btn" data-role-example="Production planner">Production planner</button>
         </div>
       </section>
 
@@ -131,7 +132,7 @@
           <h3>Scope</h3>
           <p>From buying materials through making, storing, moving and distributing to the customer's door, plus returns. Line workers and distributors are in. Farming, mining, the retail selling floor, R&amp;D and utilities are out.</p>
           <h3>Scores and evidence</h3>
-          <p>Every score has a one-line reason. Scores marked <em>AI first pass</em> were drafted by an AI model and are pending review; <em>hand-scored</em> processes were reviewed by a supply chain practitioner. AI products are examples, not endorsements; their capabilities are as the vendors describe them. Evidence entries are labelled as independent studies, news reports or company-reported figures.</p>
+          <p>Every score has a one-line reason. Scores were drafted by Claude Opus 5.5 (an AI model) from the process descriptions, product landscape and evidence; processes marked <em>hand-scored</em> were reviewed by a supply chain practitioner. AI products are examples, not endorsements; their capabilities are as the vendors describe them. Evidence entries are labelled as independent studies, news reports or company-reported figures.</p>
           <h3>Limits</h3>
           <p>Job codes do not match how people describe their jobs: demand planners have no code of their own and are counted as logisticians. Time splits and partial-job shares are estimates. US employment is for 2025 and Canadian employment for 2023. Mexico is not yet included.</p>
         </div>
