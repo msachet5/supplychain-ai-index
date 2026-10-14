@@ -183,13 +183,15 @@
   function select(id) {
     if (window.matchMedia("(hover: none)").matches) hideTip(); // touch: the card came from the tap
     state.selected = state.selected === id ? null : id;
+    // On one-column layouts, details open in a bottom sheet over the map instead of scrolling the page.
+    // Open it before rendering so the sidebar placeholder keeps the empty panel's height.
+    if (isCompact()) {
+      if (state.selected) openSheet();
+      else closeSheet();
+    }
     applyHighlight();
     renderDetail();
     syncHash();
-    // On one-column layouts the detail panel sits above the charts; bring it into view.
-    if (state.selected && window.matchMedia("(max-width: 1000px)").matches) {
-      $("detail").scrollIntoView({ behavior: "smooth", block: "start" });
-    }
   }
 
   // ---------- index (0–100) ----------
@@ -697,7 +699,12 @@
       const li = el("li");
       const btn = el("button", "link-btn", j.title);
       btn.type = "button";
-      btn.addEventListener("click", () => pickRole({ soc: j.soc, label: rolesBySoc.get(j.soc).title, alias: null }));
+      btn.addEventListener("click", () => {
+        const fromSheet = sheet.open;
+        closeSheet();
+        pickRole({ soc: j.soc, label: rolesBySoc.get(j.soc).title, alias: null });
+        if (fromSheet) $("role-card").scrollIntoView({ behavior: "smooth", block: "start" });
+      });
       li.append(btn, el("span", "muted", ` · ${fmtCount(j.workers)} full-time equivalents`));
       jobList.append(li);
     });
@@ -900,6 +907,58 @@
     renderDetail();
   }
 
+  // ---------- detail sheet (phones and tablets) ----------
+  // The sidebar's detail panel moves into a modal dialog while a process is open, then moves back.
+  const sheet = $("detail-sheet");
+  const sheetBody = $("sheet-body");
+  const detailEl = $("detail");
+  // Holds the panel's height in the sidebar while it is in the sheet, so the page never shifts
+  // (iOS Safari has no scroll anchoring to hide a shift).
+  const detailSpacer = el("div", "detail-spacer");
+  function isCompact() {
+    return window.matchMedia("(max-width: 1000px)").matches;
+  }
+  function openSheet() {
+    if (!sheet.open) {
+      detailSpacer.style.height = `${detailEl.offsetHeight}px`;
+      detailEl.replaceWith(detailSpacer);
+      sheetBody.append(detailEl);
+      document.documentElement.classList.add("sheet-open");
+      sheet.showModal();
+    }
+    sheetBody.scrollTop = 0;
+  }
+  // Puts the panel back in the sidebar and clears the selection. Safe to call more than once.
+  function restoreDetail() {
+    if (detailSpacer.isConnected) detailSpacer.replaceWith(detailEl);
+    document.documentElement.classList.remove("sheet-open");
+    if (state.selected) {
+      state.selected = null;
+      applyHighlight();
+      renderDetail();
+      syncHash();
+    }
+  }
+  // Clean up synchronously rather than waiting for the dialog's "close" event, which is not
+  // dispatched reliably in every browser; the event listener below is only a backstop.
+  function closeSheet() {
+    if (!sheet.open && !detailSpacer.isConnected) return; // sheet not in use (e.g. desktop resize)
+    if (sheet.open) sheet.close();
+    restoreDetail();
+  }
+  // Opens the sheet for a process chosen by a link, leaving the empty panel's height in the sidebar.
+  function openSheetFor(processId) {
+    state.selected = null;
+    renderDetail();
+    state.selected = processId;
+    openSheet();
+  }
+  sheet.addEventListener("cancel", (e) => { e.preventDefault(); closeSheet(); }); // Esc
+  sheet.addEventListener("close", () => { if (detailSpacer.isConnected) restoreDetail(); });
+  // A tap on the dimmed backdrop lands on the dialog element itself.
+  sheet.addEventListener("click", (e) => { if (e.target === sheet) closeSheet(); });
+  sheet.querySelector(".sheet-close").addEventListener("click", closeSheet);
+
   // ---------- controls (segmented slicers above the map) ----------
   const SEG_ACTIONS = {
     country: () => renderAll(),
@@ -924,7 +983,7 @@
     }));
   });
   $("f-clear").addEventListener("click", clearAll);
-  document.addEventListener("keydown", (e) => { if (e.key === "Escape") clearAll(); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !sheet.open) clearAll(); });
 
   // ---------- shareable links: state lives in the URL hash ----------
   function syncHash() {
@@ -960,9 +1019,11 @@
 
   // A pasted link that only changes the hash does not reload the page; apply it in place.
   window.addEventListener("hashchange", () => {
+    closeSheet();
     Object.assign(state, { country: "NA", colorBy: "capability", sizeBy: "wages", role: null, roleAlias: null, module: null, selected: null, brush: null });
     $("role-input").value = "";
     readHash();
+    if (state.selected && isCompact()) openSheetFor(state.selected);
     syncSegments();
     $("tm-size-label").textContent = state.sizeBy === "wages" ? "total wages" : "number of workers";
     if (scatter) scatter.brushG.call(scatter.brush.move, null);
@@ -1123,6 +1184,7 @@
       const size = `${tmEl.clientWidth}x${window.innerHeight}`;
       if (size === lastSize) return;
       lastSize = size;
+      if (!isCompact()) closeSheet();
       renderTreemap();
       renderScatter();
     }, 120);
@@ -1156,6 +1218,7 @@
     "Box area is total wages (in-scope workers × time share × mean wage).",
   ].filter(Boolean).join(" ");
   $("export-src").textContent = `Workers and wages: ${src.US}; ${src.CA}. ${$("scored-by").textContent}. ${location.host.endsWith("github.io") ? location.href.split("#")[0] : "github.com/msachet5/supplychain-ai-index"}`;
+  if (state.selected && isCompact()) openSheetFor(state.selected); // shared link to a process
   renderAll();
   renderRole();
   onSelectionChange();

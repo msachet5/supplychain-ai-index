@@ -359,3 +359,24 @@ a.product:hover { border-color: var(--axis); background: var(--wash); }
 .credit a { color: var(--muted); text-decoration: none; display: inline-flex; align-items: center; gap: 3px; }
 .credit a:hover { color: var(--ink); }
 .gh-icon { flex-shrink: 0; }
+
+/* Detail sheet (phones and tablets): slides up over the map, closes back to the same spot */
+.sheet {
+  width: 100%; max-width: 640px; max-height: 88vh; margin: auto auto 0; padding: 0;
+  color: var(--ink); background: var(--surface); border: 1px solid var(--axis); border-bottom: 0;
+  border-radius: 16px 16px 0 0; box-shadow: 0 -12px 40px rgba(0, 0, 0, 0.5);
+}
+.sheet[open] { display: flex; flex-direction: column; animation: sheet-up 200ms ease-out; }
+.sheet::backdrop { background: rgba(0, 0, 0, 0.55); }
+.sheet-bar { position: relative; display: flex; justify-content: center; align-items: center; padding: 8px 12px 4px; flex-shrink: 0; }
+.sheet-grip { width: 40px; height: 4px; border-radius: 2px; background: var(--axis); }
+.sheet-close {
+  position: absolute; right: 8px; top: 4px; width: 36px; height: 36px;
+  font: inherit; font-size: 24px; line-height: 1; color: var(--ink-2); background: transparent; border: 0; border-radius: 8px; cursor: pointer;
+}
+.sheet-close:hover, .sheet-close:focus-visible { color: var(--ink); background: var(--wash); }
+.sheet-body { overflow-y: auto; overscroll-behavior: contain; padding: 0 16px 28px; -webkit-overflow-scrolling: touch; }
+.sheet-body .detail { border-top: 0; padding-top: 4px; }
+html.sheet-open { overflow: hidden; }
+@keyframes sheet-up { from { transform: translateY(32px); opacity: 0; } to { transform: none; opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .sheet[open] { animation: none; } }
