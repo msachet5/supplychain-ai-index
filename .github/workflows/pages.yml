@@ -25,6 +25,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: Validate data tables
         run: python3 scripts/validate.py
+      # Browsers cache Pages files for ~10 minutes; stamping the commit into asset URLs
+      # makes every deploy load its own app.js, styles.css and data.js.
+      - name: Cache-bust asset URLs
+        run: sed -E -i "s/(app|data|scoring)\.js\"/\1.js?v=${GITHUB_SHA:0:8}\"/g; s/styles\.css\"/styles.css?v=${GITHUB_SHA:0:8}\"/" site/index.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

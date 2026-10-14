@@ -439,23 +439,31 @@
     const width = tmEl.clientWidth;
     if (width < 50) return; // not laid out yet
     // Fill most of the viewport height beside the sidebar; fixed height on narrow screens.
-    const height = width < 640 ? 640 : Math.round(Math.min(Math.max(window.innerHeight - 190, 520), 940));
+    // Phones get a taller map so small groups keep usable boxes.
+    const height = width < 640
+      ? Math.round(Math.min(Math.max(width * 2, 680), 900))
+      : Math.round(Math.min(Math.max(window.innerHeight - 190, 520), 940));
     tmEl.style.height = `${height}px`;
     // Group header text: the short description (when zoomed, a back link plus the longer description),
     // on up to three lines. If nothing fits, the hover title carries it.
-    const headerText = (mod, width) => {
+    // A label may take at most this share of its group's height; reserving more than the group has
+    // squeezes its boxes out of place (seen on phones, where some groups are only ~20px tall).
+    const MAX_HEADER_SHARE = 0.45;
+    const headerText = (mod, width, groupHeight) => {
       const options = state.module
         ? [`← All groups  ·  ${mod.short}: ${mod.description}`, `← All groups  ·  ${mod.short}`, "← All groups"]
         : [mod.short];
       for (const [font, lineH, small] of [[NAME_FONT, 14, false], [HEADER_SMALL_FONT, 13, true]]) {
         for (const text of options) {
           const lines = wrapCount(text, font, width - 10);
-          if (lines <= 3) return { text, small, height: 6 + lineH * lines };
+          const height = 6 + lineH * lines;
+          if (lines <= 3 && height <= groupHeight * MAX_HEADER_SHARE) return { text, small, height };
         }
       }
-      return { text: "", small: false, height: 20 };
+      // No room for a label: keep a thin strip (name stays in the hover title and zoom view).
+      return { text: "", small: false, height: Math.max(0, Math.min(4, groupHeight * 0.2)) };
     };
-    const headerHeight = (node) => headerText(node.data.mod, node.x1 - node.x0).height;
+    const headerHeight = (node) => headerText(node.data.mod, node.x1 - node.x0, node.y1 - node.y0).height;
 
     // A focused module zooms to fill the whole map, so small modules (TM, IBP) are readable.
     const shown = state.module ? DATA.modules.filter((mod) => mod.id === state.module) : DATA.modules;
@@ -477,7 +485,7 @@
       const head = el("button", "tm-header");
       head.type = "button";
       head.dataset.module = mod.id;
-      const header = headerText(mod, w);
+      const header = headerText(mod, w, modNode.y1 - modNode.y0);
       Object.assign(head.style, { left: `${modNode.x0}px`, top: `${modNode.y0}px`, width: `${w}px`, height: `${header.height}px` });
       const groupWages = fmtMoney(d3.sum(modNode.leaves(), (l) => metricsOf(l.data).wages));
       head.title = state.module ? "Back to all groups" : `${mod.short}: ${groupWages} wages. Click to zoom in.`;
@@ -510,6 +518,7 @@
         const showVal = th >= 48 && textWidth(valText, VALUE_FONT) <= innerW;
         const maxLines = Math.floor((th - 10 - (showVal ? 15 : 0)) / 14);
         if (maxLines >= 1 && wrapCount(p.name, NAME_FONT, innerW) <= maxLines) {
+          tile.classList.add("has-label");
           tile.append(el("span", "t-name", p.name));
           if (showVal) tile.append(el("span", "t-val", valText));
         }

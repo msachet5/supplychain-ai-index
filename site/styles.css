@@ -175,9 +175,9 @@ h2 { font-size: 15px; margin: 0 0 2px; font-weight: 650; }
 .swatch i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
 
 /* Treemap */
-.treemap { position: relative; width: 100%; }
+.treemap { position: relative; width: 100%; overflow: hidden; border-radius: 6px; }
 .tm-header {
-  position: absolute; display: flex; align-items: center;
+  position: absolute; display: flex; align-items: center; overflow: hidden;
   font: inherit; font-size: 12px; line-height: 14px; font-weight: 600; color: var(--ink);
   background: transparent; border: 0; padding: 0 4px; cursor: pointer;
   text-align: left; border-radius: 4px;
@@ -186,11 +186,13 @@ h2 { font-size: 15px; margin: 0 0 2px; font-weight: 650; }
 .tm-header:hover, .tm-header.active { background: var(--wash); }
 .tm-header.dim { opacity: 0.35; }
 .tm-tile {
-  position: absolute; border: 0; border-radius: 3px; padding: 5px 6px;
+  position: absolute; border: 0; border-radius: 3px; padding: 0;
   font: inherit; text-align: left; cursor: pointer; overflow: hidden;
   display: flex; flex-direction: column; justify-content: flex-start; gap: 2px;
   transition: opacity 120ms ease;
 }
+/* Padding only on boxes that show a label; on tiny boxes it would force a 12px minimum and push them out of place. */
+.tm-tile.has-label { padding: 5px 6px; }
 .tm-tile .t-name { font-size: 12px; line-height: 14px; font-weight: 600; }
 .tm-tile .t-val { font-size: 11px; line-height: 13px; opacity: 0.85; }
 .tm-tile.dim { opacity: 0.18; }
