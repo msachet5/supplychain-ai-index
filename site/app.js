@@ -21,6 +21,9 @@
   const procs = DATA.processes.map((p) => ({ ...p, gap: Math.round((p.capability - p.adoption) * 10) / 10 }));
   const byId = new Map(procs.map((p) => [p.id, p]));
   const rolesBySoc = new Map(DATA.roles.map((r) => [r.soc, r]));
+  const aliasAlloc = DATA.alias_alloc || {};
+  // The selected role's time split: the job title's own where it has one, else the official category's.
+  const roleAlloc = () => (state.roleAlias && aliasAlloc[state.roleAlias]) || rolesBySoc.get(state.role).alloc;
 
   // ---------- helpers ----------
   const $ = (id) => document.getElementById(id);
@@ -50,7 +53,7 @@
   function activeIds() {
     let ids = null;
     const narrow = (set) => { ids = ids ? new Set([...ids].filter((id) => set.has(id))) : new Set(set); };
-    if (state.role) narrow(new Set(rolesBySoc.get(state.role).alloc.map(([pid]) => pid)));
+    if (state.role) narrow(new Set(roleAlloc().map(([pid]) => pid)));
     if (state.module) narrow(new Set(procs.filter((p) => p.module === state.module).map((p) => p.id)));
     if (state.brush) narrow(state.brush);
     return ids;
@@ -144,7 +147,7 @@
       products.append(el("span", "tip-k", "AI products: "), document.createTextNode("none mapped yet"));
     }
 
-    const share = state.role && rolesBySoc.get(state.role).alloc.find(([pid]) => pid === p.id);
+    const share = state.role && roleAlloc().find(([pid]) => pid === p.id);
     const foot = el("div", "tip-foot", [
       share ? `${Math.round(share[1] * 100)}% of the selected role's time` : "",
       p.scored_by === "llm" ? "Scored by Claude Opus 5.5" : p.scored_by === "placeholder" ? "Placeholder scores" : "",
@@ -219,9 +222,9 @@
     const expIdx = Math.round(indexOf(set, "capability"));
     const adoIdx = Math.round(indexOf(set, "adoption"));
     $("summary").replaceChildren(
-      est(fmtMoney(exposed), `in wages sit in processes AI can already largely do (capability ${HIGH_CAPABILITY}+). That's ${pct}% of the total.`, true),
-      est(`${expIdx}/100`, "AI exposure index (wage-weighted capability)"),
-      est(`${adoIdx}/100`, "AI adoption index (what's in production)"),
+      est(fmtMoney(exposed), `in wages sit in processes where AI could do ${HIGH_CAPABILITY * 10}% or more of the work. That's ${pct}% of the total.`, true),
+      est(`${expIdx}/100`, "AI exposure index: the share of all the work AI could do, weighted by wages"),
+      est(`${adoIdx}/100`, "AI adoption index: how far use has spread (20 = pilots, 40 = leading firms, 60 = common)"),
       est(fmtMoney(wages), "total supply chain wages"),
       est(fmtCount(workers), "supply chain workers"),
       el("div", "scope", `${COUNTRY_LABEL[state.country]} · ${ids ? `${set.length} selected processes` : "all processes"}`),
@@ -316,18 +319,18 @@
   }));
 
   // Role-level numbers, shared by the role card and the exported image caption.
-  function roleStats(r) {
-    const total = d3.sum(r.alloc, (a) => a[1]) || 1;
+  function roleStats(r, alloc) {
+    const total = d3.sum(alloc, (a) => a[1]) || 1;
     return {
       m: r.metrics && r.metrics[state.country],
-      exposure: (d3.sum(r.alloc, ([pid, s]) => s * byId.get(pid).capability) / total) * 10,
-      adopted: (d3.sum(r.alloc, ([pid, s]) => s * byId.get(pid).adoption) / total) * 10,
-      highShare: d3.sum(r.alloc.filter(([pid]) => byId.get(pid).capability >= HIGH_CAPABILITY), (a) => a[1]) / total,
+      exposure: (d3.sum(alloc, ([pid, s]) => s * byId.get(pid).capability) / total) * 10,
+      adopted: (d3.sum(alloc, ([pid, s]) => s * byId.get(pid).adoption) / total) * 10,
+      highShare: d3.sum(alloc.filter(([pid]) => byId.get(pid).capability >= HIGH_CAPABILITY), (a) => a[1]) / total,
     };
   }
   function roleExportLine() {
     const r = rolesBySoc.get(state.role);
-    const { m, exposure, adopted, highShare } = roleStats(r);
+    const { m, exposure, adopted, highShare } = roleStats(r, roleAlloc());
     const name = state.roleAlias ? `${state.roleAlias} (counted as ${r.title})` : r.title;
     return `${COUNTRY_LABEL[state.country]} · ${name} · ${m ? `${fmtCount(m.workers)} workers · ` : ""}${Math.round(highShare * 100)}% of their time is in processes AI can largely do · Exposure index ${Math.round(exposure)}/100 · Adoption ${Math.round(adopted)}/100`;
   }
@@ -338,7 +341,8 @@
     const r = state.role && rolesBySoc.get(state.role);
     box.hidden = !r;
     if (!r) return;
-    const { m, exposure, adopted, highShare } = roleStats(r);
+    const alloc = roleAlloc();
+    const { m, exposure, adopted, highShare } = roleStats(r, alloc);
 
     const head = el("div", "role-head");
     const titleWrap = el("div");
@@ -363,7 +367,7 @@
     bars.append(scoreBar("Exposure index", exposure, 100), scoreBar("Adoption index", adopted, 100));
 
     const split = el("ol", "role-split");
-    for (const [pid, s] of r.alloc.slice(0, 8)) {
+    for (const [pid, s] of alloc.slice(0, 8)) {
       const p = byId.get(pid);
       const li = el("li");
       const btn = el("button", "split-row");
@@ -378,14 +382,14 @@
       li.append(btn);
       split.append(li);
     }
-    if (r.alloc.length > 8) split.append(el("li", "muted", `+${r.alloc.length - 8} smaller processes`));
+    if (alloc.length > 8) split.append(el("li", "muted", `+${alloc.length - 8} smaller processes`));
 
     const tasks = el("ul", "role-tasks");
     r.tasks.forEach((t) => tasks.append(el("li", null, t)));
 
     // Vendors across this role's processes, weighted by time share.
     const vendorWeight = new Map();
-    for (const [pid, s] of r.alloc) for (const x of byId.get(pid).products) vendorWeight.set(x.vendor, (vendorWeight.get(x.vendor) || 0) + s);
+    for (const [pid, s] of alloc) for (const x of byId.get(pid).products) vendorWeight.set(x.vendor, (vendorWeight.get(x.vendor) || 0) + s);
     const vendors = [...vendorWeight.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8).map(([v]) => v);
     const chips = el("div", "chips");
     vendors.forEach((v) => chips.append(el("span", "chip", v)));
@@ -397,7 +401,12 @@
     };
     const parts = [head];
     const aliasNote = state.roleAlias && (DATA.alias_notes || {})[state.roleAlias];
-    if (aliasNote) parts.push(el("p", "muted role-note", `${aliasNote}. The time split below is for the whole official category.`));
+    if (aliasNote) {
+      const ownSplit = aliasAlloc[state.roleAlias]
+        ? `Worker numbers are for all ${r.title.toLowerCase()}; the time split below is for a typical ${state.roleAlias.toLowerCase()}.`
+        : "The time split below is for the whole official category.";
+      parts.push(el("p", "muted role-note", `${aliasNote}. ${ownSplit}`));
+    }
     parts.push(stats, bars);
     if (r.scope === "partial") parts.push(el("p", "muted role-note", `Counts only the supply chain share of this job: ${r.scope_note}.`));
     parts.push(
@@ -571,7 +580,7 @@
     plot.append("text").attr("class", "axis-title").attr("x", iw).attr("y", ih + 36).attr("text-anchor", "end")
       .text("AI capability: what AI can do today →");
     plot.append("text").attr("class", "axis-title").attr("transform", `translate(${-32},0) rotate(-90)`)
-      .attr("text-anchor", "end").text("Adoption: what's in production →");
+      .attr("text-anchor", "end").text("Adoption: how far use has spread →");
 
     plot.append("line").attr("class", "diag").attr("x1", x(0)).attr("y1", y(0)).attr("x2", x(10)).attr("y2", y(10));
 

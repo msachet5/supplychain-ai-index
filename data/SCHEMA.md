@@ -11,7 +11,7 @@ scripts/validate.py            schema, key and range checks
 scripts/build_site_data.py     data/*.csv → site/data.js
 ```
 
-Hand-maintained tables (edit these directly): `modules`, `processes`, `occupations`, `allocation`, `process_scores`, `solutions`, `process_solutions`, `evidence`, `role_aliases`, `crosswalk_overrides`.
+Hand-maintained tables (edit these directly): `modules`, `processes`, `occupations`, `allocation`, `process_scores`, `solutions`, `process_solutions`, `evidence`, `role_aliases`, `role_splits`, `crosswalk_overrides`.
 Generated tables (do not edit; re-run `prepare_data.py`): `occupation_stats`, `crosswalk_soc_noc`, `fx_rates`, `role_tasks`.
 
 ```
@@ -145,6 +145,7 @@ Version 1 is an LLM first pass for all 94 processes. To hand-score, run local sc
 ## Role search
 
 - **role_aliases.csv**: everyday job titles → SOC (`alias`, `soc_code`, `note`). For example "Demand planner" → 13-1081 Logisticians, because there is no demand planner code.
+- **role_splits.csv**: a job title's own time split, for titles whose official category is a poor fit (`alias`, `process_id`, `time_share`, `method`, `confidence`, `note`). Used only for the role card and the carousel; wages and the indexes still use `allocation`. Demand planner is the only one so far, because the logisticians' split is mostly transport and visibility work.
 - **role_tasks.csv** (generated): top 6 O*NET tasks per in-scope SOC by importance (`soc_code`, `rank`, `task`, `importance`, `onet_code`).
 
 ## Click panel
@@ -165,7 +166,7 @@ process workers  = Σ in-scope workers × time_share
 process wages    = Σ in-scope workers × time_share × mean wage (USD)   → treemap area
 avg wage         = process wages / process workers                     → scatter bubble size
 gap              = capability − adoption                               → colour toggle
-role exposure    = Σ time_share × capability / Σ time_share × 10       → role card (0–100)
+role exposure    = Σ time_share × capability / Σ time_share × 10       → role card (0–100); role_splits if the title has one
 exposure index   = Σ wages × capability / Σ wages × 10                 → headline and group bars (0–100)
 adoption index   = Σ wages × adoption / Σ wages × 10
 ```

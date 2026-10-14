@@ -1,0 +1,9 @@
+alias,process_id,time_share,method,confidence,note
+Demand planner,IBP-01,0.25,llm,med,Run and tune the statistical forecast; review exceptions
+Demand planner,IBP-03,0.25,llm,med,"Promotions, new products, sales and customer input; consensus overrides"
+Demand planner,IBP-07,0.15,llm,med,Demand review and S&OP prep
+Demand planner,VIS-05,0.10,llm,med,"Forecast accuracy, bias and value-added reporting"
+Demand planner,IBP-05,0.10,llm,med,Forecast error and service inputs to safety stock
+Demand planner,IBP-02,0.05,llm,med,Short-term adjustments from orders and point-of-sale data
+Demand planner,O2C-07,0.05,llm,med,Forecast collaboration with key customers
+Demand planner,IBP-08,0.05,llm,med,Customer allocation when supply is short

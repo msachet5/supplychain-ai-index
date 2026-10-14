@@ -233,6 +233,10 @@ def main():
         aliases[r["soc_code"]].append(r["alias"])
         if r["note"]:
             alias_notes[r["alias"]] = r["note"]
+    # Job titles with their own time split (for example demand planners, whose official category is logisticians).
+    alias_alloc = defaultdict(list)
+    for r in read("role_splits"):
+        alias_alloc[r["alias"]].append([r["process_id"], float(r["time_share"])])
     roles = []
     for o in occupations:
         if o["in_scope"] == "no":
@@ -260,6 +264,7 @@ def main():
         "processes": out_processes,
         "roles": roles,
         "alias_notes": alias_notes,
+        "alias_alloc": {a: sorted(v, key=lambda x: -x[1]) for a, v in alias_alloc.items()},
         "sources": {
             "US": "BLS OEWS May 2025",
             "CA": "ESDC COPS (2023 employment) and Job Bank 2025 wages, via a hand-checked NOC–SOC crosswalk",

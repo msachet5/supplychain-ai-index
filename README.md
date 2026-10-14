@@ -39,6 +39,14 @@ python3 -m http.server 8765 --bind 127.0.0.1 --directory site
 
 Then open http://localhost:8765.
 
+## LinkedIn carousel
+
+```bash
+python3 -I scripts/build_carousel.py --pdf --png
+```
+
+Builds a 9-slide, 1080×1350 carousel (Charter and Avenir Next, which ship with macOS) from `site/data.js` into `linkedin/` (`carousel.pdf` to upload as a document post, `slides/*.png` for image posts). Every number comes from the same data as the dashboard, so re-run it after re-scoring. It prints the numbers the post text in `linkedin/post.txt` quotes. Needs Chrome, Brave or Chromium (or set `CHROME=/path/to/browser`).
+
 ## Hand-score processes (local scoring mode)
 
 ```bash

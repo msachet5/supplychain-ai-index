@@ -22,6 +22,7 @@ SCHEMA = {
     "crosswalk_soc_noc": ["soc_code", "noc_code", "noc_title", "weight", "scope_share", "source"],
     "crosswalk_overrides": ["noc_code", "soc_code", "weight", "scope_share", "note"],
     "role_aliases": ["alias", "soc_code", "note"],
+    "role_splits": ["alias", "process_id", "time_share", "method", "confidence", "note"],
     "role_tasks": ["soc_code", "rank", "task", "importance", "onet_code"],
     "occupation_stats": ["country", "code_system", "occ_code", "year", "employment", "mean_annual_wage", "currency", "source", "source_url"],
     "allocation": ["soc_code", "process_id", "time_share", "method", "confidence", "note"],
@@ -181,6 +182,22 @@ def main():
     for n, r in t["role_aliases"]:
         if r["soc_code"] not in in_scope:
             err("role_aliases", n, f"soc_code {r['soc_code']!r} is not an in-scope occupation")
+    aliases = {r["alias"] for _, r in t["role_aliases"]}
+    unique("role_splits", t["role_splits"], ("alias", "process_id"))
+    share_by_alias = defaultdict(float)
+    for n, r in t["role_splits"]:
+        if r["alias"] not in aliases:
+            err("role_splits", n, f"alias {r['alias']!r} is not in role_aliases.csv")
+        if r["process_id"] not in process_ids:
+            err("role_splits", n, f"unknown process_id {r['process_id']!r}")
+        s = number("role_splits", n, r, "time_share", lo=0, hi=1)
+        if s is not None:
+            share_by_alias[r["alias"]] += s
+        enum("role_splits", n, r, "method", METHODS)
+        enum("role_splits", n, r, "confidence", LEVELS)
+    for alias, total in share_by_alias.items():
+        if total > 1 + TOLERANCE:
+            errors.append(f"role_splits.csv: time_share for {alias!r} sums to {total:.3f}, must be <= 1")
     unique("role_tasks", t["role_tasks"], ("soc_code", "rank"))
     for n, r in t["role_tasks"]:
         if r["soc_code"] not in in_scope:
