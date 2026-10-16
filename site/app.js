@@ -14,6 +14,9 @@
     { id: "physical", label: "Physical work", color: "--series-3" },
   ];
   const HIGH_CAPABILITY = 7;
+  // Launch-update signups go to Supabase (see supabase/interest_contacts.sql). The publishable key is
+  // public by design: it can only add a signup. Leave url empty to hide the form.
+  const SIGNUP = { url: "https://cspoisgdxaeczbkngmjz.supabase.co", key: "sb_publishable_VHslLuMB3Mf6oqFZxTU8kA_YroJ4mMP" };
 
   const state = { country: "NA", colorBy: "capability", sizeBy: "wages", selected: null, module: null, brush: null, hover: null, role: null, roleAlias: null };
 
@@ -730,6 +733,65 @@
     const module = el("p", "detail-module",
       mod.has_sap ? `${mod.name}, modelled on ${mod.sap}` : `${mod.name}: carrier operations, no SAP module`);
     box.replaceChildren(head, module, el("p", "detail-desc", p.description), grid, cols);
+    if (SIGNUP.url) box.append(signupForm);
+  }
+
+  // ---------- launch updates signup (end of the detail panel) ----------
+  // Built once and re-attached on every render, so a half-typed email or the thank-you survives.
+  // Saves the email with the process that was open, plus the country and role in view.
+  const signupForm = buildSignup();
+  function buildSignup() {
+    const form = el("form", "signup");
+    const input = el("input");
+    Object.assign(input, { type: "email", name: "email", required: true, maxLength: 254, autocomplete: "email", placeholder: "you@company.com" });
+    input.setAttribute("aria-label", "Email address");
+    // Hidden from people; form-filling bots fill it in.
+    const trap = el("input", "signup-trap");
+    Object.assign(trap, { type: "text", name: "website", tabIndex: -1, autocomplete: "off" });
+    trap.setAttribute("aria-hidden", "true");
+    const send = el("button", "primary-btn", "Sign up");
+    send.type = "submit";
+    const row = el("div", "signup-row");
+    row.append(input, send);
+    const status = el("p", "signup-status");
+    status.setAttribute("role", "status");
+    form.append(
+      el("h3", null, "Get launch updates"),
+      el("p", "muted", "Get an email when a new product launches. No other mail, and you can unsubscribe anytime."),
+      row, trap, status,
+    );
+
+    const thank = () => form.replaceChildren(el("h3", null, "You're signed up"), el("p", "muted", "You'll get an email when a new product launches."));
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const p = state.selected && byId.get(state.selected);
+      if (!p) return;
+      if (trap.value) { thank(); return; }
+      send.disabled = true;
+      status.textContent = "Saving…";
+      try {
+        const r = await fetch(`${SIGNUP.url}/rest/v1/rpc/subscribe_interest`, {
+          method: "POST",
+          headers: { apikey: SIGNUP.key, "Content-Type": "application/json" },
+          body: JSON.stringify({
+            p_email: input.value.trim(),
+            p_process_id: p.id,
+            p_process_name: p.name,
+            p_process_group: modulesById.get(p.module).short,
+            p_country: state.country,
+            p_role: state.role ? state.roleAlias || rolesBySoc.get(state.role).title : null,
+          }),
+        });
+        if (r.ok) { thank(); return; }
+        status.textContent = r.status === 429 ? "Too many signups right now. Try again later."
+          : r.status === 400 ? "That email address doesn't look right."
+          : "Couldn't save that. Try again in a moment.";
+      } catch (_) {
+        status.textContent = "Couldn't reach the server. Try again in a moment.";
+      }
+      send.disabled = false;
+    });
+    return form;
   }
 
   const SOURCE_LABEL = { independent: "Independent study", news: "News report", vendor_claimed: "Company-reported", analyst: "Analyst" };

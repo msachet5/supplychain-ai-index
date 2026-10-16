@@ -20,6 +20,7 @@ Workers and wages: BLS OEWS May 2025 (US); ESDC COPS and Job Bank 2025 (Canada);
 - `scripts/build_site_data.py`: turns the CSVs into `site/data.js`.
 - `scripts/score_server.py`: local scoring mode (see below).
 - `site/`: the static dashboard (plain HTML, CSS and JS; D3 from a CDN). Publish this folder as-is.
+- `supabase/`: SQL for the launch updates signup (see below).
 
 ## Rebuild
 
@@ -56,6 +57,16 @@ python3 -I scripts/score_server.py
 Open http://127.0.0.1:8766. A scoring panel lists your hand-score queue. Pick a process, set capability and adoption (0–10) with a one-line reason, and save. Each save appends a new version to `data/process_scores.csv` (`scored_by=llm+expert`) and rebuilds `site/data.js`. The page then shows the process as "Hand-scored" and the banner counts it.
 
 The server binds to 127.0.0.1, only writes `data/process_scores.csv`, and refuses cross-origin requests. The published static site serves `scoring.js` with the flag off, so the editor never appears there.
+
+## Launch updates signup
+
+The bottom of the process details panel has an email signup for launch updates. Each signup is saved to Supabase with the process that was open, its group, the country and the role in view. The form stays hidden until it is configured.
+
+1. In the Supabase SQL editor, run [`supabase/interest_contacts.sql`](supabase/interest_contacts.sql). It creates `supply_chain_ai_index_interest_contacts` and the `subscribe_interest()` function.
+2. In `site/app.js`, set `SIGNUP` to the project URL and the publishable key (Project Settings → API keys). Never use the secret or `service_role` key.
+3. Read signups in the Table Editor, or with `select * from supply_chain_ai_index_interest_contacts order by created_at desc;`.
+
+The publishable key is public by design. With this SQL it can only call `subscribe_interest()`, which adds a row and returns nothing. It cannot read, change or delete signups. The function checks the email format, ignores repeats of the same email and process, and allows 10 signups per IP and 6000 in total per hour. Hashed IPs for that limit are kept for one day. If other tables in the same Supabase project have row-level security off, the same key can read them, so check the dashboard's Security Advisor.
 
 ## Credits and licences
 

@@ -278,6 +278,22 @@ a.product:hover { border-color: var(--axis); background: var(--wash); }
 .product-note { color: var(--ink-2); margin-top: 2px; }
 .product-hq { font-size: 11px; color: var(--muted); margin-top: 3px; }
 .product-disclaimer { font-size: 11px; color: var(--muted); margin: 2px 0 0; }
+
+/* Launch updates signup (end of the detail panel) */
+.signup { display: flex; flex-direction: column; gap: 6px; margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--grid); }
+.signup h3 { font-size: 13px; margin: 0; }
+.signup-row { display: flex; gap: 8px; margin-top: 4px; }
+.signup-row input {
+  flex: 1 1 auto; min-width: 0; font: inherit; font-size: 14px; color: var(--ink); background: var(--raised);
+  border: 1px solid var(--axis); border-radius: 8px; padding: 7px 10px;
+}
+.signup-row input:focus { outline: 2px solid var(--series-1); outline-offset: 1px; }
+.signup-row .primary-btn { align-self: stretch; white-space: nowrap; border-radius: 8px; }
+.signup-status { font-size: 12px; color: var(--ink-2); margin: 0; }
+.signup-status:empty { display: none; }
+.signup-trap { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+/* 16px stops iOS Safari zooming the sheet when the field gets focus. */
+@media (max-width: 1000px) { .signup-row input { font-size: 16px; } }
 .badge.maturity-ga { color: var(--status-good); border-color: currentColor; }
 .badge.maturity-pilot { color: var(--status-warning); border-color: currentColor; }
 
