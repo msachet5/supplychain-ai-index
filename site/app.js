@@ -199,6 +199,10 @@
     }
     applyHighlight();
     renderDetail();
+    // Two columns: the sidebar scrolls on its own, so bring the new details to its top.
+    if (state.selected && !isCompact()) {
+      document.querySelector(".sidebar").scrollTo({ top: detailEl.offsetTop, behavior: "smooth" });
+    }
     syncHash();
   }
 

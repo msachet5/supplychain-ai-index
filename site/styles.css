@@ -112,7 +112,7 @@ h2 { font-size: 15px; margin: 0 0 2px; font-weight: 650; }
 .job-list { list-style: none; padding-left: 0 !important; }
 
 /* Headline estimates */
-.summary { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 20px; padding: 16px 0; border-top: 1px solid var(--grid); border-bottom: 1px solid var(--grid); }
+.summary { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 20px; padding: 16px 0 0; border-top: 1px solid var(--grid); }
 .est.hero { grid-column: 1 / -1; }
 .est-value { font-size: 28px; font-weight: 650; line-height: 1.1; }
 .est.hero .est-value { font-size: 56px; line-height: 1; }
