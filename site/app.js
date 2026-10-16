@@ -756,12 +756,11 @@
     const status = el("p", "signup-status");
     status.setAttribute("role", "status");
     form.append(
-      el("h3", null, "Get launch updates"),
-      el("p", "muted", "Get an email when a new product launches. No other mail, and you can unsubscribe anytime."),
+      el("h3", null, "Get email updates on the latest AI developments in your domain"),
       row, trap, status,
     );
 
-    const thank = () => form.replaceChildren(el("h3", null, "You're signed up"), el("p", "muted", "You'll get an email when a new product launches."));
+    const thank = () => form.replaceChildren(el("h3", null, "You're signed up"), el("p", "muted", "You'll get email updates on the latest AI developments in your domain."));
     form.addEventListener("submit", async (e) => {
       e.preventDefault();
       const p = state.selected && byId.get(state.selected);
