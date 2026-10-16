@@ -169,7 +169,10 @@
     );
     tipFor = p.id;
   }
+  // Phones and tablets get no hover card: a tap opens the details instead.
+  const noHover = window.matchMedia("(hover: none)");
   function showTip(p, x, y) {
+    if (noHover.matches) return;
     if (tipFor !== p.id) buildTip(p);
     tip.hidden = false;
     // Right of the pointer, flipped left near the edge, clamped inside the viewport.
@@ -187,7 +190,6 @@
   }
 
   function select(id) {
-    if (window.matchMedia("(hover: none)").matches) hideTip(); // touch: the card came from the tap
     state.selected = state.selected === id ? null : id;
     // On one-column layouts, details open in a bottom sheet over the map instead of scrolling the page.
     // Open it before rendering so the sidebar placeholder keeps the empty panel's height.
