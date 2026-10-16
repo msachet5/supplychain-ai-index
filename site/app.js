@@ -951,6 +951,8 @@
     if (state.brush) parts.push(`${state.brush.size} processes in scatter selection`);
     $("selection-note").textContent = ids ? `Showing: ${parts.join(" + ")}` : "";
     $("f-clear").hidden = !ids && !state.selected;
+    $("sc-bar").hidden = !state.brush;
+    if (state.brush) $("sc-note").textContent = `${state.brush.size} ${state.brush.size === 1 ? "process" : "processes"} selected`;
     renderSummary();
     renderGroupBars();
     applyHighlight();
@@ -1059,6 +1061,12 @@
     }));
   });
   $("f-clear").addEventListener("click", clearAll);
+  // Clears only the scatter's drag selection; role, group and selected process stay.
+  $("sc-clear").addEventListener("click", () => {
+    state.brush = null;
+    if (scatter) scatter.brushG.call(scatter.brush.move, null);
+    onSelectionChange();
+  });
   document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !sheet.open) clearAll(); });
 
   // ---------- shareable links: state lives in the URL hash ----------
